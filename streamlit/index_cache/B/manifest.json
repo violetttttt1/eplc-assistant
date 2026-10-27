@@ -1,0 +1,29 @@
+{
+ "library": "B",
+ "num_chunks": 682,
+ "corpus_fingerprint": "0857fa7bfb8debdbea7c9be8d8e261c54f24dc5f5d317fc2135ea4eb029361ea",
+ "model": "openai/text-embedding-3-small",
+ "chunk_strategy": "section_512",
+ "max_tokens": 512,
+ "built_at_utc": "2026-10-27T18:59:40.615069+00:00",
+ "source_files": [
+  "eplc_framework.json",
+  "eplc_pg_communications.json",
+  "eplc_pg_design.json",
+  "eplc_pg_dua.json",
+  "eplc_pg_ivv.json",
+  "eplc_pg_quality_mgmt.json",
+  "eplc_pg_requirements_mgmt.json",
+  "eplc_pg_test_plan.json",
+  "eplc_pg_training_plan.json",
+  "policy_508_oig_synopsis.json",
+  "policy_cpic_2016.json",
+  "policy_ea_2024.json",
+  "policy_eplc_2017.json",
+  "policy_itar_2020.json",
+  "policy_pfm_2021.json",
+  "policy_records_mgmt_2024.json"
+ ],
+ "embedder": "openrouter",
+ "embedding_dimensions": 1024
+}

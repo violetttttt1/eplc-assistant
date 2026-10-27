@@ -1,0 +1,1061 @@
+{
+  "template_file": "CDC_UP_Test_Plan_Template.docx",
+  "template_name": "CDC_UP_Test_Plan_Template",
+  "doc_type": "narrative",
+  "num_sections": 104,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theTest Plan, up to the final point of approval,was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Version VERSION HISTORY Version# Implemented By Revision Date Approved By Approval Date Reason 1.0 Test Plan Templatedraft UP Template Version:12/31/07 [This document is a template of aTest Plandocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>7 1.1Purpose of The Test Plan Document<w:t>7 2COMPATIBILITY Testing<w:t>7 2.1<w:t>Test Risks / Issues<w:t>7 2.2<w:t>Items to be Tested / Not Tested<w:t>7 2.3<w:t>Test Approach(s)<w:t>7 2.4<w:t>Test Regulatory / Mandate Criteria<w:t>7 2.5<w:t>Test Pass / Fail Criteria<w:t>7 2.6<w:t>Test Entry / Exit Criteria<w:t>7 2.7<w:t>Test Deliverables<w:t>8 2.8<w:t>Test Suspension / Resumption Criteria<w:t>8 2.9<w:t>Test Environmental / Staffing / Training Needs<w:t>8 3Conformance Testing<w:t>8 3.1<w:t>Test Risks / Issues<w:t>8 3.2<w:t>Items to be Tested / Not Tested<w:t>8 3.3<w:t>Test Approach(s)<w:t>8 3.4<w:t>Test Regulatory / Mandate Criteria<w:t>8 3.5<w:t>Test Pass / Fail Criteria<w:t>8 3.6<w:t>Test Entry / Exit Criteria<w:t>8 3.7<w:t>Test Deliverables<w:t>9 3.8<w:t>Test Suspension / Resumption Criteria<w:t>9 3.9<w:t>Test Environmental / Staffing / Training Needs<w:t>9 4Functional Testing<w:t>9 4.1<w:t>Test Risks / Issues<w:t>9 4.2<w:t>Items to be Tested / Not Tested<w:t>9 4.3<w:t>Test Approach(s)<w:t>9 4.4<w:t>Test Regulatory / Mandate Criteria<w:t>9 4.5<w:t>Test Pass / Fail Criteria<w:t>9 4.6<w:t>Test Entry / Exit Criteria<w:t>9 4.7<w:t>Test Deliverables<w:t>10 4.8<w:t>Test Suspension / Resumption Criteria<w:t>10 4.9<w:t>Test Environmental / Staffing / Training Needs<w:t>10 5Load Testing<w:t>10 5.1<w:t>Test Risks / Issues<w:t>10 5.2<w:t>Items to be Tested / Not Tested<w:t>10 5.3<w:t>Test Approach(s)<w:t>10 5.4<w:t>Test Regulatory / Mandate Criteria<w:t>10 5.5<w:t>Test Pass / Fail Criteria<w:t>10 5.6<w:t>Test Entry / Exit Criteria<w:t>10 5.7<w:t>Test Deliverables<w:t>11 5.8<w:t>Test Suspension / Resumption Criteria<w:t>11 5.9<w:t>Test Environmental / Staffing / Training Needs<w:t>11 6Performance Testing<w:t>11 6.1<w:t>Test Risks / Issues<w:t>11 6.2<w:t>Items to be Tested / Not Tested<w:t>11 6.3<w:t>Test Approach(s)<w:t>11 6.4<w:t>Test Regulatory / Mandate Criteria<w:t>11 6.5<w:t>Test Pass / Fail Criteria<w:t>11 6.6<w:t>Test Entry / Exit Criteria<w:t>11 6.7<w:t>Test Deliverables<w:t>12 6.8<w:t>Test Suspension / Resumption Criteria<w:t>12 6.9<w:t>Test Environmental / Staffing / Training Needs<w:t>12 7Regression Testing<w:t>12 7.1<w:t>Test Risks / Issues<w:t>12 7.2<w:t>Items to be Tested / Not Tested<w:t>12 7.3<w:t>Test Approach(s)<w:t>12 7.4<w:t>Test Regulatory / Mandate Criteria<w:t>12 7.5<w:t>Test Pass / Fail Criteria<w:t>12 7.6<w:t>Test Entry / Exit Criteria<w:t>12 7.7<w:t>Test Deliverables<w:t>13 7.8<w:t>Test Suspension / Resumption Criteria<w:t>13 7.9<w:t>Test Environmental / Staffing / Training Needs<w:t>13 8Stress Testing<w:t>13 8.1<w:t>Test Risks / Issues<w:t>13 8.2<w:t>Items to be Tested / Not Tested<w:t>13 8.3<w:t>Test Approach(s)<w:t>13 8.4<w:t>Test Regulatory / Mandate Criteria<w:t>13 8.5<w:t>Test Pass / Fail Criteria<w:t>13 8.6<w:t>Test Entry / Exit Criteria<w:t>13 8.7<w:t>Test Deliverables<w:t>14 8.8<w:t>Test Suspension / Resumption Criteria<w:t>14 8.9<w:t>Test Environmental / Staffing / Training Needs<w:t>14 9System Testing<w:t>14 9.1<w:t>Test Risks / Issues<w:t>14 9.2<w:t>Items to be Tested / Not Tested<w:t>14 9.3<w:t>Test Approach(s)<w:t>14 9.4<w:t>Test Regulatory / Mandate Criteria<w:t>14 9.5<w:t>Test Pass / Fail Criteria<w:t>14 9.6<w:t>Test Entry / Exit Criteria<w:t>14 9.7<w:t>Test Deliverables<w:t>15 9.8<w:t>Test Suspension / Resumption Criteria<w:t>15 9.9<w:t>Test Environmental / Staffing / Training Needs<w:t>15 10Unit Testing<w:t>15 10.1<w:t>Test Risks / Issues<w:t>15 10.2<w:t>Items to be Tested / Not Tested<w:t>15 10.3<w:t>Test Approach(s)<w:t>15 10.4<w:t>Test Regulatory / Mandate Criteria<w:t>15 10.5<w:t>Test Pass / Fail Criteria<w:t>15 10.6<w:t>Test Entry / Exit Criteria<w:t>15 10.7<w:t>Test Deliverables<w:t>16 10.8<w:t>Test Suspension / Resumption Criteria<w:t>16 10.9<w:t>Test Environmental / Staffing / Training Needs<w:t>16 11User Acceptance Testing<w:t>16 11.1<w:t>Test Risks / Issues<w:t>16 11.2<w:t>Items to be Tested / Not Tested<w:t>16 11.3<w:t>Test Approach(s)<w:t>16 11.4<w:t>Test Regulatory / Mandate Criteria<w:t>16 11.5<w:t>Test Pass / Fail Criteria<w:t>16 11.6<w:t>Test Entry / Exit Criteria<w:t>16 11.7<w:t>Test Deliverables<w:t>17 11.8<w:t>Test Suspension / Resumption Criteria<w:t>17 11.9<w:t>Test Environmental / Staffing / Training Needs<w:t>17 Test Plan Approval<w:t>18 Appendix A: References<w:t>19 Appendix B: Key Terms<w:t>20",
+      "char_count": 7329,
+      "token_estimate": 1832
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of TheTest PlanDocument",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of TheTest PlanDocument",
+      "instruction": "[Provide the purpose of theTest PlanDocument. This document should be tailored to fit a particular project’s needs.]",
+      "fields": [],
+      "boilerplate": "TheTest Plandocument documents and tracks the necessary information required to effectively define the approach to be used in the testing of the project’s product. TheTest Plandocument is created during the Planning Phase of the project. Its intended audience isthe project manager, project team, and testing team. Some portions of this document may on occasion be shared with the client/user and other stakeholder whose input/approval into the testing process is needed.",
+      "char_count": 588,
+      "token_estimate": 147
+    },
+    {
+      "section_heading": "COMPATIBILITY Testing",
+      "section_level": 1,
+      "section_path": "COMPATIBILITY Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Test Risks / Issues",
+      "section_level": 2,
+      "section_path": "COMPATIBILITY Testing > Test Risks / Issues",
+      "instruction": "[Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 188,
+      "token_estimate": 47
+    },
+    {
+      "section_heading": "Items to be Tested / Not Tested",
+      "section_level": 2,
+      "section_path": "COMPATIBILITY Testing > Items to be Tested / Not Tested",
+      "instruction": "[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]",
+      "fields": [],
+      "boilerplate": "Item to Test Test Description Test Date Responsibility",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Test Approach(s)",
+      "section_level": 2,
+      "section_path": "COMPATIBILITY Testing > Test Approach(s)",
+      "instruction": "[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 122,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Test Regulatory / Mandate Criteria",
+      "section_level": 2,
+      "section_path": "COMPATIBILITY Testing > Test Regulatory / Mandate Criteria",
+      "instruction": "[Describe any regulations or mandates that the system must be tested against.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 78,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Test Pass / Fail Criteria",
+      "section_level": 2,
+      "section_path": "COMPATIBILITY Testing > Test Pass / Fail Criteria",
+      "instruction": "[Describe the criteria used to determine if a test item has passed or failed its test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 87,
+      "token_estimate": 22
+    },
+    {
+      "section_heading": "Test Entry / Exit Criteria",
+      "section_level": 2,
+      "section_path": "COMPATIBILITY Testing > Test Entry / Exit Criteria",
+      "instruction": "[Describe the entry and exit criteria used to start testing and determine when to stop testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Test Deliverables",
+      "section_level": 2,
+      "section_path": "COMPATIBILITY Testing > Test Deliverables",
+      "instruction": "[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Test Suspension / Resumption Criteria",
+      "section_level": 2,
+      "section_path": "COMPATIBILITY Testing > Test Suspension / Resumption Criteria",
+      "instruction": "[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 164,
+      "token_estimate": 41
+    },
+    {
+      "section_heading": "Test Environmental / Staffing / Training Needs",
+      "section_level": 2,
+      "section_path": "COMPATIBILITY Testing > Test Environmental / Staffing / Training Needs",
+      "instruction": "[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "Conformance Testing",
+      "section_level": 1,
+      "section_path": "Conformance Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Test Risks / Issues",
+      "section_level": 2,
+      "section_path": "Conformance Testing > Test Risks / Issues",
+      "instruction": "[Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 188,
+      "token_estimate": 47
+    },
+    {
+      "section_heading": "Items to be Tested / Not Tested",
+      "section_level": 2,
+      "section_path": "Conformance Testing > Items to be Tested / Not Tested",
+      "instruction": "[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]",
+      "fields": [],
+      "boilerplate": "Item to Test Test Description Test Date Responsibility",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Test Approach(s)",
+      "section_level": 2,
+      "section_path": "Conformance Testing > Test Approach(s)",
+      "instruction": "[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 122,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Test Regulatory / Mandate Criteria",
+      "section_level": 2,
+      "section_path": "Conformance Testing > Test Regulatory / Mandate Criteria",
+      "instruction": "[Describe any regulations or mandates that the system must be tested against.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 78,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Test Pass / Fail Criteria",
+      "section_level": 2,
+      "section_path": "Conformance Testing > Test Pass / Fail Criteria",
+      "instruction": "[Describe the criteria used to determine if a test item has passed or failed its test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 87,
+      "token_estimate": 22
+    },
+    {
+      "section_heading": "Test Entry / Exit Criteria",
+      "section_level": 2,
+      "section_path": "Conformance Testing > Test Entry / Exit Criteria",
+      "instruction": "[Describe the entry and exit criteria used to start testing and determine when to stop testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Test Deliverables",
+      "section_level": 2,
+      "section_path": "Conformance Testing > Test Deliverables",
+      "instruction": "[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Test Suspension / Resumption Criteria",
+      "section_level": 2,
+      "section_path": "Conformance Testing > Test Suspension / Resumption Criteria",
+      "instruction": "[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 164,
+      "token_estimate": 41
+    },
+    {
+      "section_heading": "Test Environmental / Staffing / Training Needs",
+      "section_level": 2,
+      "section_path": "Conformance Testing > Test Environmental / Staffing / Training Needs",
+      "instruction": "[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "Functional Testing",
+      "section_level": 1,
+      "section_path": "Functional Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Test Risks / Issues",
+      "section_level": 2,
+      "section_path": "Functional Testing > Test Risks / Issues",
+      "instruction": "[Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 188,
+      "token_estimate": 47
+    },
+    {
+      "section_heading": "Items to be Tested / Not Tested",
+      "section_level": 2,
+      "section_path": "Functional Testing > Items to be Tested / Not Tested",
+      "instruction": "[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]",
+      "fields": [],
+      "boilerplate": "Item to Test Test Description Test Date Responsibility",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Test Approach(s)",
+      "section_level": 2,
+      "section_path": "Functional Testing > Test Approach(s)",
+      "instruction": "[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 122,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Test Regulatory / Mandate Criteria",
+      "section_level": 2,
+      "section_path": "Functional Testing > Test Regulatory / Mandate Criteria",
+      "instruction": "[Describe any regulations or mandates that the system must be tested against.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 78,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Test Pass / Fail Criteria",
+      "section_level": 2,
+      "section_path": "Functional Testing > Test Pass / Fail Criteria",
+      "instruction": "[Describe the criteria used to determine if a test item has passed or failed its test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 87,
+      "token_estimate": 22
+    },
+    {
+      "section_heading": "Test Entry / Exit Criteria",
+      "section_level": 2,
+      "section_path": "Functional Testing > Test Entry / Exit Criteria",
+      "instruction": "[Describe the entry and exit criteria used to start testing and determine when to stop testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Test Deliverables",
+      "section_level": 2,
+      "section_path": "Functional Testing > Test Deliverables",
+      "instruction": "[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Test Suspension / Resumption Criteria",
+      "section_level": 2,
+      "section_path": "Functional Testing > Test Suspension / Resumption Criteria",
+      "instruction": "[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 164,
+      "token_estimate": 41
+    },
+    {
+      "section_heading": "Test Environmental / Staffing / Training Needs",
+      "section_level": 2,
+      "section_path": "Functional Testing > Test Environmental / Staffing / Training Needs",
+      "instruction": "[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "Load Testing",
+      "section_level": 1,
+      "section_path": "Load Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Test Risks / Issues",
+      "section_level": 2,
+      "section_path": "Load Testing > Test Risks / Issues",
+      "instruction": "[Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 188,
+      "token_estimate": 47
+    },
+    {
+      "section_heading": "Items to be Tested / Not Tested",
+      "section_level": 2,
+      "section_path": "Load Testing > Items to be Tested / Not Tested",
+      "instruction": "[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]",
+      "fields": [],
+      "boilerplate": "Item to Test Test Description Test Date Responsibility",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Test Approach(s)",
+      "section_level": 2,
+      "section_path": "Load Testing > Test Approach(s)",
+      "instruction": "[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 122,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Test Regulatory / Mandate Criteria",
+      "section_level": 2,
+      "section_path": "Load Testing > Test Regulatory / Mandate Criteria",
+      "instruction": "[Describe any regulations or mandates that the system must be tested against.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 78,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Test Pass / Fail Criteria",
+      "section_level": 2,
+      "section_path": "Load Testing > Test Pass / Fail Criteria",
+      "instruction": "[Describe the criteria used to determine if a test item has passed or failed its test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 87,
+      "token_estimate": 22
+    },
+    {
+      "section_heading": "Test Entry / Exit Criteria",
+      "section_level": 2,
+      "section_path": "Load Testing > Test Entry / Exit Criteria",
+      "instruction": "[Describe the entry and exit criteria used to start testing and determine when to stop testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Test Deliverables",
+      "section_level": 2,
+      "section_path": "Load Testing > Test Deliverables",
+      "instruction": "[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Test Suspension / Resumption Criteria",
+      "section_level": 2,
+      "section_path": "Load Testing > Test Suspension / Resumption Criteria",
+      "instruction": "[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 164,
+      "token_estimate": 41
+    },
+    {
+      "section_heading": "Test Environmental / Staffing / Training Needs",
+      "section_level": 2,
+      "section_path": "Load Testing > Test Environmental / Staffing / Training Needs",
+      "instruction": "[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "Performance Testing",
+      "section_level": 1,
+      "section_path": "Performance Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Test Risks / Issues",
+      "section_level": 2,
+      "section_path": "Performance Testing > Test Risks / Issues",
+      "instruction": "[Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 188,
+      "token_estimate": 47
+    },
+    {
+      "section_heading": "Items to be Tested / Not Tested",
+      "section_level": 2,
+      "section_path": "Performance Testing > Items to be Tested / Not Tested",
+      "instruction": "[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]",
+      "fields": [],
+      "boilerplate": "Item to Test Test Description Test Date Responsibility",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Test Approach(s)",
+      "section_level": 2,
+      "section_path": "Performance Testing > Test Approach(s)",
+      "instruction": "[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 122,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Test Regulatory / Mandate Criteria",
+      "section_level": 2,
+      "section_path": "Performance Testing > Test Regulatory / Mandate Criteria",
+      "instruction": "[Describe any regulations or mandates that the system must be tested against.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 78,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Test Pass / Fail Criteria",
+      "section_level": 2,
+      "section_path": "Performance Testing > Test Pass / Fail Criteria",
+      "instruction": "[Describe the criteria used to determine if a test item has passed or failed its test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 87,
+      "token_estimate": 22
+    },
+    {
+      "section_heading": "Test Entry / Exit Criteria",
+      "section_level": 2,
+      "section_path": "Performance Testing > Test Entry / Exit Criteria",
+      "instruction": "[Describe the entry and exit criteria used to start testing and determine when to stop testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Test Deliverables",
+      "section_level": 2,
+      "section_path": "Performance Testing > Test Deliverables",
+      "instruction": "[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Test Suspension / Resumption Criteria",
+      "section_level": 2,
+      "section_path": "Performance Testing > Test Suspension / Resumption Criteria",
+      "instruction": "[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 164,
+      "token_estimate": 41
+    },
+    {
+      "section_heading": "Test Environmental / Staffing / Training Needs",
+      "section_level": 2,
+      "section_path": "Performance Testing > Test Environmental / Staffing / Training Needs",
+      "instruction": "[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "Regression Testing",
+      "section_level": 1,
+      "section_path": "Regression Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Test Risks / Issues",
+      "section_level": 2,
+      "section_path": "Regression Testing > Test Risks / Issues",
+      "instruction": "[Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 188,
+      "token_estimate": 47
+    },
+    {
+      "section_heading": "Items to be Tested / Not Tested",
+      "section_level": 2,
+      "section_path": "Regression Testing > Items to be Tested / Not Tested",
+      "instruction": "[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]",
+      "fields": [],
+      "boilerplate": "Item to Test Test Description Test Date Responsibility",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Test Approach(s)",
+      "section_level": 2,
+      "section_path": "Regression Testing > Test Approach(s)",
+      "instruction": "[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 122,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Test Regulatory / Mandate Criteria",
+      "section_level": 2,
+      "section_path": "Regression Testing > Test Regulatory / Mandate Criteria",
+      "instruction": "[Describe any regulations or mandates that the system must be tested against.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 78,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Test Pass / Fail Criteria",
+      "section_level": 2,
+      "section_path": "Regression Testing > Test Pass / Fail Criteria",
+      "instruction": "[Describe the criteria used to determine if a test item has passed or failed its test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 87,
+      "token_estimate": 22
+    },
+    {
+      "section_heading": "Test Entry / Exit Criteria",
+      "section_level": 2,
+      "section_path": "Regression Testing > Test Entry / Exit Criteria",
+      "instruction": "[Describe the entry and exit criteria used to start testing and determine when to stop testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Test Deliverables",
+      "section_level": 2,
+      "section_path": "Regression Testing > Test Deliverables",
+      "instruction": "[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Test Suspension / Resumption Criteria",
+      "section_level": 2,
+      "section_path": "Regression Testing > Test Suspension / Resumption Criteria",
+      "instruction": "[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 164,
+      "token_estimate": 41
+    },
+    {
+      "section_heading": "Test Environmental / Staffing / Training Needs",
+      "section_level": 2,
+      "section_path": "Regression Testing > Test Environmental / Staffing / Training Needs",
+      "instruction": "[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "Stress Testing",
+      "section_level": 1,
+      "section_path": "Stress Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Test Risks / Issues",
+      "section_level": 2,
+      "section_path": "Stress Testing > Test Risks / Issues",
+      "instruction": "[Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 188,
+      "token_estimate": 47
+    },
+    {
+      "section_heading": "Items to be Tested / Not Tested",
+      "section_level": 2,
+      "section_path": "Stress Testing > Items to be Tested / Not Tested",
+      "instruction": "[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]",
+      "fields": [],
+      "boilerplate": "Item to Test Test Description Test Date Responsibility",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Test Approach(s)",
+      "section_level": 2,
+      "section_path": "Stress Testing > Test Approach(s)",
+      "instruction": "[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 122,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Test Regulatory / Mandate Criteria",
+      "section_level": 2,
+      "section_path": "Stress Testing > Test Regulatory / Mandate Criteria",
+      "instruction": "[Describe any regulations or mandates that the system must be tested against.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 78,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Test Pass / Fail Criteria",
+      "section_level": 2,
+      "section_path": "Stress Testing > Test Pass / Fail Criteria",
+      "instruction": "[Describe the criteria used to determine if a test item has passed or failed its test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 87,
+      "token_estimate": 22
+    },
+    {
+      "section_heading": "Test Entry / Exit Criteria",
+      "section_level": 2,
+      "section_path": "Stress Testing > Test Entry / Exit Criteria",
+      "instruction": "[Describe the entry and exit criteria used to start testing and determine when to stop testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Test Deliverables",
+      "section_level": 2,
+      "section_path": "Stress Testing > Test Deliverables",
+      "instruction": "[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Test Suspension / Resumption Criteria",
+      "section_level": 2,
+      "section_path": "Stress Testing > Test Suspension / Resumption Criteria",
+      "instruction": "[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 164,
+      "token_estimate": 41
+    },
+    {
+      "section_heading": "Test Environmental / Staffing / Training Needs",
+      "section_level": 2,
+      "section_path": "Stress Testing > Test Environmental / Staffing / Training Needs",
+      "instruction": "[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "System Testing",
+      "section_level": 1,
+      "section_path": "System Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Test Risks / Issues",
+      "section_level": 2,
+      "section_path": "System Testing > Test Risks / Issues",
+      "instruction": "[Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 188,
+      "token_estimate": 47
+    },
+    {
+      "section_heading": "Items to be Tested / Not Tested",
+      "section_level": 2,
+      "section_path": "System Testing > Items to be Tested / Not Tested",
+      "instruction": "[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]",
+      "fields": [],
+      "boilerplate": "Item to Test Test Description Test Date Responsibility",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Test Approach(s)",
+      "section_level": 2,
+      "section_path": "System Testing > Test Approach(s)",
+      "instruction": "[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 122,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Test Regulatory / Mandate Criteria",
+      "section_level": 2,
+      "section_path": "System Testing > Test Regulatory / Mandate Criteria",
+      "instruction": "[Describe any regulations or mandates that the system must be tested against.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 78,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Test Pass / Fail Criteria",
+      "section_level": 2,
+      "section_path": "System Testing > Test Pass / Fail Criteria",
+      "instruction": "[Describe the criteria used to determine if a test item has passed or failed its test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 87,
+      "token_estimate": 22
+    },
+    {
+      "section_heading": "Test Entry / Exit Criteria",
+      "section_level": 2,
+      "section_path": "System Testing > Test Entry / Exit Criteria",
+      "instruction": "[Describe the entry and exit criteria used to start testing and determine when to stop testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Test Deliverables",
+      "section_level": 2,
+      "section_path": "System Testing > Test Deliverables",
+      "instruction": "[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Test Suspension / Resumption Criteria",
+      "section_level": 2,
+      "section_path": "System Testing > Test Suspension / Resumption Criteria",
+      "instruction": "[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 164,
+      "token_estimate": 41
+    },
+    {
+      "section_heading": "Test Environmental / Staffing / Training Needs",
+      "section_level": 2,
+      "section_path": "System Testing > Test Environmental / Staffing / Training Needs",
+      "instruction": "[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "Unit Testing",
+      "section_level": 1,
+      "section_path": "Unit Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Test Risks / Issues",
+      "section_level": 2,
+      "section_path": "Unit Testing > Test Risks / Issues",
+      "instruction": "[Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 188,
+      "token_estimate": 47
+    },
+    {
+      "section_heading": "Items to be Tested / Not Tested",
+      "section_level": 2,
+      "section_path": "Unit Testing > Items to be Tested / Not Tested",
+      "instruction": "[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]",
+      "fields": [],
+      "boilerplate": "Item to Test Test Description Test Date Responsibility",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Test Approach(s)",
+      "section_level": 2,
+      "section_path": "Unit Testing > Test Approach(s)",
+      "instruction": "[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 122,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Test Regulatory / Mandate Criteria",
+      "section_level": 2,
+      "section_path": "Unit Testing > Test Regulatory / Mandate Criteria",
+      "instruction": "[Describe any regulations or mandates that the system must be tested against.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 78,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Test Pass / Fail Criteria",
+      "section_level": 2,
+      "section_path": "Unit Testing > Test Pass / Fail Criteria",
+      "instruction": "[Describe the criteria used to determine if a test item has passed or failed its test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 87,
+      "token_estimate": 22
+    },
+    {
+      "section_heading": "Test Entry / Exit Criteria",
+      "section_level": 2,
+      "section_path": "Unit Testing > Test Entry / Exit Criteria",
+      "instruction": "[Describe the entry and exit criteria used to start testing and determine when to stop testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Test Deliverables",
+      "section_level": 2,
+      "section_path": "Unit Testing > Test Deliverables",
+      "instruction": "[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Test Suspension / Resumption Criteria",
+      "section_level": 2,
+      "section_path": "Unit Testing > Test Suspension / Resumption Criteria",
+      "instruction": "[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 164,
+      "token_estimate": 41
+    },
+    {
+      "section_heading": "Test Environmental / Staffing / Training Needs",
+      "section_level": 2,
+      "section_path": "Unit Testing > Test Environmental / Staffing / Training Needs",
+      "instruction": "[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "User Acceptance Testing",
+      "section_level": 1,
+      "section_path": "User Acceptance Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Test Risks / Issues",
+      "section_level": 2,
+      "section_path": "User Acceptance Testing > Test Risks / Issues",
+      "instruction": "[Describe the risks associated with product testing or provide a reference to a document location where it is stored. Also outline appropriate mitigation strategies and contingency plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 188,
+      "token_estimate": 47
+    },
+    {
+      "section_heading": "Items to be Tested / Not Tested",
+      "section_level": 2,
+      "section_path": "User Acceptance Testing > Items to be Tested / Not Tested",
+      "instruction": "[Describe the items/features/functions to be tested that are within the scope of this test plan. Include a description of how they will be tested, when, by whom, and to what quality standards. Also include a description of those items agreed not to be tested.]",
+      "fields": [],
+      "boilerplate": "Item to Test Test Description Test Date Responsibility",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Test Approach(s)",
+      "section_level": 2,
+      "section_path": "User Acceptance Testing > Test Approach(s)",
+      "instruction": "[Describe the overall testing approach to be used to test the project’s product. Provide an outline of any planned tests.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 122,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Test Regulatory / Mandate Criteria",
+      "section_level": 2,
+      "section_path": "User Acceptance Testing > Test Regulatory / Mandate Criteria",
+      "instruction": "[Describe any regulations or mandates that the system must be tested against.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 78,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Test Pass / Fail Criteria",
+      "section_level": 2,
+      "section_path": "User Acceptance Testing > Test Pass / Fail Criteria",
+      "instruction": "[Describe the criteria used to determine if a test item has passed or failed its test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 87,
+      "token_estimate": 22
+    },
+    {
+      "section_heading": "Test Entry / Exit Criteria",
+      "section_level": 2,
+      "section_path": "User Acceptance Testing > Test Entry / Exit Criteria",
+      "instruction": "[Describe the entry and exit criteria used to start testing and determine when to stop testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Test Deliverables",
+      "section_level": 2,
+      "section_path": "User Acceptance Testing > Test Deliverables",
+      "instruction": "[Describe the deliverables that will result from the testing process (documents, reports, charts, etc.).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Test Suspension / Resumption Criteria",
+      "section_level": 2,
+      "section_path": "User Acceptance Testing > Test Suspension / Resumption Criteria",
+      "instruction": "[Describe the suspension criteria that may be used to suspend all or portions of testing. Also describe the resumption criteria that may be used to resume testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 164,
+      "token_estimate": 41
+    },
+    {
+      "section_heading": "Test Environmental / Staffing / Training Needs",
+      "section_level": 2,
+      "section_path": "User Acceptance Testing > Test Environmental / Staffing / Training Needs",
+      "instruction": "[Describe any specific requirements needed for the testing to be performed (hardware/software, staffing, skills training, etc).)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "Test PlanApproval",
+      "section_level": 1,
+      "section_path": "Test PlanApproval",
+      "instruction": "[List the individuals whose signatures are required.  Examples of such individuals are Business Steward, Technical Steward, and Project Manager. Add additional signature lines as necessary.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "The undersigned acknowledge they have reviewed theTest Plandocument and agree with the approach it presents. Any changes to this Requirements Definition will be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Appendix A: References The following table summarizes the documents referenced in this document. Document Name and Version Description Location Appendix B: Key Terms The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1224,
+      "token_estimate": 306
+    }
+  ]
+}

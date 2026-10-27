@@ -1,0 +1,396 @@
+{
+  "acronym_expansions": {
+    "SORN": "System Of Records Notice",
+    "IVV": "Independent Verification and Validation",
+    "SLA": "Service Level Agreement",
+    "MOU": "Memorandum of Understanding",
+    "WBS": "Work Breakdown Structure",
+    "BIA": "Business Impact Analysis",
+    "PMP": "Project Management Plan",
+    "O&M": "Operations and Maintenance"
+  },
+  "artifacts": {
+    "CDC_UP_Business_Case_LITE_Template": {
+      "canonical": "Business Case LITE",
+      "aliases": [
+        "business case lite",
+        "business case lite template",
+        "lite"
+      ]
+    },
+    "CDC_UP_Business_Impact_Analysis_Template": {
+      "canonical": "Business Impact Analysis",
+      "aliases": [
+        "bia",
+        "business impact analysis",
+        "business impact analysis template"
+      ]
+    },
+    "CDC_UP_Business_Needs_Statement_Template": {
+      "canonical": "Business Needs Statement",
+      "aliases": [
+        "business needs statement",
+        "business needs statement template"
+      ]
+    },
+    "CDC_UP_Capacity_Planning_Template": {
+      "canonical": "Capacity Planning",
+      "aliases": [
+        "capacity planning",
+        "capacity planning template"
+      ]
+    },
+    "CDC_UP_Change_Management_Plan_Template": {
+      "canonical": "Change Management Plan",
+      "aliases": [
+        "change management plan",
+        "change management plan template"
+      ]
+    },
+    "CDC_UP_Change_Request_Form_Example": {
+      "canonical": "Change Request Form",
+      "aliases": [
+        "change request",
+        "change request form",
+        "change request form template"
+      ]
+    },
+    "CDC_UP_Communications_Management_Plan_Template": {
+      "canonical": "Communications Management Plan",
+      "aliases": [
+        "communications management",
+        "communications management plan",
+        "communications management plan template"
+      ]
+    },
+    "CDC_UP_Contingency_Planning_Template": {
+      "canonical": "Contingency Planning",
+      "aliases": [
+        "contingency planning",
+        "contingency planning template"
+      ]
+    },
+    "CDC_UP_Executive_Status_Report_Template": {
+      "canonical": "Executive Status Report",
+      "aliases": [
+        "executive status report",
+        "executive status report template",
+        "status report"
+      ]
+    },
+    "CDC_UP_Executive_Status_Report_Template_Instructions": {
+      "canonical": "Executive Status Report Template",
+      "aliases": [
+        "executive status report template",
+        "executive status report template template"
+      ]
+    },
+    "CDC_UP_Functional_Requirements_Definition_Template": {
+      "canonical": "Functional Requirements Definition",
+      "aliases": [
+        "functional requirements",
+        "functional requirements definition",
+        "functional requirements definition template"
+      ]
+    },
+    "CDC_UP_Interface_Control_Template": {
+      "canonical": "Interface Control",
+      "aliases": [
+        "interface control",
+        "interface control template"
+      ]
+    },
+    "CDC_UP_Lessons_Learned_Post_Project_Survey": {
+      "canonical": "Lessons Learned Post Project Survey",
+      "aliases": [
+        "lessons learned",
+        "lessons learned post project survey",
+        "lessons learned post project survey template"
+      ]
+    },
+    "CDC_UP_Meeting_Agenda_Template_Style-1": {
+      "canonical": "Meeting Agenda",
+      "aliases": [
+        "meeting agenda",
+        "meeting agenda template"
+      ]
+    },
+    "CDC_UP_Meeting_Agenda_Template_Style-2": {
+      "canonical": "Meeting Agenda",
+      "aliases": [
+        "meeting agenda",
+        "meeting agenda template"
+      ]
+    },
+    "CDC_UP_Meeting_Minutes_Template": {
+      "canonical": "Meeting Minutes",
+      "aliases": [
+        "meeting minutes",
+        "meeting minutes template"
+      ]
+    },
+    "CDC_UP_Meeting_SignIn_Roster_Template": {
+      "canonical": "Meeting SignIn Roster",
+      "aliases": [
+        "meeting signin roster",
+        "meeting signin roster template",
+        "sign-in roster",
+        "signin roster"
+      ]
+    },
+    "CDC_UP_Non-Functional_Requirements_Definition_Template": {
+      "canonical": "Non-Functional Requirements Definition",
+      "aliases": [
+        "non-functional requirements",
+        "non-functional requirements definition",
+        "non-functional requirements definition template"
+      ]
+    },
+    "CDC_UP_Operation_Maintenance_Manual_Template": {
+      "canonical": "Operation Maintenance Manual",
+      "aliases": [
+        "o&m manual",
+        "operation maintenance manual",
+        "operation maintenance manual template",
+        "operations and maintenance manual"
+      ]
+    },
+    "CDC_UP_Product_Design_Template": {
+      "canonical": "Product Design",
+      "aliases": [
+        "product design",
+        "product design template"
+      ]
+    },
+    "CDC_UP_Project_Charter_Template": {
+      "canonical": "Project Charter",
+      "aliases": [
+        "project charter",
+        "project charter template"
+      ]
+    },
+    "CDC_UP_Project_Charter_Template_LITE": {
+      "canonical": "Project Charter Template LITE",
+      "aliases": [
+        "lite",
+        "project charter template lite",
+        "project charter template lite template"
+      ]
+    },
+    "CDC_UP_Project_Close_Out_Template": {
+      "canonical": "Project Close Out",
+      "aliases": [
+        "closeout",
+        "project close out",
+        "project close out template"
+      ]
+    },
+    "CDC_UP_Project_Management_Plan_Template": {
+      "canonical": "Project Management Plan",
+      "aliases": [
+        "pmp",
+        "project management plan",
+        "project management plan template"
+      ]
+    },
+    "CDC_UP_Project_Process_Agreement_Template": {
+      "canonical": "Project Process Agreement",
+      "aliases": [
+        "project process agreement",
+        "project process agreement template"
+      ]
+    },
+    "CDC_UP_Quality_Management_Plan_Template": {
+      "canonical": "Quality Management Plan",
+      "aliases": [
+        "quality management",
+        "quality management plan",
+        "quality management plan template"
+      ]
+    },
+    "CDC_UP_Requirements_Management_Plan_Template": {
+      "canonical": "Requirements Management Plan",
+      "aliases": [
+        "requirements management",
+        "requirements management plan",
+        "requirements management plan template"
+      ]
+    },
+    "CDC_UP_Team_Member_Status_Report_Template": {
+      "canonical": "Team Member Status Report",
+      "aliases": [
+        "team member status",
+        "team member status report",
+        "team member status report template"
+      ]
+    },
+    "CDC_UP_Test_Case_Template": {
+      "canonical": "Test Case",
+      "aliases": [
+        "test case",
+        "test case template"
+      ]
+    },
+    "CDC_UP_Test_Plan_Template": {
+      "canonical": "Test Plan",
+      "aliases": [
+        "test plan",
+        "test plan template"
+      ]
+    },
+    "CDC_UP_WBS_Dictionary_Template": {
+      "canonical": "WBS Dictionary",
+      "aliases": [
+        "wbs",
+        "wbs dictionary",
+        "wbs dictionary template",
+        "work breakdown structure"
+      ]
+    },
+    "CDC_UP_WBS_Template_Style-1": {
+      "canonical": "WBS",
+      "aliases": [
+        "wbs",
+        "wbs template",
+        "work breakdown structure"
+      ]
+    },
+    "CDC_UP_WBS_Template_Style-3": {
+      "canonical": "WBS",
+      "aliases": [
+        "wbs",
+        "wbs template",
+        "work breakdown structure"
+      ]
+    },
+    "EPLC_Acquisition_Strategy_Template": {
+      "canonical": "Acquisition Strategy",
+      "aliases": [
+        "acquisition strategy",
+        "acquisition strategy template"
+      ]
+    },
+    "EPLC_Annual_Operational_Analysis_Template": {
+      "canonical": "Annual Operational Analysis",
+      "aliases": [
+        "annual operational analysis",
+        "annual operational analysis template"
+      ]
+    },
+    "EPLC_Business_Case_Template": {
+      "canonical": "Business Case",
+      "aliases": [
+        "business case",
+        "business case template"
+      ]
+    },
+    "EPLC_Configuration_Management_Template": {
+      "canonical": "Configuration Management",
+      "aliases": [
+        "configuration management",
+        "configuration management template"
+      ]
+    },
+    "EPLC_Data_Conversion_Plan_Template": {
+      "canonical": "Data Conversion Plan",
+      "aliases": [
+        "data conversion",
+        "data conversion plan",
+        "data conversion plan template"
+      ]
+    },
+    "EPLC_Disposition_Plan_Template": {
+      "canonical": "Disposition Plan",
+      "aliases": [
+        "disposition plan",
+        "disposition plan template"
+      ]
+    },
+    "EPLC_IVV_Plan_Template": {
+      "canonical": "IVV Plan",
+      "aliases": [
+        "independent verification and validation",
+        "ivv",
+        "ivv plan",
+        "ivv plan template"
+      ]
+    },
+    "EPLC_Implementation_Plan_Template": {
+      "canonical": "Implementation Plan",
+      "aliases": [
+        "implementation plan",
+        "implementation plan template"
+      ]
+    },
+    "EPLC_Physical_Data_Model_Template": {
+      "canonical": "Physical Data Model",
+      "aliases": [
+        "physical data model",
+        "physical data model template"
+      ]
+    },
+    "EPLC_Release_Strategy_Template": {
+      "canonical": "Release Strategy",
+      "aliases": [
+        "release strategy",
+        "release strategy template"
+      ]
+    },
+    "EPLC_SLA_MOU_Template": {
+      "canonical": "SLA MOU",
+      "aliases": [
+        "memorandum of understanding",
+        "mou",
+        "service level agreement",
+        "sla",
+        "sla mou",
+        "sla mou template"
+      ]
+    },
+    "EPLC_Security_Approach_Template": {
+      "canonical": "Security Approach",
+      "aliases": [
+        "security approach",
+        "security approach template"
+      ]
+    },
+    "EPLC_Staffing_Management_Template": {
+      "canonical": "Staffing Management",
+      "aliases": [
+        "staffing management",
+        "staffing management template"
+      ]
+    },
+    "EPLC_Stage_Gate_Reviews_Template": {
+      "canonical": "Stage Gate Reviews",
+      "aliases": [
+        "stage gate",
+        "stage gate reviews",
+        "stage gate reviews template"
+      ]
+    },
+    "EPLC_System_Of_Records_Notice_Template": {
+      "canonical": "System Of Records Notice",
+      "aliases": [
+        "sorn",
+        "system of records notice",
+        "system of records notice template"
+      ]
+    },
+    "EPLC_Test_Reports_Template": {
+      "canonical": "Test Reports",
+      "aliases": [
+        "test reports",
+        "test reports template"
+      ]
+    },
+    "EPLC_Training_Plan_Template": {
+      "canonical": "Training Plan",
+      "aliases": [
+        "training plan",
+        "training plan template"
+      ]
+    }
+  },
+  "note": "Alias table for artifact retrieval: query-side expansion (E1) and doc-side augmentation. Generated 2026-09-27; EXTRA_PHRASES hand-curated."
+}

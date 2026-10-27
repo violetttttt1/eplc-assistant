@@ -1,0 +1,141 @@
+{
+  "template_file": "CDC_UP_Requirements_Management_Plan_Template.docx",
+  "template_name": "CDC_UP_Requirements_Management_Plan_Template",
+  "doc_type": "narrative",
+  "num_sections": 12,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theRequirements Management Plan, up to the final point of approval,was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Requirements MANAGEMENT PLAN Version VERSION HISTORY Version# Implemented By Revision Date Approved By Approval Date Reason 1.0 Initial Requirements Management Plan draft UP Template Version:11/30/06 [This document is a template of aRequirements Management Plan Templatedocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1Purpose of The Requirements Management Plan<w:t>5 2Requirements Management Overview<w:t>5 2.1Organization, Responsibilities, and Interfaces<w:t>5 2.2Tools, Environment, and Infrastructure<w:t>5 3Requirements Management<w:t>5 3.1Assumptions/Constraints<w:t>5 3.2Requirements Definition<w:t>5 3.3Requirements Traceability<w:t>5 3.4Workflows and Activities<w:t>6 3.5Change Management<w:t>6 Requirements Management Plan Approval<w:t>7 Appendix A: References<w:t>8 Appendix B: Key Terms<w:t>9 Appendix C: Requirements Definition Template<w:t>10 Appendix D: Requirements Traceability Template<w:t>11",
+      "char_count": 3690,
+      "token_estimate": 922
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of The Requirements Management Plan",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of The Requirements Management Plan",
+      "instruction": "[Provide the purpose of the Requirements Management Plan. This document should be tailored to fit a particular project’s needs.]",
+      "fields": [],
+      "boilerplate": "The Requirements Management plan is used to document the necessary information required to effectively manage project requirements from definition, through traceability, to delivery. The Requirements Management Plan is created during the Planning Phase of the project. Its intended audience isthe project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan.",
+      "char_count": 542,
+      "token_estimate": 136
+    },
+    {
+      "section_heading": "Requirements Management Overview",
+      "section_level": 1,
+      "section_path": "Requirements Management Overview",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Organization, Responsibilities, and Interfaces",
+      "section_level": 2,
+      "section_path": "Requirements Management Overview > Organization, Responsibilities, and Interfaces",
+      "instruction": "[Describe here who is going to be responsible for performing the various activities described in the requirements workflows defined later in this document.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 156,
+      "token_estimate": 39
+    },
+    {
+      "section_heading": "Tools, Environment, and Infrastructure",
+      "section_level": 2,
+      "section_path": "Requirements Management Overview > Tools, Environment, and Infrastructure",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "[Describe the computing environment and software tools to be used in fulfilling the Requirements Management functions throughout the project or product lifecycle. Describe the tools and procedures that will be used to control the versioning of the Requirements items generated throughout the project or product lifecycle.]",
+      "char_count": 322,
+      "token_estimate": 80
+    },
+    {
+      "section_heading": "Requirements Management",
+      "section_level": 1,
+      "section_path": "Requirements Management",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Assumptions/Constraints",
+      "section_level": 2,
+      "section_path": "Requirements Management > Assumptions/Constraints",
+      "instruction": "[Define any assumptions and/or constraints taken into account when defining requirement for this section of this document.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 123,
+      "token_estimate": 31
+    },
+    {
+      "section_heading": "Requirements Definition",
+      "section_level": 2,
+      "section_path": "Requirements Management > Requirements Definition",
+      "instruction": "[Describe the approach and tools that the project will use to define the specifications of the project requirements.  Explicitly describing project requirements promotes the correct and efficient development and delivery of that requirement.  Appendix C is for a Requirements Definition Log that the project team can adapt and populate for this purpose. (Use the CDC UP Requirements Definition Practices Guide as reference to complete this section.)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 450,
+      "token_estimate": 112
+    },
+    {
+      "section_heading": "Requirements Traceability",
+      "section_level": 2,
+      "section_path": "Requirements Management > Requirements Traceability",
+      "instruction": "[Describe the approach and tools that the project will use to trace the project requirements throughout the systems life cycle.  The approach that is followed should enable the project team to ensure that the project delivers the project requirements exactly as specified and that they fulfill the project requirements. Appendix D is for a Requirements Traceability Matrix that the project team can adapt and populate for this purpose. (Use the CDC UP Requirements Traceability Practices Guide as reference to complete this section.)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 534,
+      "token_estimate": 134
+    },
+    {
+      "section_heading": "Workflows and Activities",
+      "section_level": 2,
+      "section_path": "Requirements Management > Workflows and Activities",
+      "instruction": "[Describe the workflows and activities that apply to managing requirements. Describe review activities, including review objectives, responsibilities, timing, and procedures.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 175,
+      "token_estimate": 44
+    },
+    {
+      "section_heading": "Change Management",
+      "section_level": 2,
+      "section_path": "Requirements Management > Change Management",
+      "instruction": "[List the individuals whose signatures are required.  Examples of such individuals are Project Sponsor, Business Steward, Technical Steward and Project Manager.  Add additional signature lines as necessary.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Visit the CDC UP website for the most updated version of the CDC UP Requirements Definition Template.http://www.cdc.gov/cdcup/] [Visit the CDC UP website for the most updated version of the CDC UP Requirements Traceability Template.http://www.cdc.gov/cdcup/]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "[Describe the process by which problems and changes are submitted, reviewed, and resolved. This should include the process for negotiating requirements changes with customers, and any contractual processes, activities, and constraints. Describe the membership of the Change Control Board (CCB) and procedures for processing change requests and approvals to be followed by the CCB.] Requirements Management Plan Approval The undersigned acknowledge they have reviewed theRequirements Management Planand agree with the approach it presents. Changes to this Requirements Management Plan will be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Appendix A: References The following table summarizes the documents referenced in this document. Document Name and Version Description Location Appendix B: Key Terms The following table provides definitions for terms relevant to this document. Term Definition Appendix C: Requirements Definition Template Appendix D: Requirements Traceability Template",
+      "char_count": 2024,
+      "token_estimate": 506
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "template_file": "CDC_UP_WBS_Template_Style-3.docx",
+  "template_name": "CDC_UP_WBS_Template_Style-3",
+  "doc_type": "narrative",
+  "num_sections": 3,
+  "sections": [
+    {
+      "section_heading": "Project Name:",
+      "section_level": 1,
+      "section_path": "Project Name:",
+      "instruction": "[Insert Project Name]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 21,
+      "token_estimate": 5
+    },
+    {
+      "section_heading": "Project Manager:",
+      "section_level": 1,
+      "section_path": "Project Manager:",
+      "instruction": "",
+      "fields": [
+        "<John Doe>"
+      ],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Date:",
+      "section_level": 1,
+      "section_path": "Date:",
+      "instruction": "[mm/dd/yyyy] [Function] [Deliverable] [Work Package] [Work Package] [Function] [Deliverable] [Work Package] [Work Package] [Deliverable] [Work Package] [Work Package] [Work Package] [Function] [Deliverable] [Work Package] [Work Package] [Work Package] [Work Package] [Work Package] [Function] [Deliverable] [Deliverable] [Deliverable] [Work Package] [Work Package] [Function] [Deliverable] [Work Package] [Work Package] [Deliverable] [Work Package] [Work Package] [Work Package]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 478,
+      "token_estimate": 120
+    }
+  ]
+}

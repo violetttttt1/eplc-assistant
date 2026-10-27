@@ -1,0 +1,111 @@
+{
+  "template_file": "EPLC_Staffing_Management_Template.docx",
+  "template_name": "EPLC_Staffing_Management_Template",
+  "doc_type": "narrative",
+  "num_sections": 9,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[text] [Provide information on how the development and distribution of the Staffing Management Plan will be controlled and tracked.Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.]",
+      "fields": [
+        "<Author name>",
+        "<Project Name>",
+        "<description of change>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "StaffING management Plan Version Number:1.0 Version Date: [This document is a template of a Staffing Management Plan document for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project. These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template, the following steps are recommended: Replace all text enclosed in angle brackets (e.g., <Project Name>) with the correct field document values. These angle brackets appear in both the body of the document and in headers and footers. To customize fields in Microsoft Word (which display a gray background when selected) select File->Properties->Summary and fill in the appropriate fields within the Summary and Custom tabs. After clicking OK to close the dialog box, update all fields throughout the document selecting Edit>Select All (or Ctrl-A) and pressing F9. Or you can update each field individually by clicking on it and pressing F9. These actions must be done separately for any fields contained with the document’s Header and Footer. Modify boilerplate text as appropriate for the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained. Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3. Style used for boilerplate text is Body Text. To update the Table of Contents, right-click on it and select “Update field” and choose the option - “Update entire table”. Before submission of the first draft of this document, delete this instruction section “Notes to the Author” and all instructions to the author throughout the entire document. VERSION HISTORY VersionNumber Implemented By Revision Date Approved By Approval Date Description ofChange 1.0 TABLE OF CONTENTS 1Introduction<w:t>4 1.1Purpose<w:t>4 1.2Audience<w:t>4 1.3Assumptions/Constraints<w:t>4 2Staffing Management<w:t>4 2.1Staff Required<w:t>4 2.2Staff Acquisition<w:t>5 2.3Training Required<w:t>5 Staffing Management Plan Approval<w:t>7",
+      "char_count": 3025,
+      "token_estimate": 756
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose",
+      "instruction": "",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "This document describes the processes and procedures used to staff theProject.This plan supplements the overall Project Management Plan (PMP) and covers the staffing requirements for the project.  The Staffing Management Plan (SMP) is intended to be a living document, reviewed at least annually and updated as needed.",
+      "char_count": 318,
+      "token_estimate": 80
+    },
+    {
+      "section_heading": "Audience",
+      "section_level": 2,
+      "section_path": "Introduction > Audience",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "The intended audience for the SMP is all project stakeholders, including the project sponsor, senior leadership and the project team.",
+      "char_count": 133,
+      "token_estimate": 33
+    },
+    {
+      "section_heading": "Assumptions/Constraints",
+      "section_level": 2,
+      "section_path": "Introduction > Assumptions/Constraints",
+      "instruction": "[Describe any assumptions or constraints that impact the overall staffing plan of the project. These can include availability of resources or contract vehicles]",
+      "fields": [],
+      "boilerplate": "This plan only addresses the staffing requirements for staff that will be part of the project management office or team that directly report to the project manager.This plan does not capture staffing requirements for development work performed by a contractor where the day-to-day activities are managed by a PM at the contractor.  In those situations, the PM is monitoring the project through agreed upon deliverables and has requirements in the contract for the contractor to ensure appropriate staffing. This plan does not address staffing requirements of contractors that are performing work on behalf of the project whose requirements are captured in a contract level management plan.",
+      "char_count": 850,
+      "token_estimate": 212
+    },
+    {
+      "section_heading": "Staffing Management",
+      "section_level": 1,
+      "section_path": "Staffing Management",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Staff Required",
+      "section_level": 2,
+      "section_path": "Staffing Management > Staff Required",
+      "instruction": "[mm/dd/yyyy]",
+      "fields": [],
+      "boilerplate": "The following is a detailed breakdown of the staff requirements by role needed to achieve the project objectives and execute the project. Role/Responsibility Skills Required Number of Staff Required Timeframe Needed Duration Required [Complete the table above: Role/Responsibility– Enter the name of the role and briefly describe the associated responsibility. Skills Required– For each role, describe the skills required to perform role. Number of Staff Required– For each role, enter the number of people required to fulfill the role.  This is the actual number of people required, not based on full time equivalent, and includes both Federal and Contract staff. Timeframe Needed– Enter the estimated start date for the role. Duration Required– Indicate the length of time this role will be required for the project. Add rows to the table as necessary]",
+      "char_count": 867,
+      "token_estimate": 217
+    },
+    {
+      "section_heading": "Staff Acquisition",
+      "section_level": 2,
+      "section_path": "Staffing Management > Staff Acquisition",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Thefollowing describes how the project will be staffed. Role Number of Staff Required Number of Federal Staff Received Number of Contractor Support Comments [Complete the table above for each role identified in Section 2.1. Role– Enter the name of the role identified in Section 2.1 Number of Staff Required–Enter the number of people required. This should be the number identified in Section 2.1. Number of Federal Staff Received– Enter the number of Federal staff committed to support the project.  This captures the actual number of people resource management has agreed to provide to support the project Number of Contractor Support– Enter the number of staff to be acquired through a contracting vehicle. Comments– Provide any relevant comments or explanations for clarification. This would include noting the need to hire new Federal Staff or potential source for contractor support. Add rows to the table as necessary]",
+      "char_count": 925,
+      "token_estimate": 231
+    },
+    {
+      "section_heading": "Training Required",
+      "section_level": 2,
+      "section_path": "Staffing Management > Training Required",
+      "instruction": "[List the individuals whose signatures are desired.  Examples of such individuals are Business Owner, Project Manager (if identified), and any appropriate stakeholders.  Add additional lines for signature as necessary.]",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "The following captures the training needed to ensure that necessary skill levels are available to successfully conduct the project. Role/Staff Resource Training Needed Timeframe Needed Anticipated Cost Training Method Suggested Vendor/ Source [Complete the table above: Role/Staff Resource– Describe the role as defined in the PMP and identify the expected staff resource(s) by name for each role. Training Needed– For each staff resource, describe the training needed to close any skill gap and bring the resource to the appropriate competency level. Timeframe– Describe the timeframe the required training is needed.  The PM needs to consider the length of time required for the actual training and when the training needs to be completed. Anticipated Cost– Develop a cost estimate for training. Training method– Describe the training method to be employed, for example, lectures, consultations, mentoring, computer assisted training, etc. Suggested Vendor/Source– Identify potential sources for performing training. Add rows to the table as necessary] Staffing Management Plan Approval The undersigned acknowledge that they have reviewed theStaffing Management Planand agree with the information presented within this document. Changes to thisStaff Management Planwill be coordinated with, and approved by, the undersigned, or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role:",
+      "char_count": 1709,
+      "token_estimate": 427
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "template_file": "CDC_UP_Business_Impact_Analysis_Template.docx",
+  "template_name": "CDC_UP_Business_Impact_Analysis_Template",
+  "doc_type": "narrative",
+  "num_sections": 9,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theBusiness Impact Analysiswas controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Business Impact Analysis Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 UP Template Version:06/30/08 [This document is a template of aBusiness Impact Analysisdocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (e.g.,, <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1Purpose<w:t>5 2System Information<w:t>5 2.1Points of Contact<w:t>5 2.2System Resources<w:t>5 2.3Critical Contacts and Resources<w:t>6 2.4Disruption Impact<w:t>6 2.5Resource Recovery Priority<w:t>6 Appendix A: Business Impact Analysis Approval<w:t>7 APPENDIX B: REFERENCES<w:t>8 APPENDIX C: KEY TERMS<w:t>9",
+      "char_count": 3304,
+      "token_estimate": 826
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose",
+      "instruction": "[Enter purpose of this specific BIA]",
+      "fields": [],
+      "boilerplate": "The Business Impact Analysis (BIA) is an essential step in the development of a contingency/disaster recovery plan.",
+      "char_count": 152,
+      "token_estimate": 38
+    },
+    {
+      "section_heading": "System Information",
+      "section_level": 1,
+      "section_path": "System Information",
+      "instruction": "",
+      "fields": [
+        "<Enter BIA POC>",
+        "<Enter Organization>",
+        "<Enter date BIA completed>",
+        "<Enter description>",
+        "<Enter manager>",
+        "<Enter name>"
+      ],
+      "boilerplate": "Date: Point of Contact (POC): Organization: System Name: System Manager: System Description:",
+      "char_count": 92,
+      "token_estimate": 23
+    },
+    {
+      "section_heading": "Points of Contact",
+      "section_level": 2,
+      "section_path": "System Information > Points of Contact",
+      "instruction": "[Enter the name and description of individuals, positions, offices, etc of points-of-contact related to the content contained within this BIA.] [Enter the name and description of individuals, positions, offices, etc of points-of- contact related to the content contained within this BIA.]",
+      "fields": [
+        "<Enter Name>",
+        "<Enter description of role as it relates to this BIA>"
+      ],
+      "boilerplate": "Internal Contacts : : : External Contacts : : :",
+      "char_count": 336,
+      "token_estimate": 84
+    },
+    {
+      "section_heading": "System Resources",
+      "section_level": 2,
+      "section_path": "System Information > System Resources",
+      "instruction": "[Enter the category, name, and description of resources related to, referenced, and/or analyzed within as part of this BIA.]",
+      "fields": [
+        "<Enter Name>",
+        "<Enter description of resource>"
+      ],
+      "boilerplate": "Hardware : : : Software : : : Other : : :",
+      "char_count": 166,
+      "token_estimate": 42
+    },
+    {
+      "section_heading": "Critical Contacts and Resources",
+      "section_level": 2,
+      "section_path": "System Information > Critical Contacts and Resources",
+      "instruction": "[Relate critical contacts, their roles, and criticalresources from the content entered into the previous two sections and relate them to each other.]",
+      "fields": [
+        "<Enter Name>",
+        "<Enter critical resource name>"
+      ],
+      "boilerplate": "resources from the content entered into the previous two sections and relate them to each other.] Critical Contacts/Roles Critical Resources",
+      "char_count": 290,
+      "token_estimate": 72
+    },
+    {
+      "section_heading": "Disruption Impact",
+      "section_level": 2,
+      "section_path": "System Information > Disruption Impact",
+      "instruction": "[Identify disruption impacts and allowable outage times. Characterize the impact on critical roles if a critical resource is unavailable. Identify the maximum acceptable period that the resource could be unavailable before unacceptable impacts resulted.]",
+      "fields": [
+        "<Enter Resource Name>",
+        "<Enter description of allowable outage time>",
+        "<Enter description of outage impact>"
+      ],
+      "boilerplate": "Resource Outage Impact Allowable Outage",
+      "char_count": 294,
+      "token_estimate": 74
+    },
+    {
+      "section_heading": "Resource Recovery Priority",
+      "section_level": 2,
+      "section_path": "System Information > Resource Recovery Priority",
+      "instruction": "[List the order of recovery priority for all resources Identified earlier in this document. Identify and describe an appropriate priority scale such as high, medium, low; 1, 2, 3; etc.] [List the individuals whose signatures are desired.  Examples of such individuals are Business Steward, Implementation Manager or Project Sponsor.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Enter Resource Name>",
+        "<Enter additional comments >",
+        "<Project Name>",
+        "<URL or Network path where document is located>",
+        "<priority>"
+      ],
+      "boilerplate": "Priority Resource Comments Appendix A:Business Impact AnalysisApproval The undersigned acknowledge they have reviewed theBusiness Impact Analysisand agree with the approach it presents. Changes to thisBusiness Impact Analysiswill be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name and Version Description Location APPENDIX C: KEY TERMS The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1617,
+      "token_estimate": 404
+    }
+  ]
+}

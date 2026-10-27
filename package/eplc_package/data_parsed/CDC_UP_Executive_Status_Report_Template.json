@@ -1,0 +1,38 @@
+{
+  "template_file": "CDC_UP_Executive_Status_Report_Template.docx",
+  "template_name": "CDC_UP_Executive_Status_Report_Template",
+  "doc_type": "narrative",
+  "num_sections": 2,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Insert Name] [Insert Name] [Insert Name] [Insert Executive Milestone] [Insert Executive Milestone] [Insert Executive Milestone] [Insert Project Milestone] [Insert Project Milestone] [Insert Project Milestone] [Insert Integration Milestone] [Insert Integration Milestone] [Insert Integration Milestone] [Insert Other Project’s Project Milestone] [Insert Other Project’s Integration Milestone]",
+      "fields": [
+        "< Add text>",
+        "< Insert bullet list of key planned activities>",
+        "<Author>",
+        "<ID>",
+        "<Program Name>",
+        "<Project Name>",
+        "<mm/dd/yyyy>"
+      ],
+      "boilerplate": "Govt. Monitor: Executive Status Report - Tech. Lead: Project Lead: # Resources: # Res. Needed: Resource Request. Approved. (Y/N): Report Prepared By: EXECUTIVE MILESTONE OVERVIEW: ID Executive Milestones (minimum three) Status Baseline Completion Date Expected Completion Date Degree (%) of Confidence Change? (Yes, No, New) E1 E2 E3 PROJECT STATUS SUMMARY: Narrative Summary of Status Schedule: GREEN Budget: YELLOW Issues: RED PROJECT MILESTONE STATUS REVIEW: Project Plan ID Project Milestones Status Baseline Completion Date Expected Completion Date Issues Exist (Yes/No) PLANNED ACCOMPLISHMENTS SUMMARY: Planned accomplishments for the coming two weeks: INTEGRATION MILESTONE STATUS REVIEW: Milestones That Other Projects Are Dependent On: ID Integration Milestones Projects Dependent On Integration Milestone Status Baseline Completion Date Expected Completion Date Degree (%) of Confidence Change? (Yes, No, New) I1 I2 I3 Project or Integration Milestones from Other Projects That This Project Is Dependent On: ID Project Integration Milestone Expected Completion Date Complete (Y/N) Integration Concerns (Y/N) I4 I5 I6 PROJECT ISSUES SUMMARY: ID Priority Issue Description Impact Summary (Milestone, Schedule Scope, Resources, Space…) Action Steps PROJECT RISK SUMMARY: ID Priority Probability of Occurrence Risk Description Impact Summary (Milestone, Schedule Scope, Resources, Space…) Response Strategy EXECUTIVE ASSISTANCE REQUESTS: ID Description including reference to milestone impacted",
+      "char_count": 1893,
+      "token_estimate": 473
+    },
+    {
+      "section_heading": "Action Requested",
+      "section_level": 4,
+      "section_path": "Action Requested",
+      "instruction": "",
+      "fields": [
+        "< Add text>"
+      ],
+      "boilerplate": "PROJECT NOTES:",
+      "char_count": 14,
+      "token_estimate": 4
+    }
+  ]
+}

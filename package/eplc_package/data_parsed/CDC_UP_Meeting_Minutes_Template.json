@@ -1,0 +1,90 @@
+{
+  "template_file": "CDC_UP_Meeting_Minutes_Template.docx",
+  "template_name": "CDC_UP_Meeting_Minutes_Template",
+  "doc_type": "narrative",
+  "num_sections": 8,
+  "sections": [
+    {
+      "section_heading": "Program/Area:",
+      "section_level": 1,
+      "section_path": "Program/Area:",
+      "instruction": "[Insert program/area with which the project is affiliated]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 58,
+      "token_estimate": 14
+    },
+    {
+      "section_heading": "Meeting Purpose:",
+      "section_level": 1,
+      "section_path": "Meeting Purpose:",
+      "instruction": "[Insert name or purpose of meeting]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 35,
+      "token_estimate": 9
+    },
+    {
+      "section_heading": "Meeting Date:",
+      "section_level": 1,
+      "section_path": "Meeting Date:",
+      "instruction": "",
+      "fields": [
+        "<mm/dd/yyyy>"
+      ],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Meeting Time:",
+      "section_level": 1,
+      "section_path": "Meeting Time:",
+      "instruction": "[Insert time]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 13,
+      "token_estimate": 3
+    },
+    {
+      "section_heading": "Meeting Location:",
+      "section_level": 1,
+      "section_path": "Meeting Location:",
+      "instruction": "[Insert location]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 17,
+      "token_estimate": 4
+    },
+    {
+      "section_heading": "Meeting Facilitator:",
+      "section_level": 1,
+      "section_path": "Meeting Facilitator:",
+      "instruction": "[List names]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 12,
+      "token_estimate": 3
+    },
+    {
+      "section_heading": "Attendees:",
+      "section_level": 1,
+      "section_path": "Attendees:",
+      "instruction": "[List names]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 12,
+      "token_estimate": 3
+    },
+    {
+      "section_heading": "Minutes Issued By:",
+      "section_level": 1,
+      "section_path": "Minutes Issued By:",
+      "instruction": "[Insert name of issuer] [Insert next step] [Insert next step] [List and describe decision made] [Provide additional description of or information about the decision] [List and describe decision made] [Provide additional description of or information about the decision] [Itemize and describe discussion point] [Provide additional details about the discussion] [Itemize and describe discussion point] [Provide additional details about the discussion] [Describe any items that may have been deferred for a later discussion] [Itemize and describe parking lot topic] [Itemize and describe any additional miscellaneous items] [Provide additional details about the miscellaneous items] [Itemize and describe any additional miscellaneous items] [Provide additional details about the miscellaneous items]",
+      "fields": [],
+      "boilerplate": "Next Steps:(Task, Assigned to, Checkpoint Date) Owner Due Date Decisions Made:(What, Why, Impacts) Discussion:(Items/Knowledge Shared) PARKING LOT: Miscellaneous Items:",
+      "char_count": 965,
+      "token_estimate": 241
+    }
+  ]
+}

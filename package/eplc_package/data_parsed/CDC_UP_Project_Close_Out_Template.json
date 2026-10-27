@@ -1,0 +1,93 @@
+{
+  "template_file": "CDC_UP_Project_Close_Out_Template.docx",
+  "template_name": "CDC_UP_Project_Close_Out_Template",
+  "doc_type": "narrative",
+  "num_sections": 7,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theProject Close Out, up to the final point of approval,was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Project Close-Out Version VERSION HISTORY Version# Implemented By Revision Date Approved By Approval Date Reason 1.0 UP Template Version:11/30/06 [This document is a template of aProject Close Outdocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1General Project Information<w:t>5 2Management Effectiveness<w:t>5 3Lessons Learned<w:t>5 4Administrative Closure<w:t>5 5Contract Closure<w:t>5 6Information Distribution & Archive<w:t>5 Appendix A: Project Close-Out Approval<w:t>7 Appendix B: References<w:t>8 Appendix C: Key Terms<w:t>9",
+      "char_count": 3276,
+      "token_estimate": 819
+    },
+    {
+      "section_heading": "General Project Information",
+      "section_level": 1,
+      "section_path": "General Project Information",
+      "instruction": "[Enter high-level general project information. Expand this section to include more information if needed for the project..] [Project name] [Description of project] [Project Manager name] [Project Sponsor name] [Any additional general comments] [mm/dd/yyyy] [mm/dd/yyyy] [000 days] [00.0%] [mm/dd/yyyy] [mm/dd/yyyy] [000 days] [00.0%] [000 hours] [000 hours] [000 hours] [00.0%] [000 days] [000 days] [000 days] [00.0%] [$0,000.00s] [$0,000.00s] [$0,000.00s] [00.0%]",
+      "fields": [],
+      "boilerplate": "Description Project Name Project Description Project Manager Project Sponsor General Comments Baseline Actual Variance % Variance Start Date Finish Date Hours Days Budget",
+      "char_count": 636,
+      "token_estimate": 159
+    },
+    {
+      "section_heading": "Management Effectiveness",
+      "section_level": 1,
+      "section_path": "Management Effectiveness",
+      "instruction": "[Summarize how effectively the management needs of the customer and project were met. Highlight the significance of approved changes to the baseline, their impact on the project, and how they were managed. Compare baselines to actual and describe discrepancies. Identify and discuss specific issues that challenged the project/project team. Consider areas such as cost, schedule, scope, quality, risk, issue, change, communication, implementation and transition, regulatory compliance, and overall project team performance.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 524,
+      "token_estimate": 131
+    },
+    {
+      "section_heading": "Lessons Learned",
+      "section_level": 1,
+      "section_path": "Lessons Learned",
+      "instruction": "[Summarize project lessons learned including the cause of issues, reasoning behind the corrective action chosen, and other types of lessons learned. Identify and discuss specific issues that challenged the project/project team.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 228,
+      "token_estimate": 57
+    },
+    {
+      "section_heading": "Administrative Closure",
+      "section_level": 1,
+      "section_path": "Administrative Closure",
+      "instruction": "[Summarize project administrative closure activities such as procedures to transfer the project products or services to production and/or operations; stakeholder approval for all deliverables; confirmation that the project has met all sponsors, clients, and other stakeholder’s requirements; verification that all deliverables have been provided and accepted; validation that completion and exit criteria have been met; regulatory compliance items.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 449,
+      "token_estimate": 112
+    },
+    {
+      "section_heading": "Contract Closure",
+      "section_level": 1,
+      "section_path": "Contract Closure",
+      "instruction": "[Summarize project contract closure activities such as formally closing all contracts associated with the completed project.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 125,
+      "token_estimate": 31
+    },
+    {
+      "section_heading": "Information Distribution & Archive",
+      "section_level": 1,
+      "section_path": "Information Distribution & Archive",
+      "instruction": "[Summarize the data archived in the project repository. The type of information actually archived will differ depending on the scope and type of project. Consider items such as contracts and proposals, business case, charter, scope statement, schedule, budget estimate, project management documents, surveys, status reports, checklists, and emails.] [Archived items distributed to individual upon project close out. Note that this list may include individual without access to the project’s archive repository. This should be considered when deciding on an appropriate distribution medium.] [Archived Item] [name] [Email, fax, website, etc] [Archived Item] [name] [Email, fax, website, etc] [List the individuals whose signatures are required.  Examples of such individuals are Project Sponsor, Business Steward, Technical Steward and Project Manager. Add additional signature lines as necessary.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document]",
+      "fields": [
+        "<Definition>",
+        "<Document Name and Version Number>",
+        "<Term>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "Item Distribution List Distribution Medium Appendix A: Project Close-Out Approval The undersigned acknowledge they have reviewed theProject Close-Out Formand agree with the approach it presents. Changes to thisProject Close-Out Formwill be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Appendix B: References The following table summarizes the documents referenced in this document. Document Name and Version Description Location Appendix C: Key Terms The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1800,
+      "token_estimate": 450
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "template_file": "EPLC_SLA_MOU_Template.docx",
+  "template_name": "EPLC_SLA_MOU_Template",
+  "doc_type": "narrative",
+  "num_sections": 18,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of the Service Level Agreement/Memorandum of Understandingwill be controlled and tracked. Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Description of change>",
+        "<Project Manager name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Service Level Agreement Memorandum of Understanding Version VERSION HISTORY VersionNumber Implemented By Revision Date Approved By Approval Date Description ofChange 1.0 [This document is a template of a Service Level Agreement/Memorandum of Understanding document for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project. These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template, the following steps are recommended: Replace all text enclosed in angle brackets (e.g., <Project Name>) with the correct field document values. These angle brackets appear in both the body of the document and in headers and footers. To customize fields in Microsoft Word (which display a gray background when selected) select File->Properties->Summary and fill in the appropriate fields within the Summary and Custom tabs. After clicking OK to close the dialog box, update all fields throughout the document selecting Edit>Select All (or Ctrl-A) and pressing F9. Or you can update each field individually by clicking on it and pressing F9. These actions must be done separately for any fields contained with the document’s Header and Footer. Modify boilerplate text as appropriate for the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained. Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3. Style used for boilerplate text is Body Text. To update the Table of Contents, right-click on it and select “Update field” and choose the option - “Update entire table”. Before submission of the first draft of this document, delete this instruction section “Notes to the Author” and all instructions to the author throughout the entire document. TABLE OF CONTENTS 1Introduction<w:t>5 1.1<w:t>Purpose of Service Level Agreement/Memorandum of Understanding<w:t>5 1.2<w:t>Scope<w:t>5 1.3<w:t>Background<w:t>5 1.4<w:t>Audience<w:t>5 1.5<w:t>Assumptions<w:t>5 1.6<w:t>Roles and Responsibilities<w:t>5 1.7<w:t>Contacts<w:t>5 2Service Details<w:t>5 2.1<w:t>Requirements<w:t>5 2.2<w:t>Service Level Expectations<w:t>5 2.3<w:t>Escalation Actions<w:t>6 2.4<w:t>Service Provider / Service Recipeint<w:t>6 2.5<w:t>Service Hours for Problem Resolution<w:t>6 2.6<w:t>Performance Guarantee<w:t>6 2.7<w:t>Agreement Change Process<w:t>6 3Agreement Table<w:t>7 APPENDIX A: Service Level Agreement / Memorandum of Understanding Approval<w:t>8 APPENDIX B: REFERENCES<w:t>9 APPENDIX C: KEY TERMS<w:t>10",
+      "char_count": 3566,
+      "token_estimate": 892
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of Service Level Agreement/Memorandum of Understanding",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of Service Level Agreement/Memorandum of Understanding",
+      "instruction": "[Provide the purpose of the Service Level Agreement/Memorandum of Understanding.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 81,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Scope",
+      "section_level": 2,
+      "section_path": "Introduction > Scope",
+      "instruction": "[Provide a description of the scope of the document.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 53,
+      "token_estimate": 13
+    },
+    {
+      "section_heading": "Background",
+      "section_level": 2,
+      "section_path": "Introduction > Background",
+      "instruction": "[Provide a brief background of the IT system.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 46,
+      "token_estimate": 12
+    },
+    {
+      "section_heading": "Audience",
+      "section_level": 2,
+      "section_path": "Introduction > Audience",
+      "instruction": "[Provide a description of the intended audience for the document and who are the parties involved in this agreement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 117,
+      "token_estimate": 29
+    },
+    {
+      "section_heading": "Assumptions",
+      "section_level": 2,
+      "section_path": "Introduction > Assumptions",
+      "instruction": "[Provide a list and description of the assumptions associated with this agreement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 83,
+      "token_estimate": 21
+    },
+    {
+      "section_heading": "Roles and Responsibilities",
+      "section_level": 2,
+      "section_path": "Introduction > Roles and Responsibilities",
+      "instruction": "[Provide a list of roles and associated responsibilities for the agreement.]",
+      "fields": [],
+      "boilerplate": "Role Responsibility",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Contacts",
+      "section_level": 2,
+      "section_path": "Introduction > Contacts",
+      "instruction": "[Provide a list of the contacts associated with the agreement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 63,
+      "token_estimate": 16
+    },
+    {
+      "section_heading": "Service Details",
+      "section_level": 1,
+      "section_path": "Service Details",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Requirements",
+      "section_level": 2,
+      "section_path": "Service Details > Requirements",
+      "instruction": "[Provide a list and description of any requirements to be addressed as a part of this system release.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 102,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "Service Level Expectations",
+      "section_level": 2,
+      "section_path": "Service Details > Service Level Expectations",
+      "instruction": "[List the expectations that <Party A> and<Party B>agree to.]",
+      "fields": [
+        "<Party A>",
+        "<Party B>"
+      ],
+      "boilerplate": "",
+      "char_count": 60,
+      "token_estimate": 15
+    },
+    {
+      "section_heading": "Escalation Actions",
+      "section_level": 2,
+      "section_path": "Service Details > Escalation Actions",
+      "instruction": "[Provide a description of escalation actions.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 46,
+      "token_estimate": 12
+    },
+    {
+      "section_heading": "Service Provider / Service Recipeint",
+      "section_level": 2,
+      "section_path": "Service Details > Service Provider / Service Recipeint",
+      "instruction": "[Provide name of phone number of the service provider and service recipient.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 77,
+      "token_estimate": 19
+    },
+    {
+      "section_heading": "Service Hours for Problem Resolution",
+      "section_level": 2,
+      "section_path": "Service Details > Service Hours for Problem Resolution",
+      "instruction": "[Specify the service hours available to resolve problems.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 58,
+      "token_estimate": 14
+    },
+    {
+      "section_heading": "Performance Guarantee",
+      "section_level": 2,
+      "section_path": "Service Details > Performance Guarantee",
+      "instruction": "[Specify the period of performance and any performance guarantees with associated penalties should the service not be performed as contracted.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 143,
+      "token_estimate": 36
+    },
+    {
+      "section_heading": "Agreement Change Process",
+      "section_level": 2,
+      "section_path": "Service Details > Agreement Change Process",
+      "instruction": "[Document the process that will be used to address changes to the agreement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 77,
+      "token_estimate": 19
+    },
+    {
+      "section_heading": "Agreement Table",
+      "section_level": 1,
+      "section_path": "Agreement Table",
+      "instruction": "[List all agreements from Section 2 above in the table below:] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Insert Term]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Document description>",
+        "<Document location>",
+        "<Project Name>"
+      ],
+      "boilerplate": "Requirement Service Level Expectation Party A Party B Hours of Support Escalation Actions Performance Guarantee System Availability System available 8am – 10pm Monday - Friday Party A Party B 8am – 10pm Monday - Friday Contact Help Desk if system is not available 95% availability APPENDIX A: Service Level Agreement / Memorandum of Understanding Approval The undersigned acknowledge that they have reviewed theService Level Agreement/Memorandum of Understandingand agree with the information presented within this document. Changes to thisService Level Agreement/Memorandum of Understandingwill be coordinated with, and approved by, the undersigned, or their designated representatives. Signature: Date: Print Name: Title: Role: Party A Signature: Date: Print Name: Title: Role: Party B APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name Description Location APPENDIX C: KEY TERMS The following table provides definitions and explanations for terms and acronyms relevant to the content presented within this document. Term Definition",
+      "char_count": 1324,
+      "token_estimate": 331
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "template_file": "CDC_UP_Change_Request_Form_Example.docx",
+  "template_name": "CDC_UP_Change_Request_Form_Example",
+  "doc_type": "narrative",
+  "num_sections": 1,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[This form is divided into three sections. Section 1 is intended for use by the individual submitting the change request. Section 2 is intended for use by the Project Manager to document/communicate their initial impact analysis of the requested change. Section 3 is intended for use by the Change Control Board (CCB) to document their final decision regarding the requested change.] [CR001] [John Doe] [Enter a detailed description of the change being requested] [mm/dd/yyyy] [mm/dd/yyyy] [Enter a detailed description of why the change is being requested] [List other artifacts affected by this change] [Document assumptions or comments regarding the requested change] [Enter additional comments] [Approval Signature] [mm/dd/yyyy] [#hrs] [Enter the hour impact of the requested change] [#dys] [Enter the duration impact of the requested change] [WBS] [Detail the impact this change may have on schedules] [Cost] [Detail the impact this change may have on cost] [Enter additional comments] [Enter recommendations regarding the requested change] [Approval Signature] [mm/dd/yyyy] [mm/dd/yyyy] [Document the CCB’s decision] [Document and conditions imposed by the CCB] [Approval Signature] [mm/dd/yyyy]",
+      "fields": [],
+      "boilerplate": "Change Request Form (example) CR# Type of CR Enhancement Defect Project/Program/Initiative Submitter Name Brief Description of Request Date Submitted Date Required Priority Low Medium High Mandatory Reason for Change Other Artifacts Impacted Assumptions and Notes Comments Attachments or References Yes No Link: Approval Signature Date Signed Hour Impact Duration Impact Schedule Impact Cost Impact Comments Recommendations Approval Signature Date Signed Decision Approved Approved with Conditions Rejected More Info Decision Date Decision Explanation Conditions Approval Signature Date Signed",
+      "char_count": 1795,
+      "token_estimate": 449
+    }
+  ]
+}

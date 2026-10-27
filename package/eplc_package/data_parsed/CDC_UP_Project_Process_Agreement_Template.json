@@ -1,0 +1,100 @@
+{
+  "template_file": "CDC_UP_Project_Process_Agreement_Template.docx",
+  "template_name": "CDC_UP_Project_Process_Agreement_Template",
+  "doc_type": "narrative",
+  "num_sections": 7,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theProject Process Agreement Templatewas controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Project Process Agreement Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 UP Template Version:06/30/08 [This document is a template of aProject Process Agreementdocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (e.g.,, <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1.Introduction<w:t>5 1.1<w:t>Purpose of The Project Process Agreement Document<w:t>5 1.2<w:t>General Information<w:t>5 2.Stage Gate Consolidation/Waiver Request<w:t>5 3.Deliverable Consolidation/Waiver Request<w:t>6 4.Appendix A: Project Process Agreement Approval<w:t>8 APPENDIX B: REFERENCES<w:t>9 APPENDIX C: KEY TERMS<w:t>10",
+      "char_count": 3316,
+      "token_estimate": 829
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of TheProject Process AgreementDocument",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of TheProject Process AgreementDocument",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "A Project Process Agreement (PPA) is used to authorize and document the justifications for using, not using, or combining specific Enterprise Performance Life Cycle (EPLC) Stage Gate Reviews and the selection of specific deliverables applicable to the investment/project, including the expected level of detail to be provided. A PPA should be signed by the project manager and sponsor. Once approved by a governance committee this document authorizes the project to proceed according to agreed upon scope, time, costs, and quality including any EPLC related exceptions as outlined within this document. For more detailed information and/or definitions of EPLC terminology, refer to the United States Department of Health and Human Services Enterprise Performance Life Cycle Framework Overview Document available through the CDC Unified Process website at http://www.cdc.gov/cdcup/.",
+      "char_count": 881,
+      "token_estimate": 220
+    },
+    {
+      "section_heading": "General Information",
+      "section_level": 2,
+      "section_path": "Introduction > General Information",
+      "instruction": "",
+      "fields": [
+        "<000-000-0000>",
+        "<Enter CO/CC>",
+        "<Enter a detailed description of the investment/project>",
+        "<Enter a name for the investment/project being requested>",
+        "<Enter email address>",
+        "<Enter full name and title/role on project>",
+        "<mm/dd/yyyy>"
+      ],
+      "boilerplate": "Date Prepared Requested By Email Phone CO/CC Project Name Description",
+      "char_count": 69,
+      "token_estimate": 17
+    },
+    {
+      "section_heading": "Stage Gate Consolidation/Waiver Request",
+      "section_level": 1,
+      "section_path": "Stage Gate Consolidation/Waiver Request",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Action Justification Initiation* Project Selection Project Baseline Requirements Analysis* Preliminary Design Development* Test* Operational Readiness Operations & Maintenance* Disposition* * All Stage Gates are required. However, the responsibility for these may be delegated through Governance policies.",
+      "char_count": 305,
+      "token_estimate": 76
+    },
+    {
+      "section_heading": "Deliverable Consolidation/Waiver Request",
+      "section_level": 1,
+      "section_path": "Deliverable Consolidation/Waiver Request",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "(d) = Draft, (f) = Final Action Justification Initiation Business Needs Statement (f) Project Selection Business Case with Components (f) Project Charter (f) Project Management Plan with Components (d) Project Baseline Project Management Plan with Components (f) Privacy Impact Analysis (f) Requirements Analysis / Preliminary Design Requirements Document w/Components (f) Design Design Document with Components (f) Computer Match Agreement (f) Test Plan (d) Contingency/Disaster Recovery (d) System of Record Notice (d) Development Test Plan (f) Operation & Maintenance Manual (d) Systems Security Plan (d) Training Plan (d) Training Materials (d) Security Risk Assessment (d) User Manual (d) Business Product (d) Test Implementation Plan (f) Test Reports (f) Operational Readiness Authority to Operate w/Components (f) System of Record Notice (f) Service Level Agreement(s) and/or Memorandum(s) of Understanding Operation & Maintenance Manual (f) Systems Security Plan (f) Training Plan (f) Training Material (f) Security Risk Assessment (f) User Manual (f) Business Product (f) Project Completion Report (f) Contingency/Disaster Recovery (f) Operations & Maintenance Annual Operational Assessment (f) Disposition Plan (f) Disposition Project Archives (f) Non-Phase Specific Continued ATO (annual) Data Usage Agreement Independent Verification & Validation Reports Privacy Impact Assessment Integrated Baseline Documentation Contractor Performance Report Contract Fund Status Report Project Schedule Periodic Investment Status Report",
+      "char_count": 1535,
+      "token_estimate": 384
+    },
+    {
+      "section_heading": "Appendix A:Project Process AgreementApproval",
+      "section_level": 1,
+      "section_path": "Appendix A:Project Process AgreementApproval",
+      "instruction": "[List the individuals whose signatures are desired.  Examples of such individuals are Manager or Project Sponsor.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "The undersigned acknowledge they have reviewed theProject Process Agreementand agree with the approach it presents. Changes to thisProject Process Agreementwill be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name and Version Description Location APPENDIX C: KEY TERMS The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1329,
+      "token_estimate": 332
+    }
+  ]
+}

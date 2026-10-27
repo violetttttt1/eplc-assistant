@@ -1,0 +1,80 @@
+{
+  "template_file": "CDC_UP_Business_Needs_Statement_Template.docx",
+  "template_name": "CDC_UP_Business_Needs_Statement_Template",
+  "doc_type": "narrative",
+  "num_sections": 5,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theBusiness Needs Statement Templatewas controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Business Needs Statement Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 UP Template Version:06/30/08 [This document is a template of aBusiness Needs Statementdocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (e.g.,, <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>4 Purpose of The Business Needs Statement Document<w:t>4 General Information<w:t>4 Investment/Project Description<w:t>4 Appendix A: Business Needs Statement Approval<w:t>5 APPENDIX B: REFERENCES<w:t>6 APPENDIX C: KEY TERMS<w:t>7",
+      "char_count": 3231,
+      "token_estimate": 808
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of TheBusiness Needs StatementDocument",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of TheBusiness Needs StatementDocument",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "A Business Needs Statement identifies a project idea that may turn into a proposed investment/project (I/P). It includes a brief description of the proposed project’s purpose, goals, and scope as well as rough order of magnitude cost and schedule, and basic business and technical skills. The Business Needs Statement provides sufficient information to justify a decision whether or not the organization should move forward with the development of a full Business Case. Information entered here, within the Business Needs Statement, and Business Case documents should be leveraged to populate any related information requirements contained within policies, processes, or regulations such as Capital Planning and Investment Control (CPIC).",
+      "char_count": 738,
+      "token_estimate": 184
+    },
+    {
+      "section_heading": "General Information",
+      "section_level": 2,
+      "section_path": "Introduction > General Information",
+      "instruction": "",
+      "fields": [
+        "<000-000-0000>",
+        "<Enter Business Owner/Manager supporting this document>",
+        "<Enter CO/CC>",
+        "<Enter email address>",
+        "<Enter full name>",
+        "<mm/dd/yyyy>"
+      ],
+      "boilerplate": "Date Requested Requested By Email Phone CO/CC Business Owner",
+      "char_count": 60,
+      "token_estimate": 15
+    },
+    {
+      "section_heading": "Investment/Project Description",
+      "section_level": 2,
+      "section_path": "Introduction > Investment/Project Description",
+      "instruction": "[List the individuals whose signatures are desired.  Examples of such individuals are Business Steward, Implementation Manager or Project Sponsor.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Enter a name for the I/P being proposed>",
+        "<Project Name>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "Name Desired Start Date Business Need Goals/Scope Rough Estimates Risks/Issues Appendix A:Business Needs StatementApproval The undersigned acknowledge they have reviewed theBusiness Needs Statementand agree with the approach it presents. Changes to thisBusiness Needs Statementwill be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name and Version Description Location APPENDIX C: KEY TERMS The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1483,
+      "token_estimate": 371
+    }
+  ]
+}

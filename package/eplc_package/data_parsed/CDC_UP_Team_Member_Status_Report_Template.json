@@ -1,0 +1,28 @@
+{
+  "template_file": "CDC_UP_Team_Member_Status_Report_Template.docx",
+  "template_name": "CDC_UP_Team_Member_Status_Report_Template",
+  "doc_type": "narrative",
+  "num_sections": 1,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "",
+      "fields": [
+        "<00/00/0000>",
+        "<Completed Task>",
+        "<Completion Date>",
+        "<Estimated Completion Date>",
+        "<In Progress Task>",
+        "<John Doe>",
+        "<Planned Task>",
+        "<Project Name>",
+        "<enter issue>"
+      ],
+      "boilerplate": "Name: Week Ending: Project Name: Current Week’s Activities Completed In Progress Issues / Other Next Week’s Activities Planned Risks / Other Last Week’s Activities Completed Planned Offsite Dates Date(s) Out of Office Reason",
+      "char_count": 224,
+      "token_estimate": 56
+    }
+  ]
+}

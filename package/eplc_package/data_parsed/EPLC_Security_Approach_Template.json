@@ -1,0 +1,264 @@
+{
+  "template_file": "EPLC_Security_Approach_Template.docx",
+  "template_name": "EPLC_Security_Approach_Template",
+  "doc_type": "narrative",
+  "num_sections": 19,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[text] [Provide information on how the development and distribution of theSecurity Approachwill be controlled and tracked. Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<description of change>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Security Approach Version Number: Version Date: [This document is a template of aSecurity Approachdocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project. These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template, the following steps are recommended: Replace all text enclosed in angle brackets (e.g., <Project Name>) with the correct field document values. These angle brackets appear in both the body of the document and in headers and footers. To customize fields in Microsoft Word (which display a gray background when selected) select File->Properties->Summary and fill in the appropriate fields within the Summary and Custom tabs. After clicking OK to close the dialog box, update all fields throughout the document selecting Edit>Select All (or Ctrl-A) and pressing F9. Or you can update each field individually by clicking on it and pressing F9. These actions must be done separately for any fields contained with the document’s Header and Footer. Modify boilerplate text as appropriate for the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained. Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3. Style used for boilerplate text is Body Text. To update the Table of Contents, right-click on it and select “Update field” and choose the option - “Update entire table”. Before submission of the first draft of this document, delete this instruction section “Notes to the Author” and all instructions to the author throughout the entire document. VERSION HISTORY VersionNumber Implemented By Revision Date Approved By Approval Date Description ofChange 1.0 TABLE OF CONTENTS 1INTRODUCTION<w:t>4 1.1<w:t>Purpose of the Security Approach<w:t>4 2Security approach<w:t>4 2.1<w:t>Process Overview<w:t>4 2.2<w:t>Security Approach Summary<w:t>4 3TEAM Members<w:t>5 3.1<w:t>Certification and Accreditation Team<w:t>5 3.2<w:t>Security Team<w:t>5 4System categorization<w:t>5 4.1<w:t>Core Systems<w:t>5 4.2<w:t>Sub-Systems<w:t>6 4.3<w:t>Interconnected Systems<w:t>6 5PROGRAMMATIC activities<w:t>6 5.1<w:t>Team Training<w:t>6 5.2<w:t>Requirements Management<w:t>6 5.3<w:t>Configuration Management<w:t>7 5.4<w:t>Risk Management<w:t>7 5.5<w:t>Change Management<w:t>7 Appendix A: Security Approach Approval<w:t>8 APPENDIX B: REFERENCES<w:t>9 APPENDIX C: KEY TERMS<w:t>10 APPENDIX D: RELATED DOCUMENTS<w:t>11",
+      "char_count": 3484,
+      "token_estimate": 871
+    },
+    {
+      "section_heading": "INTRODUCTION",
+      "section_level": 1,
+      "section_path": "INTRODUCTION",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of the Security Approach",
+      "section_level": 2,
+      "section_path": "INTRODUCTION > Purpose of the Security Approach",
+      "instruction": "",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "Defining a security approach for a project provides a line of site from business requirements through team members and components all the way to implemented security controls.  It documents clear responsibilities for implementation, certification, and accreditation of the system security and provides a framework for communicating security based impacts on other development and project management activities.  This security approach defines from a security perspective how systems associated with theproject will be characterized, categorized, and managed.",
+      "char_count": 558,
+      "token_estimate": 140
+    },
+    {
+      "section_heading": "Security approach",
+      "section_level": 1,
+      "section_path": "Security approach",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Process Overview",
+      "section_level": 2,
+      "section_path": "Security approach > Process Overview",
+      "instruction": "[Summarize the steps necessary for establishing the security approach.]",
+      "fields": [],
+      "boilerplate": "The project manager, working with in collaboration with the security team developed a preliminary assessment of the system’s FIPS 199 categorization, and using the proposed project goals defined the following approach to securing the IT system in development.  The approach seeks the most cost effective and efficient approach to meeting technical, operational, and managerial security requirements.  The approach seeks to ensure that security considerations are effectively integrated with other critical processes such as requirements analysis and risk management throughout the life of the project, and that an early assessment of system classification and boundary definitions are appropriately considered to facilitate development and certification efforts later in the project lifecycle.",
+      "char_count": 865,
+      "token_estimate": 216
+    },
+    {
+      "section_heading": "Security Approach Summary",
+      "section_level": 2,
+      "section_path": "Security approach > Security Approach Summary",
+      "instruction": "[Summarize the overall system approach here.  Description should reflect decisions that guided how the system boundaries have been defined and the relative maturity of the systems being developed or modified as well as any system interconnections and dependencies.  The relationship with existing systems, internal and external, is critical to defining how to approach the overall security of this system.  Identifying a security manager for each system and certifying and accreditation authority early in the process ensures that both development and ongoing maintenance are cost effective and efficient.]",
+      "fields": [
+        "</w:pPr>",
+        "</w:rPr>",
+        "<Moderate>",
+        "<low>",
+        "<moderate>",
+        "<w:b/>",
+        "<w:bidi w:val=\"0\"/>",
+        "<w:color w:val=\"0000FF\"/>",
+        "<w:jc w:val=\"center\"/>",
+        "<w:kern w:val=\"2\"/>",
+        "<w:lang w:val=\"en-US\" w:bidi=\"ar-SA\"/>",
+        "<w:overflowPunct w:val=\"false\"/>",
+        "<w:p>",
+        "<w:pPr>",
+        "<w:r>",
+        "<w:rPr>",
+        "<w:spacing w:before=\"60\" w:after=\"60\"/>",
+        "<w:sz w:val=\"18\"/>",
+        "<w:szCs w:val=\"18\"/>",
+        "<w:t xml:space=\"preserve\">"
+      ],
+      "boilerplate": "",
+      "char_count": 606,
+      "token_estimate": 152
+    },
+    {
+      "section_heading": "TEAM Members",
+      "section_level": 1,
+      "section_path": "TEAM Members",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Certification and Accreditation Team",
+      "section_level": 2,
+      "section_path": "TEAM Members > Certification and Accreditation Team",
+      "instruction": "",
+      "fields": [
+        "<name>"
+      ],
+      "boilerplate": "Project Role Name Chief Information Officer Information System Owner Senior Information Security Officer Chief Information Security Officer Authorizing Official",
+      "char_count": 160,
+      "token_estimate": 40
+    },
+    {
+      "section_heading": "Security Team",
+      "section_level": 2,
+      "section_path": "TEAM Members > Security Team",
+      "instruction": "[Define the security stakeholders in this section.  Include names, roles and contact information]",
+      "fields": [
+        "<name>",
+        "<system name(s) within scope of responsibility if applicable>"
+      ],
+      "boilerplate": "Name Project Role Security System Security Manager Developer Security Critical Partner C&A Authority",
+      "char_count": 198,
+      "token_estimate": 50
+    },
+    {
+      "section_heading": "System categorization",
+      "section_level": 1,
+      "section_path": "System categorization",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Core Systems",
+      "section_level": 2,
+      "section_path": "System categorization > Core Systems",
+      "instruction": "[describe system purpose] [Identify the security manager for this system] [Describe at a high-level what security services or components are to be included in the part of the system] [Describe the security services or components being inherited from a GSS or MA] [Describe other system interconnections established for data sharing, business continuity, or backup]",
+      "fields": [
+        "<GSS, MA, or Other>",
+        "<LOW, MODERATE or HIGH>",
+        "<System Name>"
+      ],
+      "boilerplate": "Description –<System Name>is a new system under development intended to. Security Manager – Characterization –<System Name>is characterized as a<GSS, MA, or Other>. Categorization –Based on an estimate of FIPS 199 impact, this system is provisionally defined as a<LOW, MODERATE or HIGH> Boundaries – Dependencies – Interconnections –",
+      "char_count": 698,
+      "token_estimate": 174
+    },
+    {
+      "section_heading": "Sub-Systems",
+      "section_level": 2,
+      "section_path": "System categorization > Sub-Systems",
+      "instruction": "[Identify the security manager for this system] [Describe at a high-level what security services or components are to be included in the part of the system] [Describe the security services or components being inherited from a GSS or MA] [Describe other system interconnections established for data sharing, business continuity, or backup]",
+      "fields": [
+        "<GSS, MA, or Other>",
+        "<LOW, MODERATE or HIGH>",
+        "<System Name>",
+        "<describe system purpose>"
+      ],
+      "boilerplate": "Description –<System Name>is a new system under development intended to <describe system purpose>. Security Manager – Characterization –<System Name>is characterized as a<GSS, MA, or Other>. Categorization –Based on an estimate of FIPS 199 impact, this system is provisionally defined as a<LOW, MODERATE or HIGH> Boundaries – Dependencies – Interconnections –",
+      "char_count": 698,
+      "token_estimate": 174
+    },
+    {
+      "section_heading": "Interconnected Systems",
+      "section_level": 2,
+      "section_path": "System categorization > Interconnected Systems",
+      "instruction": "[Include contact information for this system] [Describe other system interconnections established for data sharing, business continuity, or backup]",
+      "fields": [
+        "<System Name>",
+        "<describe system purpose>"
+      ],
+      "boilerplate": "Description –<System Name>is a new system under development intended to <describe system purpose>. Security Contact – Interconnections –",
+      "char_count": 284,
+      "token_estimate": 71
+    },
+    {
+      "section_heading": "PROGRAMMATIC activities",
+      "section_level": 1,
+      "section_path": "PROGRAMMATIC activities",
+      "instruction": "[Use this section to define administrative and management activities that support the overall security approach.  These include activities such as training, configuration management, risk management, and communication plans.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 225,
+      "token_estimate": 56
+    },
+    {
+      "section_heading": "Team Training",
+      "section_level": 2,
+      "section_path": "PROGRAMMATIC activities > Team Training",
+      "instruction": "[Outline specific training related to security.  Include any database or developer training that applies to development activities.  Include any specific rules of behavior or special security considerations on which team members need to be educated.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 250,
+      "token_estimate": 62
+    },
+    {
+      "section_heading": "Requirements Management",
+      "section_level": 2,
+      "section_path": "PROGRAMMATIC activities > Requirements Management",
+      "instruction": "",
+      "fields": [
+        "<Project Management or Requirements Management document name>",
+        "<full network path location>"
+      ],
+      "boilerplate": "Baseline security requirements for each system have been integrated into the Requirements Management process documented in<Project Management or Requirements Management document name>located on<full network path location>.",
+      "char_count": 222,
+      "token_estimate": 56
+    },
+    {
+      "section_heading": "Configuration Management",
+      "section_level": 2,
+      "section_path": "PROGRAMMATIC activities > Configuration Management",
+      "instruction": "",
+      "fields": [
+        "<Project Management or Configuration Management document name>",
+        "<full network path location>"
+      ],
+      "boilerplate": "Baseline security requirements for each system have been integrated into the Configuration Management process documented in<Project Management or Configuration Management document name>located on<full network path location>.",
+      "char_count": 224,
+      "token_estimate": 56
+    },
+    {
+      "section_heading": "Risk Management",
+      "section_level": 2,
+      "section_path": "PROGRAMMATIC activities > Risk Management",
+      "instruction": "",
+      "fields": [
+        "<Project Management or Risk Management document name>",
+        "<full network path location>"
+      ],
+      "boilerplate": "Baseline security requirements for each system have been integrated into the Risk Management process documented in<Project Management or Risk Management document name>located on<full network path location>.",
+      "char_count": 206,
+      "token_estimate": 52
+    },
+    {
+      "section_heading": "Change Management",
+      "section_level": 2,
+      "section_path": "PROGRAMMATIC activities > Change Management",
+      "instruction": "[List the individuals whose signatures are desired.  Examples of such individuals are Business Owner, Project Manager (if identified), Designated Approving Authorities and any appropriate stakeholders.  Add additional lines for signature as necessary.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Insert Term]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Document description>",
+        "<Project Management or Change Management document name>",
+        "<Project Name>",
+        "<URL or Network path where document is located>",
+        "<full network path location>"
+      ],
+      "boilerplate": "Baseline security requirements for each system have been integrated into the Change Management process documented in<Project Management or Change Management document name>located on<full network path location>. Appendix A:Security ApproachApproval The undersigned acknowledge that they have reviewed theSecurity Approachand agree with the information presented within this document. Changes to thisSecurity Approachwill be coordinated with, and approved by, the undersigned, or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name Description Location APPENDIX C: KEY TERMS The following table provides definitions and explanations for terms and acronyms relevant to the content presented within thisdocument. Term Definition APPENDIX D: RELATED DOCUMENTS FIPS 199,Standards for Security Categorization of Federal Information and Information Systems FIPS 200,Minimum Security Requirements for Federal Information and Information Systems SP 800-18,Guide for Developing Security Plans for Federal Information Systems SP 800-30,Risk Management Guide for Information Technology Systems SP 800-37,Guide for the Security Certification and Accreditation of Federal Information Systems SP 800-53,Recommended Security Controls for Federal Information Systems Draft SP 800-53A,Guide for Assessing the Security Controls in Federal Information Systems SP 800-55,Security Metrics Guide for Information Technology Systems SP 800-60,Guide for Mapping Types of Information and Information Systems to Security Categories SP 800-70,Security Configuration Checklists Program for IT Products: Guidance for Checklists Users and Developers SP 800-100,Information Security Handbook: A Guide for Managers",
+      "char_count": 2318,
+      "token_estimate": 580
+    }
+  ]
+}

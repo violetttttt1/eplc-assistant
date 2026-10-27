@@ -1,0 +1,118 @@
+{
+  "template_file": "CDC_UP_Change_Management_Plan_Template.docx",
+  "template_name": "CDC_UP_Change_Management_Plan_Template",
+  "doc_type": "narrative",
+  "num_sections": 9,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theChange Management Plan, up to the final point of approval,was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Change Management PLAN Version <1.0> <mm/dd/yyyy> VERSION HISTORY Version# Implemented By Revision Date Approved By Approval Date Reason 1.0 UP Template Version:11/30/06 [This document is a template of aChange Management Plandocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1<w:t>Purpose of The Change Management Plan<w:t>5 2Change management Process<w:t>5 2.1<w:t>Change Request Process Flow Requirements<w:t>5 2.2<w:t>Change Request Form and Change Management Log<w:t>6 2.3<w:t>Evaluating and Authorizing Change Requests<w:t>6 2.3.1<w:t>Change Control Board<w:t>7 3Responsibilities<w:t>7 Appendix A: Change Management Plan Approval<w:t>8 Appendix B: References<w:t>9 Appendix C: Key Terms<w:t>10 Appendix D: Change Request Form Example<w:t>11 Appendix E: Change Management Log Template<w:t>12",
+      "char_count": 3565,
+      "token_estimate": 891
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of The Change Management Plan",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of The Change Management Plan",
+      "instruction": "[Provide the purpose of the Change Management Plan. This document should be tailored to fit the particular project needs.]",
+      "fields": [],
+      "boilerplate": "The Change Management Plan documents and tacks the necessary information required to effectively manage project change from project inception to delivery. The Change Management Plan is created during the Planning Phase of the project. Its intended audience isthe project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan.",
+      "char_count": 502,
+      "token_estimate": 126
+    },
+    {
+      "section_heading": "Change management Process",
+      "section_level": 1,
+      "section_path": "Change management Process",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "The Change Management process establishes an orderly and effective procedure for tracking the submission, coordination, review, evaluation, categorization, and approval for release of all changes to the project’s baselines.",
+      "char_count": 223,
+      "token_estimate": 56
+    },
+    {
+      "section_heading": "Change Request Process Flow Requirements",
+      "section_level": 2,
+      "section_path": "Change management Process > Change Request Process Flow Requirements",
+      "instruction": "[Outline the project team’s agreed upon change request (CR) process flow. The following outlines a generic change request process flow.]",
+      "fields": [],
+      "boilerplate": "Step Description Generate CR A submitter completes a CR Form and sends the completed form to the Change Manager Log CR Status The Change Manager enters the CR into the CR Log. The CR’s status is updated throughout the CR process as needed. Evaluate CR Project personnel review the CR and provide an estimated level of effort to process, and develop a proposed solution for the suggested change Authorize Approval to move forward with incorporating the suggested change into the project/product Implement If approved, make the necessary adjustments to carry out the requested change and communicate CR status to the submitter and other stakeholders",
+      "char_count": 784,
+      "token_estimate": 196
+    },
+    {
+      "section_heading": "Change Request Form and Change Management Log",
+      "section_level": 2,
+      "section_path": "Change management Process > Change Request Form and Change Management Log",
+      "instruction": "[List and define the data elements the project team needs to include on the Change Request Form and in the Change Management Log. Examples of these are provided in Appendix D and Appendix E. At a minimum, the following data should be included on the project’s Change Request Form and Change Management Log.]",
+      "fields": [],
+      "boilerplate": "Element Description Date The date the CR was created CR# Assigned by the Change Manager Title A brief description of the change request Description Description of the desired change, the impact, or benefits of a change should also be described Submitter Name of the person completing the CR Form and who can answer questions regarding the suggested change Phone Phone number of the submitter E-Mail Email of the submitter Product The product that the suggested change is for Version The product version that the suggested change is for Priority A code that provides a recommended categorization of the urgency of the requested change (High, Medium, Low)",
+      "char_count": 961,
+      "token_estimate": 240
+    },
+    {
+      "section_heading": "Evaluating and Authorizing Change Requests",
+      "section_level": 2,
+      "section_path": "Change management Process > Evaluating and Authorizing Change Requests",
+      "instruction": "[In order to evaluate and prioritize a change request, the “priority” and “type” of the change are taken into consideration. Use the first and second tables below to list and define the “priority” and “type” data elements that are applicable for the project. The third table provides examples of commonly used project status types. The list of elements is at the discretion of the project manager.]",
+      "fields": [
+        "<change type>",
+        "<define this change type>",
+        "<define this status type CR>",
+        "<priority>",
+        "<status type>"
+      ],
+      "boilerplate": "Change requests are evaluated using the following priority criteria: Priority Description High Medium Low Change requests are evaluated and assigned one or moreof the following change types: Type Description Scope Change affecting scope Time Change affecting time Duration Change affecting duration Cost Change affecting cost Resources Change affecting resources Deliverables Change affecting deliverables Product Change affecting product Processes Change affecting process Quality Change affecting quality Change requests are evaluated and assigned one of the following statustypes: Status Description Open Entered/Open but not yet approved or assigned Work in Progress CR approved, assigned, and work is progressing In Review CR work is completed and in final review prior to testing Testing CR work has been reviewed and is being tested Closed CR work is complete, has passed all tests, and updates have been released.",
+      "char_count": 1320,
+      "token_estimate": 330
+    },
+    {
+      "section_heading": "Change Control Board",
+      "section_level": 3,
+      "section_path": "Change management Process > Evaluating and Authorizing Change Requests > Change Control Board",
+      "instruction": "[A Change Control Board (CCB) is a formally constituted group of stakeholders responsible for approving or rejecting changes to the project baselines. This group may meet on a predefined schedule or on an as needed basis. The table below provides a brief description of personnel acting as the Change Control Board (CCB) and their role/level of authority within that group.] [Insert Role] [Insert Name] [Insert Contact #] [Insert Role Description]",
+      "fields": [],
+      "boilerplate": "Role Name Contact Description",
+      "char_count": 477,
+      "token_estimate": 119
+    },
+    {
+      "section_heading": "Responsibilities",
+      "section_level": 1,
+      "section_path": "Responsibilities",
+      "instruction": "[Provide a brief description of persons responsible for each step ofthe change management process for the project.] [Insert Role] [Insert Name] [Insert Contact #] [Insert Role Description] [List the individuals whose signatures are desired.  Examples of such individuals are Business Steward, Project Manager or Project Sponsor.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "Role Name Contact Description Appendix A: Change Management Plan Approval The undersigned acknowledge they have reviewed theChange Management Planand agree with the approach it presents. Changes to thisChange Management Planwill be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Appendix B: References The following table summarizes the documents referenced in this document. Document Name and Version Description Location Appendix C: Key Terms The following table provides definitions for terms relevant to this document. Term Definition Appendix D: Change Request Form Example The example Change Request From attached below can be used to submit changes during the life of the project. Appendix E: Change Management Log Template The detailed Change Management Log template attached below can be used to track and manage requested changes during the life of the project.",
+      "char_count": 1945,
+      "token_estimate": 486
+    }
+  ]
+}

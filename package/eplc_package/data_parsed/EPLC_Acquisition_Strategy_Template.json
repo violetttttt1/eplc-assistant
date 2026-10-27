@@ -1,0 +1,354 @@
+{
+  "template_file": "EPLC_Acquisition_Strategy_Template.docx",
+  "template_name": "EPLC_Acquisition_Strategy_Template",
+  "doc_type": "narrative",
+  "num_sections": 33,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[text] [Provide information on how the development and distribution of theAcquisition Management PlanStrategy will be controlled and tracked.Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.]",
+      "fields": [
+        "<Author name>",
+        "<Project Name>",
+        "<description of change>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "AcquisitionStrategy Version Number:1.0 Version Date: [This document is a template of anAcquisitionStrategy document for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project. These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template, the following steps are recommended: Replace all text enclosed in angle brackets (e.g., <Project Name>) with the correct field document values. These angle brackets appear in both the body of the document and in headers and footers. To customize fields in Microsoft Word (which display a gray background when selected) select File->Properties->Summary and fill in the appropriate fields within the Summary and Custom tabs. After clicking OK to close the dialog box, update all fields throughout the document selecting Edit>Select All (or Ctrl-A) and pressing F9. Or you can update each field individually by clicking on it and pressing F9. These actions must be done separately for any fields contained with the document’s Header and Footer. Modify boilerplate text as appropriate for the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained. Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3. Style used for boilerplate text is Body Text. To update the Table of Contents, right-click on it and select “Update field” and choose the option - “Update entire table”. Before submission of the first draft of this document, delete this instruction section “Notes to the Author” and all instructions to the author throughout the entire document. VERSION HISTORY VersionNumber Implemented By Revision Date Approved By Approval Date Description ofChange 1.0 TABLE OF CONTENTS 1.0Introduction<w:t>5 1.1<w:t>Purpose of Acquisition Strategy<w:t>5 2.0Background and Objectives<w:t>5 2.1<w:t>Statement of Need<w:t>5 2.2<w:t>Applicable conditions<w:t>5 2.3<w:t>Cost<w:t>5 2.4<w:t>Capability or Performance<w:t>5 2.5<w:t>Delivery or Performance-Period Requirements<w:t>6 2.6<w:t>Trade-Offs<w:t>6 2.7<w:t>Risks<w:t>6 2.8<w:t>Acquisition Streamlining<w:t>6 3.0Plan of Action<w:t>6 3.1<w:t>Sources<w:t>6 3.2<w:t>Competition<w:t>6 3.3<w:t>Source-Selection Procedures<w:t>6 3.4<w:t>Acquisition Considerations<w:t>7 3.5<w:t>Budget and Funding<w:t>7 3.6<w:t>Product or Service Descriptions<w:t>7 3.7<w:t>Priorities, allocations, and allotments<w:t>7 3.8<w:t>Contractor Vs Government Performance<w:t>7 3.9<w:t>Management Information Requirements<w:t>7 3.10<w:t>Make or Buy<w:t>7 3.11<w:t>Test and Evaluation<w:t>7 3.12<w:t>Logistics Considerations<w:t>7 3.13<w:t>Government-Furnished Property<w:t>8 3.14<w:t>Government-Furnished Information<w:t>8 3.15<w:t>Environmental and Entergy Conservation Objectives<w:t>8 3.16<w:t>Security Considerations<w:t>8 3.17<w:t>Contract Administration<w:t>8 3.18<w:t>Other Considerations<w:t>8 3.19<w:t>Acquisition Cycle Milestones<w:t>9 3.20<w:t>Identification of Participants<w:t>9 Appendix A: Acquisition Strategy Approval<w:t>10 APPENDIX B: REFERENCES<w:t>11 APPENDIX C: KEY TERMS<w:t>12",
+      "char_count": 4125,
+      "token_estimate": 1031
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose ofAcquisitionStrategy",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose ofAcquisitionStrategy",
+      "instruction": "",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "The overall objective of anAcquisitionStrategy is to document and inform project stakeholders about how the acquisitions will be planned, executed, and managed throughout the life of the project. This Acquisition Strategy should outline the specific actions necessary to execute the approved acquisition strategy. The Acquisition Strategy documents the approach to be taken for items such as the actual acquisition, contracting, and fiscal, legal, personnel, considerations, etc. The Acquisition Strategy should also address any policy, process, regulatory, etc. necessary to comply with FAR, and any other requirements related to the specific acquisition. The intended audience of theAcquisition Strategy isthe project manager, project team, project sponsor, procurement officer/office, and any senior leaders whose support is needed to carry out acquisition plans.",
+      "char_count": 866,
+      "token_estimate": 216
+    },
+    {
+      "section_heading": "Background and Objectives",
+      "section_level": 1,
+      "section_path": "Background and Objectives",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Statement of Need",
+      "section_level": 2,
+      "section_path": "Background and Objectives > Statement of Need",
+      "instruction": "[Introduce the plan by a brief statement of need. Summarize the technical and contractual history of the acquisition. Discuss feasible acquisition alternatives, the impact of prior acquisitions on those alternatives, and any related in-house effort. Review the business case alternatives analysis section.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 306,
+      "token_estimate": 76
+    },
+    {
+      "section_heading": "Applicable conditions",
+      "section_level": 2,
+      "section_path": "Background and Objectives > Applicable conditions",
+      "instruction": "[State all significant conditions affecting the acquisition, such as requirements for compatibility with existing or future systems or programs and any known cost, schedule, and capability or performance constraints.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 217,
+      "token_estimate": 54
+    },
+    {
+      "section_heading": "Cost",
+      "section_level": 2,
+      "section_path": "Background and Objectives > Cost",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "[Set forth the established cost goals for the acquisition and the rationale supporting them, and discuss related cost concepts to be employed, including, as appropriate, the following items: Life-cycle cost - Discuss how life-cycle cost will be considered. If it is not used, explain why. If appropriate, discuss the cost model used to develop life-cycle-cost estimates Design-to-cost - Describe the design-to-cost objective(s) and underlying assumptions, including the rationale for quantity, learning-curve, and economic adjustment factors. Describe how objectives are to be applied, tracked, and enforced. Indicate specific related solicitation and contractual requirements to be imposed Application of should-cost - Describe the application of should-cost analysis to the acquisition]",
+      "char_count": 788,
+      "token_estimate": 197
+    },
+    {
+      "section_heading": "Capability or Performance",
+      "section_level": 2,
+      "section_path": "Background and Objectives > Capability or Performance",
+      "instruction": "[Specify the required capabilities or performance characteristics of the supplies or the performance standards of the services being acquired and state how they are related to the need.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 186,
+      "token_estimate": 46
+    },
+    {
+      "section_heading": "Delivery or Performance-Period Requirements",
+      "section_level": 2,
+      "section_path": "Background and Objectives > Delivery or Performance-Period Requirements",
+      "instruction": "[Describe the basis for establishing delivery or performance-period requirements. Explain and provide reasons for any urgency if it results in concurrency of development and production or constitutes justification for not providing for full and open competition.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 263,
+      "token_estimate": 66
+    },
+    {
+      "section_heading": "Trade-Offs",
+      "section_level": 2,
+      "section_path": "Background and Objectives > Trade-Offs",
+      "instruction": "[Discuss the expected consequences of trade-offs among the various cost, capability or performance, and schedule goals.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 120,
+      "token_estimate": 30
+    },
+    {
+      "section_heading": "Risks",
+      "section_level": 2,
+      "section_path": "Background and Objectives > Risks",
+      "instruction": "[Discuss technical, cost, and schedule risks and describe what efforts are planned or underway to reduce risk and the consequences of failure to achieve goals. If concurrency of development and production is planned, discuss its effects on cost and schedule risks.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 265,
+      "token_estimate": 66
+    },
+    {
+      "section_heading": "Acquisition Streamlining",
+      "section_level": 2,
+      "section_path": "Background and Objectives > Acquisition Streamlining",
+      "instruction": "[Discuss plans and procedures to encourage industry participation by using draft solicitations, pre-solicitation conferences, and other means of stimulating industry involvement during design and development in recommending the most appropriate application and tailoring of contract requirements; select and tailor only the necessary and cost-effective requirements; and state the timeframe for identifying which of those specifications and standards, originally provided for guidance only, shall become mandatory.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 515,
+      "token_estimate": 129
+    },
+    {
+      "section_heading": "Plan of Action",
+      "section_level": 1,
+      "section_path": "Plan of Action",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Describe the actions necessary to execute this strategy.",
+      "char_count": 56,
+      "token_estimate": 14
+    },
+    {
+      "section_heading": "Sources",
+      "section_level": 2,
+      "section_path": "Plan of Action > Sources",
+      "instruction": "[Indicate any prospective sources of supplies or services that can meet the need.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 82,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Competition",
+      "section_level": 2,
+      "section_path": "Plan of Action > Competition",
+      "instruction": "[Describe how competition will be sought, promoted, and sustained throughout the course of the acquisition. If full and open competition is not contemplated, cite the authority and discuss the basis for the application of that authority, identify the source(s), and discuss why full and open competition cannot be obtained.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 324,
+      "token_estimate": 81
+    },
+    {
+      "section_heading": "Source-Selection Procedures",
+      "section_level": 2,
+      "section_path": "Plan of Action > Source-Selection Procedures",
+      "instruction": "[Discuss the source-selection procedures for the acquisition, including the timing for submission and evaluation of proposals, and the relationship of evaluation factors to the attainment of the acquisition objectives.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 219,
+      "token_estimate": 55
+    },
+    {
+      "section_heading": "Acquisition Considerations",
+      "section_level": 2,
+      "section_path": "Plan of Action > Acquisition Considerations",
+      "instruction": "[For each contract contemplated, discuss contract type selection; use of multiyear contracting, options, or other special contracting methods; any special clauses, special solicitation provisions, or FAR deviations required; whether sealed bidding or negotiation will be used and why; whether equipment will be acquired by lease or purchase and why; and any other contracting considerations.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 392,
+      "token_estimate": 98
+    },
+    {
+      "section_heading": "Budget and Funding",
+      "section_level": 2,
+      "section_path": "Plan of Action > Budget and Funding",
+      "instruction": "[Include budget estimates, explain how they were derived, and discuss the schedule for obtaining adequate funds at the time they are required.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 143,
+      "token_estimate": 36
+    },
+    {
+      "section_heading": "Product or Service Descriptions",
+      "section_level": 2,
+      "section_path": "Plan of Action > Product or Service Descriptions",
+      "instruction": "[Explain the choice of product or service description types (including performance-based acquisition descriptions) to be used in the acquisition.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 146,
+      "token_estimate": 36
+    },
+    {
+      "section_heading": "Priorities, allocations, and allotments",
+      "section_level": 2,
+      "section_path": "Plan of Action > Priorities, allocations, and allotments",
+      "instruction": "[When urgency of the requirement dictates a particularly short delivery or performance schedule, certain priorities may apply. If so, specify the method for obtaining and using priorities, allocations, and allotments, and the reasons for them.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 244,
+      "token_estimate": 61
+    },
+    {
+      "section_heading": "Contractor Vs Government Performance",
+      "section_level": 2,
+      "section_path": "Plan of Action > Contractor Vs Government Performance",
+      "instruction": "[Refer to OMB Circular No. A-76.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 33,
+      "token_estimate": 8
+    },
+    {
+      "section_heading": "Management Information Requirements",
+      "section_level": 2,
+      "section_path": "Plan of Action > Management Information Requirements",
+      "instruction": "[Discuss, as appropriate, what management system will be used by the Government to monitor the contractor’s effort. If an Earned Value Management System is to be used, discuss the methodology the Government will employ to analyze and use the earned value data to assess and monitor contract performance. In addition, discuss how the offeror's/contractor's EVMS will be verified for compliance with the American National Standards Institute/Electronics Industries Alliance (ANSI/EIA) Standard-748, Earned Value Management Systems, and the timing and conduct of integrated baseline reviews (whether prior to or post award).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 622,
+      "token_estimate": 156
+    },
+    {
+      "section_heading": "Make or Buy",
+      "section_level": 2,
+      "section_path": "Plan of Action > Make or Buy",
+      "instruction": "[Discuss any consideration given to make-or-buy programs]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 57,
+      "token_estimate": 14
+    },
+    {
+      "section_heading": "Test and Evaluation",
+      "section_level": 2,
+      "section_path": "Plan of Action > Test and Evaluation",
+      "instruction": "[To the extent applicable, describe the test program of the contractor and the Government. Describe the test program for each major phase of a major system acquisition. If concurrency is planned, discuss the extent of testing to be accomplished before production release.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 272,
+      "token_estimate": 68
+    },
+    {
+      "section_heading": "Logistics Considerations",
+      "section_level": 2,
+      "section_path": "Plan of Action > Logistics Considerations",
+      "instruction": "[Include consideration of contractor or agency maintenance, servicing, and distribution of commercial items, reliability, maintainability, and quality assurance requirements, including any planned use of warranties.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 216,
+      "token_estimate": 54
+    },
+    {
+      "section_heading": "Government-Furnished Property",
+      "section_level": 2,
+      "section_path": "Plan of Action > Government-Furnished Property",
+      "instruction": "[Indicate any Government property to be furnished to contractors, and discuss any associated considerations, such as its availability or the schedule for its acquisition]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 170,
+      "token_estimate": 42
+    },
+    {
+      "section_heading": "Government-Furnished Information",
+      "section_level": 2,
+      "section_path": "Plan of Action > Government-Furnished Information",
+      "instruction": "[Discuss any Government information, such as manuals, drawings, and test data, to be provided to prospective offerors and contractors. Indicate which information that requires additional controls to monitor access and distribution (e.g., technical specifications, maps, building designs, schedules, etc.), as determined by the agency.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 335,
+      "token_estimate": 84
+    },
+    {
+      "section_heading": "Environmental and Entergy Conservation Objectives",
+      "section_level": 2,
+      "section_path": "Plan of Action > Environmental and Entergy Conservation Objectives",
+      "instruction": "[Discuss all applicable environmental and energy conservation objectives associated with the acquisition, the applicability of an environmental assessment or environmental impact statement, the proposed resolution of environmental issues, and any environmentally-related requirements to be included in solicitations and contracts.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 331,
+      "token_estimate": 83
+    },
+    {
+      "section_heading": "Security Considerations",
+      "section_level": 2,
+      "section_path": "Plan of Action > Security Considerations",
+      "instruction": "[For acquisitions dealing with classified matters, discuss how adequate security will be established, maintained, and monitored. For Information Technology acquisitions, discuss how agency information security requirements will be met. For acquisitions requiring routine contractor physical access to a Federally-controlled facility and/or access to a Federally-controlled information system, discuss how agency requirements for personal identity verification of contractors will be met.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 488,
+      "token_estimate": 122
+    },
+    {
+      "section_heading": "Contract Administration",
+      "section_level": 2,
+      "section_path": "Plan of Action > Contract Administration",
+      "instruction": "[Describe how each contract will be administered. In contracts for services, include how inspection and acceptance corresponding to the work statement’s performance criteria will be enforced.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 192,
+      "token_estimate": 48
+    },
+    {
+      "section_heading": "Other Considerations",
+      "section_level": 2,
+      "section_path": "Plan of Action > Other Considerations",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "[Discuss, as applicable: Standardization concepts The industrial readiness program The Defense Production Act The Occupational Safety and Health Act Foreign sales implications Any other matters germane to the plan not covered elsewhere.]",
+      "char_count": 237,
+      "token_estimate": 59
+    },
+    {
+      "section_heading": "Acquisition Cycle Milestones",
+      "section_level": 2,
+      "section_path": "Plan of Action > Acquisition Cycle Milestones",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "[Discuss: Acquisition plan approval Statement of work Specifications Data requirements Completion of acquisition-package preparation Purchase request Justification and approval for other than full and open competition where applicable and/or any required D and F approval Issuance of synopsis Issuance of solicitation Evaluation of proposals, audits, and field reports Beginning and completion of negotiations Contract preparation, review, and clearance Contract award]",
+      "char_count": 469,
+      "token_estimate": 117
+    },
+    {
+      "section_heading": "Identification of Participants",
+      "section_level": 2,
+      "section_path": "Plan of Action > Identification of Participants",
+      "instruction": "[List the individuals who participated in preparing the acquisition plan, giving contact information for each.] [List the individuals whose signatures are desired.  Examples of such individuals are Business Owner, Project Manager (if identified), and any appropriate stakeholders.  Add additional lines for signature as necessary.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Insert Term]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Document description>",
+        "<Project Name>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "Appendix A:AcquisitionStrategy Approval The undersigned acknowledge that they have reviewed theAcquisitionStrategyand agree with the information presented within this document. Changes to thisAcquisitionStrategywill be coordinated with, and approved by, the undersigned, or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name Description Location APPENDIX C: KEY TERMS The following table provides definitions and explanations for terms and acronyms relevant to the content presented within thisdocument. Term Definition",
+      "char_count": 1238,
+      "token_estimate": 310
+    }
+  ]
+}

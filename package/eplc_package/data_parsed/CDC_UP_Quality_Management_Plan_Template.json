@@ -1,0 +1,171 @@
+{
+  "template_file": "CDC_UP_Quality_Management_Plan_Template.docx",
+  "template_name": "CDC_UP_Quality_Management_Plan_Template",
+  "doc_type": "narrative",
+  "num_sections": 14,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theProject Quality Management Plan, up to the final point of approval, was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "PRoject Quality Management PLAN Version VERSION HISTORY Version# Implemented By Revision Date Approved By Approval Date Reason 1.0 UP Template Version:11/30/06 [This document is a template of aProject Quality Management Plandocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1<w:t>Purpose of The Project Quality Management Plan<w:t>5 2Project Quality Management Overview<w:t>5 2.1<w:t>Organization, Responsibilities, and Interfaces<w:t>5 2.2<w:t>Tools, Environment, and Interfaces<w:t>5 3Project Quality Management<w:t>5 3.1<w:t>Quality Planning<w:t>6 3.1.1<w:t>Define Project Quality<w:t>6 3.1.2<w:t>Measure Project Quality<w:t>6 3.2<w:t>Quality Assurance<w:t>6 3.2.1<w:t>Analyze Project Quality<w:t>6 3.2.2<w:t>Improve Project Quality<w:t>6 3.3<w:t>Quality Control<w:t>6 Appendix A: Project Quality Management Plan Approval<w:t>7 Appendix B: References<w:t>8 Appendix C: Key Terms<w:t>9",
+      "char_count": 3667,
+      "token_estimate": 917
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of The Project Quality Management Plan",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of The Project Quality Management Plan",
+      "instruction": "[Provide the purpose of the Project Quality Management Plan. This document should be tailored to fit the particular project needs. Identify which project(s), product(s), and/or the portion of the project life cycle that are covered by this plan and the overall quality objectives for this project.]",
+      "fields": [],
+      "boilerplate": "The Project Quality Management Plan documents the necessary information required to effectively manage project quality from project planning to delivery. It defines a project’s quality policies, procedures, criteria for and areas of application, and roles, responsibilities and authorities. The Project Quality Management Plan is created during the Planning Phase of the project. Its intended audience isthe project manager, project team, project sponsor and any senior leaders whose support is needed to carry out the plan.",
+      "char_count": 823,
+      "token_estimate": 206
+    },
+    {
+      "section_heading": "Project Quality Management Overview",
+      "section_level": 1,
+      "section_path": "Project Quality Management Overview",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Organization, Responsibilities, and Interfaces",
+      "section_level": 2,
+      "section_path": "Project Quality Management Overview > Organization, Responsibilities, and Interfaces",
+      "instruction": "[Describe the primary roles and responsibilities of the project staff as it relates to the practice ofProject Quality Management. Indicate responsibilities for activities such as mentoring or coaching, auditing work products, auditing processes, participating in project reviews, etc.] [John Doe] [Jane Doe]",
+      "fields": [
+        "<Name>",
+        "<Responsibility>",
+        "<Role>"
+      ],
+      "boilerplate": "Name Role Quality Responsibility",
+      "char_count": 340,
+      "token_estimate": 85
+    },
+    {
+      "section_heading": "Tools, Environment, and Interfaces",
+      "section_level": 2,
+      "section_path": "Project Quality Management Overview > Tools, Environment, and Interfaces",
+      "instruction": "[List and define the data elements the quality tools that will be used to measure project quality and level of conformance to defined quality standards/metrics.] [Benchmarking] [Industry recognized benchmarks]",
+      "fields": [
+        "<Tool Description>",
+        "<Tool Name>"
+      ],
+      "boilerplate": "Tool Description",
+      "char_count": 226,
+      "token_estimate": 56
+    },
+    {
+      "section_heading": "Project Quality Management",
+      "section_level": 1,
+      "section_path": "Project Quality Management",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "At the highest of levels Quality Management involves planning, doing, checking, and acting to improve project quality standards. PMI PMBOK breaks the practice of Quality Management into three process groups: Quality Planning (QP), Quality Assurance (QA) and Quality Control (QC). The following sections define how this project will apply each of these practice groups to define, monitor and control quality standards.",
+      "char_count": 417,
+      "token_estimate": 104
+    },
+    {
+      "section_heading": "Quality Planning",
+      "section_level": 2,
+      "section_path": "Project Quality Management > Quality Planning",
+      "instruction": "[Identify which quality standards are relevant to the project and how to satisfy them. Identify and define appropriate quality metrics and measures for standards for project processes, product functionality, regulatory compliance requirements, project deliverables, project management performance, documentation, testing, etc. Identifies the acceptance criteria for project deliverables and product performance]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 411,
+      "token_estimate": 103
+    },
+    {
+      "section_heading": "Define Project Quality",
+      "section_level": 3,
+      "section_path": "Project Quality Management > Quality Planning > Define Project Quality",
+      "instruction": "[Identify quality standards and expectations for customers, the project, organization and federal regulations, define customer and project goals, quality standards, critical success factors, and metrics for which to measure success, and outline acceptance criteria for project deliverables and product performance.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 315,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Measure Project Quality",
+      "section_level": 3,
+      "section_path": "Project Quality Management > Quality Planning > Measure Project Quality",
+      "instruction": "[Identify desired metrics and related monitoring processes for which to measure quality standard, develop a plan for measuring quality, define methods of data collection and archiving, and document timeframe for measurement and metrics reporting.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 247,
+      "token_estimate": 62
+    },
+    {
+      "section_heading": "Quality Assurance",
+      "section_level": 2,
+      "section_path": "Project Quality Management > Quality Assurance",
+      "instruction": "[Identify and define those actions, and the metrics to measure them, that provide the confidence that project quality is in fact being met and has been achieved. Relate these actions to the quality standards defined in the planning section of this document.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 258,
+      "token_estimate": 64
+    },
+    {
+      "section_heading": "Analyze Project Quality",
+      "section_level": 3,
+      "section_path": "Project Quality Management > Quality Assurance > Analyze Project Quality",
+      "instruction": "[Analyze quality data, document opportunities for improvement and apply what was learned from quality analysis to eliminate gaps between current and desired levels of performance.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 180,
+      "token_estimate": 45
+    },
+    {
+      "section_heading": "Improve Project Quality",
+      "section_level": 3,
+      "section_path": "Project Quality Management > Quality Assurance > Improve Project Quality",
+      "instruction": "[Identify ways of doing things better, cheaper, and/or faster. For projects, identify ways of eliminating unsatisfactory performance.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 134,
+      "token_estimate": 34
+    },
+    {
+      "section_heading": "Quality Control",
+      "section_level": 2,
+      "section_path": "Project Quality Management > Quality Control",
+      "instruction": "[Identify those monitoring and controlling actions that will be conducted to control quality throughout the project’s life. Define how it will be determined that quality standards comply with the defined standards outlined earlier in this document. Identify owners of ongoing monitoring and improvement of project processes.] [List the individuals whose signatures are desired.  Examples of such individuals are Business Steward, Project Manager or Project Sponsor.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or Network path where document is located>",
+        "<definition>",
+        "<term>"
+      ],
+      "boilerplate": "Appendix A: Project Quality Management Plan Approval The undersigned acknowledge they have reviewed theProject Quality Management Planand agree with the approach it presents. Changes to thisProject Quality Management Planwill be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Appendix B: References The following table summarizes the documents referenced in this document. Document Name and Version Description Location Appendix C: Key Terms The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1536,
+      "token_estimate": 384
+    }
+  ]
+}

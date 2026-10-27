@@ -1,0 +1,56 @@
+# EPLC Assistant backend configuration.
+# All tunable knobs live here. Nothing secret: tokens come from env / vault, never this file.
+
+embedding:
+  model: "BAAI/bge-large-en-v1.5"
+  # BGE query instruction prefix — query side ONLY, never on documents (see 6.1 of design doc).
+  query_prefix: "Represent this sentence for searching relevant passages: "
+  batch_size: 16
+  max_retries: 6
+  timeout_s: 180
+
+chunking:
+  strategy: "section_512"     # section-level, split only when a section exceeds max_tokens
+  max_tokens: 512
+  overlap_tokens: 0
+  preamble_as_chunk: true     # keep template preamble as a context chunk
+
+indexing:
+  # E3 ablation winner (eval/ARTIFACT_OPT_TABLE.md): prepend
+  # "Document: <canonical artifact>. Section: <path>." to docx template chunks.
+  # Overall Recall@5 0.637 -> 0.976, artifact 0.588 -> 0.941, no type harmed.
+  # Changing this flag invalidates the index cache (rebuild on next build).
+  metadata_augmentation: true
+
+retrieval:
+  top_k_per_library: 5
+  merge_top_k: 8
+  refusal_min_score: 0.55      # below this best-score, QA refuses instead of guessing
+  # --- artifact retrieval optimizations (code/backend/artifact_opt.py) ---
+  alias_expansion: false       # E1: append "[Relevant document: ...]" to query via alias table
+  hybrid_rrf: false            # E4: fuse BM25 + dense rankings with RRF (k=60)
+  rerank_top_n: 0              # E5: 0 = off; N > 0 reranks top-N dense hits per library
+
+generation:
+  provider: "openrouter"        # mock | openai | anthropic | openrouter
+  model: "qwen/qwen-plus"       # 2026-09-27 bake-off winner (26 models)
+  temperature: 0.2
+  max_tokens: 1500
+  max_context_chunks: 5
+  missing_marker: "[MISSING: {name}]"
+
+paths:
+  # relative to package root (~/workspace/eplc-assistant/package/eplc_package)
+  corpora:
+    templates_docx: "data_parsed"
+    templates_xls: "data_parsed_xls"
+    hhs: "data_parsed_hhs"
+  index_dir: "code/backend/index_cache"
+
+libraries:
+  A:
+    name: "templates"
+    description: "50 CDC UP docx templates + 10 xls templates (logs / schedule / stage-gate)"
+  B:
+    name: "hhs"
+    description: "HHS EPLC Framework + Practices Guides + HHS policies"

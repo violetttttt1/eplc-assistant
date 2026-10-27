@@ -1,0 +1,195 @@
+{
+  "template_file": "EPLC_Release_Strategy_Template.docx",
+  "template_name": "EPLC_Release_Strategy_Template",
+  "doc_type": "narrative",
+  "num_sections": 17,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of the Release Strategy up to the final point of approval was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason forcreating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Release Strategy Version Date VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 [This document is a template of a Release Strategy document for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1Purpose of Release Strategy<w:t>5 1.2Overview<w:t>5 1.3Assumptions<w:t>5 1.4Constraints<w:t>5 1.5Risks<w:t>5 2Release Approach<w:t>6 2.1Rationale<w:t>6 2.2Release Strategy<w:t>6 2.3Release Content<w:t>6 2.4Release Schedule<w:t>6 2.5Release Impacts<w:t>6 2.6Release Notification<w:t>6 2.7Release Management<w:t>7 2.8Release Numbering<w:t>7 Appendix A:  Release Strategy approval<w:t>8 APPENDIX B: REFERENCES<w:t>9 APPENDIX C: KEY TERMS<w:t>10",
+      "char_count": 3428,
+      "token_estimate": 857
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of Release Strategy",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of Release Strategy",
+      "instruction": "[Describe the purpose of the Release Strategy.]",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "The intended audience of theRelease Strategy isthe Business Sponsor and the Integrated Project Team.",
+      "char_count": 148,
+      "token_estimate": 37
+    },
+    {
+      "section_heading": "Overview",
+      "section_level": 2,
+      "section_path": "Introduction > Overview",
+      "instruction": "[Briefly describe the purpose and context for the system or situation, and summarize the history of its development.  Include the  high-level context diagram(s) for the system and subsystems previously provided in the Design Document, Requirements Document, and/or System Design Document (SDD), updated as necessary to reflect any changes that have been made based on more current information or understanding.  If the high-level context diagram has been updated, identify the changes that were made and why.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 509,
+      "token_estimate": 127
+    },
+    {
+      "section_heading": "Assumptions",
+      "section_level": 2,
+      "section_path": "Introduction > Assumptions",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "This section identifies the statements believed to be true for the release of the product or IT system. [Describe any assumptions about the current capabilities and use of the system when it is released in accordance with this plan.  Include any information regarding external circumstances or commitments that may impact the release of the system. Describe any dependencies that can affect the deployment of the system.  Be sure to identify any other systems or subsystems that are impacted directly as a result of this Release Strategy.  Describe any dependencies including staffing, divisional/group participation, external system dependencies or dependencies due to specific business cycles that can impact this Release Strategy.]",
+      "char_count": 734,
+      "token_estimate": 184
+    },
+    {
+      "section_heading": "Constraints",
+      "section_level": 2,
+      "section_path": "Introduction > Constraints",
+      "instruction": "[Describe factors that limit the ability to deploy the system or have some impact to the release of the system in accordance with this plan (e.g., budget and schedule constraints).  Be sure to include constraints due to group/divisional involvement or any other external system or infrastructure constraints that impact the environment.]",
+      "fields": [],
+      "boilerplate": "This section identifies any limitation that must be taken into consideration prior to the release of the product or IT system.",
+      "char_count": 464,
+      "token_estimate": 116
+    },
+    {
+      "section_heading": "Risks",
+      "section_level": 2,
+      "section_path": "Introduction > Risks",
+      "instruction": "[Describe any risks associated with release of the system in accordance with this Release Strategy.  Identify any adverse impacts to stakeholders (e.g., end users) during the release cycle.  Be sure to include any factors that may adversely impact a successful deployment.  Also provide a mitigation strategy for each identified risk that describes specifically the fallback position if a risk is realized.  This information should also be documented in the project’s Risk List and managed in accordance with the Project Management Plan (Risk Management Plan).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 561,
+      "token_estimate": 140
+    },
+    {
+      "section_heading": "Release Approach",
+      "section_level": 1,
+      "section_path": "Release Approach",
+      "instruction": "[Describe the strategy and activities that will be addressed in the planning for the release.  ]",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "TheRelease Strategy provides an outline of activities necessary to ensure that the project’s product is available for use by its end-users as originally planned.",
+      "char_count": 258,
+      "token_estimate": 64
+    },
+    {
+      "section_heading": "Rationale",
+      "section_level": 2,
+      "section_path": "Release Approach > Rationale",
+      "instruction": "[Describe the rationale for establishing this release approach. Reference any information or other deliverables (e.g. Requirements Document, Design Document, Project Management Plan (Communication Management Plan, Acquisition Management Plan, Risk Management Plan), and Project Process Agreement (PPA)) that may have influenced the development of the release approach. Include key considerations such as how the assumptions, constraints, and risks from the previous section impact the release strategy.  Also consider lessons learned from other deployments.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 558,
+      "token_estimate": 140
+    },
+    {
+      "section_heading": "Release Strategy",
+      "section_level": 2,
+      "section_path": "Release Approach > Release Strategy",
+      "instruction": "[Describe at a high level the overall strategy for segmenting the delivery of the Business Product/Code into specific releases. Identify if the release strategy is for a phased function rollout/deployment or for a phased user base rollout/deployment.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 251,
+      "token_estimate": 63
+    },
+    {
+      "section_heading": "Release Content",
+      "section_level": 2,
+      "section_path": "Release Approach > Release Content",
+      "instruction": "[Identify each specific release, including a description of the functionality to be delivered in each release. Explain what the proposed system will do (and not do, if necessary).  Map individual requirements from the Requirements Document to the specific release(s) that will provide that functionality, as appropriate. Provide any additional rationale for dividing the content into the specific releases.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 407,
+      "token_estimate": 102
+    },
+    {
+      "section_heading": "Release Schedule",
+      "section_level": 2,
+      "section_path": "Release Approach > Release Schedule",
+      "instruction": "[Provide a high-level schedule for planned delivery of the releases and the significant milestones associated with transitioning each release through the life cycle to production.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 180,
+      "token_estimate": 45
+    },
+    {
+      "section_heading": "Release Impacts",
+      "section_level": 2,
+      "section_path": "Release Approach > Release Impacts",
+      "instruction": "[Describe any business and/or system impacts associated with each release and the business processes that will be modified as a result of the deployment specified in this Release Strategy.  Identify any systems and interfaces that are directly impacted by the release strategy and any impacts to end users during the release cycle. Describe the relevant benefits, objectives, and goals to be met with each release.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 415,
+      "token_estimate": 104
+    },
+    {
+      "section_heading": "Release Notification",
+      "section_level": 2,
+      "section_path": "Release Approach > Release Notification",
+      "instruction": "[If there is release-specific communication that needs to occur that is not already described in the Project Management Plan (Communication Management Plan), please describe here.  Specify the individual stakeholders and/or groups requiring notification of an impending release.  Also describe the method for providing notification prior to and/or following successful release of the system/application. Specify the information required by each person or group and the timeframes for receipt of the information, prior to release.  For example, the help desk may require that a notification be received 10 days prior to release and provide the release date, a user impact assessment, and a help desk impact assessment.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 718,
+      "token_estimate": 180
+    },
+    {
+      "section_heading": "Release Management",
+      "section_level": 2,
+      "section_path": "Release Approach > Release Management",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Release Numbering",
+      "section_level": 2,
+      "section_path": "Release Approach > Release Numbering",
+      "instruction": "[Identify a standard for numbering and naming releases that follows any established standards if available. Software release numbering may appear trivial but is critical to the overall success of any effective release strategy.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 228,
+      "token_estimate": 57
+    },
+    {
+      "section_heading": "Appendix A:  Release Strategy approval",
+      "section_level": 1,
+      "section_path": "Appendix A:  Release Strategy approval",
+      "instruction": "[List the individuals whose signatures are desired.  Examples of such individuals are Business Sponsor and Project Manager.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert terms and definitions used in this document.  Add rows to the table as necessary. Follow the link below to for definitions of project management terms and acronyms used in this and other documents.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "The undersigned acknowledge they have reviewed the Release Strategy and authorize and fund theproject.  The undersigned herby give the project manager the authority to apply the approved level of organizational resources to project activities. Changes to this Release Strategy will be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name and Version Description Location APPENDIX C: KEY TERMS The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1667,
+      "token_estimate": 417
+    }
+  ]
+}

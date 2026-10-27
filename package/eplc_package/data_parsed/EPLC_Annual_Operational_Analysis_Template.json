@@ -1,0 +1,132 @@
+{
+  "template_file": "EPLC_Annual_Operational_Analysis_Template.docx",
+  "template_name": "EPLC_Annual_Operational_Analysis_Template",
+  "doc_type": "narrative",
+  "num_sections": 11,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of the Annual Operational Analysiswas controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Annual Operational Analysis Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 [This document is a template of anAnnual Operational Analysisdocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (e.g.,, <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1. Investment Overview<w:t>4 2. STrategic and business Results<w:t>4 3. USER/CUSTOMER Assessment<w:t>5 4. Performance Assessment<w:t>5 5. Financial Performance<w:t>6 6.  Innovation<w:t>6 7. Enterprise Architecture<w:t>6 8. Security and Privacy<w:t>6 9. Recommendations<w:t>6 APPENDIX A: KEY TERMS<w:t>7",
+      "char_count": 3260,
+      "token_estimate": 815
+    },
+    {
+      "section_heading": "1. Investment Overview",
+      "section_level": 1,
+      "section_path": "1. Investment Overview",
+      "instruction": "",
+      "fields": [
+        "<Name, Title, Phone, e-Mail>"
+      ],
+      "boilerplate": "Name of System or Application Agency/Office Program/Business Function Supported by this Investment Date of Operational Analysis System Owner(s) System Administrator Key Personnel Participating in this Review (IPT-Stakeholders) Date of Review System Owner Signature/Title",
+      "char_count": 270,
+      "token_estimate": 68
+    },
+    {
+      "section_heading": "2. STrategic and business Results",
+      "section_level": 1,
+      "section_path": "2. STrategic and business Results",
+      "instruction": "[Provide a brief summary describing the asset and a description of the business processes that the investment supports. Description should include an explanation of how the investment is continuing to meet each OPDIV and Department mission or strategic goals and how it supports the Department’s e-Government Strategy.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 319,
+      "token_estimate": 80
+    },
+    {
+      "section_heading": "3. USER/CUSTOMER Assessment",
+      "section_level": 1,
+      "section_path": "3. USER/CUSTOMER Assessment",
+      "instruction": "[Briefly describe the investment's users and the process (e.g., surveys, user group meetings, customer focus groups, etc.) used to assess user or customer satisfaction. Summarize the results of surveys or other user or customer inputs, and usage trends. Is the existing system providing customers the needed functionality and performance? Based on your user or customer inputs, is actual performance consistent with user or customer expectations, or do the current performance goals reflect current user or customer functional or performance requirements? Has the investment exceeded expectations, and the performance measures need to be re-baselined? Discuss how your project addresses the following operational indicators: efficiency, effectiveness, maintainability, productivity, security, availability, reliability, energy usage.] [Graph can be used to show summary of customer satisfaction]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 895,
+      "token_estimate": 224
+    },
+    {
+      "section_heading": "4. Performance Assessment",
+      "section_level": 1,
+      "section_path": "4. Performance Assessment",
+      "instruction": "[For the prior and current fiscal year, provide the Performance Goals and Measures table(s) with prior year actual results and current year interim results, if known. If the project collects, manages or reports to other performance goals and measures, add rows to record those goals and measures.]",
+      "fields": [],
+      "boilerplate": "Fiscal Year Measurement Area Measurement Category Measurement Grouping Measurement Indicator Baseline Planned Improvements to the Baseline Actual Results",
+      "char_count": 451,
+      "token_estimate": 113
+    },
+    {
+      "section_heading": "5. Financial Performance",
+      "section_level": 1,
+      "section_path": "5. Financial Performance",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "[A. Cost- Describe specific periodic budget reviews including who participates, the process for how, how frequently, etc. B. Schedule- Describe specific periodic schedule status reviews including who participates, the process for how, how frequently, etc. For example: “The matrix annual operating plan is used to track key milestones….” Were milestones met? If yes, what? If not, why?]",
+      "char_count": 386,
+      "token_estimate": 96
+    },
+    {
+      "section_heading": "6.  Innovation",
+      "section_level": 1,
+      "section_path": "6.  Innovation",
+      "instruction": "[Describe the new innovation and initiatives that anticipate changing customer needs. Sample language follows, which can be used and modified where applicable: The following investment is being implemented to address future challenges, better meet customer needs, make better use of technology, and lower operation costs.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 322,
+      "token_estimate": 80
+    },
+    {
+      "section_heading": "7. Enterprise Architecture",
+      "section_level": 1,
+      "section_path": "7. Enterprise Architecture",
+      "instruction": "[In this section, describe how this investment is consistent with Enterprise Architecture. Include information about “As-Is” and “To-Be” architecture. For example: The system was evaluated against <OPDIV> Enterprise “As-Is” and “To-Be” Architectures. It has been determined that this system is/is not included in the “As-Is” architecture. It has also been determined that this system supports/does not support the “To-Be” (target) architecture.]",
+      "fields": [
+        "<OPDIV>"
+      ],
+      "boilerplate": "",
+      "char_count": 445,
+      "token_estimate": 111
+    },
+    {
+      "section_heading": "8. Security and Privacy",
+      "section_level": 1,
+      "section_path": "8. Security and Privacy",
+      "instruction": "[In this section, describe how this investment pursues the remediation and resolution of known system issues.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 110,
+      "token_estimate": 28
+    },
+    {
+      "section_heading": "9. Recommendations",
+      "section_level": 1,
+      "section_path": "9. Recommendations",
+      "instruction": "[Justify if the existing system should continue in operation as is, be enhanced, or terminated. If the system is to be enhanced or terminated, summarize the actions to be taken this fiscal year] [is ___ is not __]",
+      "fields": [],
+      "boilerplate": "Investment Manager Recommendations Investment [meeting its performance goals as identified within the scope of the operational analysis ___ Investment should remain in steady state or mixed life cycle for foreseeable future ___ Investment team should commence planning for DME (Development, Modernization, & Enhancement) in order to ensure continued investment viability ___ Operational Analysis results suggest that investment should be discussed at IT-Investment Review Board ___ Operational Analysis results suggest that IT-Investment Review Board does not need to discuss this investment IT Review Board Recommendation and Signature: Signature: Date: Print Name: Title: Role: IT Governance Decision and Signature: Signature: Date: Print Name: Title: Role:",
+      "char_count": 973,
+      "token_estimate": 243
+    },
+    {
+      "section_heading": "APPENDIX A: KEY TERMS",
+      "section_level": 1,
+      "section_path": "APPENDIX A: KEY TERMS",
+      "instruction": "[Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [],
+      "boilerplate": "The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 303,
+      "token_estimate": 76
+    }
+  ]
+}

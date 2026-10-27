@@ -1,0 +1,111 @@
+{
+  "template_file": "EPLC_IVV_Plan_Template.docx",
+  "template_name": "EPLC_IVV_Plan_Template",
+  "doc_type": "narrative",
+  "num_sections": 9,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[text] [Provide information on how the development and distribution of the IV&V Plan will be controlled and tracked.Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.]",
+      "fields": [
+        "<Author name>",
+        "<Project Name>",
+        "<description of change>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Independent Verification & ValidationPlan Version Number:1.0 Version Date: [This document is a template of anIndependent Verification & ValidationPlan for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project. These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template, the following steps are recommended: Replace all text enclosed in angle brackets (e.g., <Project Name>) with the correct field document values. These angle brackets appear in both the body of the document and in headers and footers. To customize fields in Microsoft Word (which display a gray background when selected) select File->Properties->Summary and fill in the appropriate fields within the Summary and Custom tabs. After clicking OK to close the dialog box, update all fields throughout the document selecting Edit>Select All (or Ctrl-A) and pressing F9. Or you can update each field individually by clicking on it and pressing F9. These actions must be done separately for any fields contained with the document’s Header and Footer. Modify boilerplate text as appropriate for the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained. Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3. Style used for boilerplate text is Body Text. To update the Table of Contents, right-click on it and select “Update field” and choose the option - “Update entire table”. Before submission of the first draft of this document, delete this instruction section “Notes to the Author” and all instructions to the author throughout the entire document.] VERSION HISTORY VersionNumber Implemented By Revision Date Approved By Approval Date Description ofChange 1.0 TABLE OF CONTENTS 1Introduction<w:t>5 1.1Purpose of Independent Verification & Validation (IV&V) Plan<w:t>5 2IV&V approach<w:t>5 2.1Organization<w:t>5 2.2IV&V Activities<w:t>5 2.3IV&V Reporting<w:t>5 2.4Assumptions and Constraints<w:t>5 3IV&V Responsibilities<w:t>6 Appendix A:Independent Verification & ValidationPlan Approval<w:t>7 Appendix B: References<w:t>8 Appendix C: Key Terms<w:t>9",
+      "char_count": 3176,
+      "token_estimate": 794
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose ofIndependent Verification & Validation(IV&V) Plan",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose ofIndependent Verification & Validation(IV&V) Plan",
+      "instruction": "[Provide the purpose of the IV&V Plan. This document should be tailored to fit the particular project needs.]",
+      "fields": [],
+      "boilerplate": "Verification looks at whether we are doing the thing right (following required processes and procedures); validation looks at whether we are doing the right thing (meeting the customers' needs). Independent approach to verification and validation (IV&V) Plan documents the approach and processes that will be used to ensure that an independent approach to the verification and validation is incorporated into the project from the beginning of the lifecycle through implementation. The IV&V Plan is created during the Planning Phase of the project as a part of the Project Management Plan. The intended audience is project stakeholders such asthe project sponsor and senior leadership.",
+      "char_count": 794,
+      "token_estimate": 198
+    },
+    {
+      "section_heading": "IV&V approach",
+      "section_level": 1,
+      "section_path": "IV&V approach",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Organization",
+      "section_level": 2,
+      "section_path": "IV&V approach > Organization",
+      "instruction": "[Describe the organization of the IV&V effort. Include the degree of independence required as well as any variance to the EPLC requirements which will require governance approval as a component of the Project Process Agreement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 228,
+      "token_estimate": 57
+    },
+    {
+      "section_heading": "IV&V Activities",
+      "section_level": 2,
+      "section_path": "IV&V approach > IV&V Activities",
+      "instruction": "[List and define the IV&V activities that are appropriate to the project given the size and risk factors. The IV&V Activities Job Aid document provides a comprehensive list for consideration.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 192,
+      "token_estimate": 48
+    },
+    {
+      "section_heading": "IV&V Reporting",
+      "section_level": 2,
+      "section_path": "IV&V approach > IV&V Reporting",
+      "instruction": "[List and define the IV&V Assessment Reviews that are appropriate to the project given the size and risk factors. The EPLC Stage Gate Reviews cycle provides a framework for consideration. Use this to outline the deliverables to be completed by the IV&V effort.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 261,
+      "token_estimate": 65
+    },
+    {
+      "section_heading": "Assumptions and Constraints",
+      "section_level": 2,
+      "section_path": "IV&V approach > Assumptions and Constraints",
+      "instruction": "[Include a detailed explanation of any assumptions and/or constraints applied to the information documented within this IV&V Plan.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 131,
+      "token_estimate": 33
+    },
+    {
+      "section_heading": "IV&V Responsibilities",
+      "section_level": 1,
+      "section_path": "IV&V Responsibilities",
+      "instruction": "[Provide a brief description of responsibilities for the IV&V tasks in preparing for and responding to IV&V Assessment activities and reviews for the project.] [List the individuals whose signatures are desired. Examples of such individuals are Business Owner, Project Manager, and any appropriate stakeholders. Add additional lines for signature as necessary.] [Insert the name, version number, description, and physical location of any documents referenced in this document. Add rows to the table as necessary.] [Insert Term]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Document description>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "IV&VProcess Responsibility EstimatedTimeframe Approach Appendix A:Independent Verification & ValidationPlan Approval The undersigned acknowledge that they have reviewed theIndependent Verification & ValidationPlanand agree with the information presented within this document. Changes to thisIndependent Verification & ValidationPlanwill be coordinated with, and approved by, the undersigned, or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Appendix B: References The following table summarizes the documents referenced in this document. Document Name Description Location Appendix C: Key Terms The following table provides definitions and explanations for terms and acronyms relevant to the content presented within thisdocument. Term Definition",
+      "char_count": 1388,
+      "token_estimate": 347
+    }
+  ]
+}

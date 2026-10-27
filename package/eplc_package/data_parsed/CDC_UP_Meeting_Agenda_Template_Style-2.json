@@ -1,0 +1,120 @@
+{
+  "template_file": "CDC_UP_Meeting_Agenda_Template_Style-2.docx",
+  "template_name": "CDC_UP_Meeting_Agenda_Template_Style-2",
+  "doc_type": "narrative",
+  "num_sections": 11,
+  "sections": [
+    {
+      "section_heading": "Program/Area:",
+      "section_level": 1,
+      "section_path": "Program/Area:",
+      "instruction": "[Insert program/area with which the project is affiliated]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 58,
+      "token_estimate": 14
+    },
+    {
+      "section_heading": "Meeting Purpose:",
+      "section_level": 1,
+      "section_path": "Meeting Purpose:",
+      "instruction": "[Insert name or purpose of meeting]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 35,
+      "token_estimate": 9
+    },
+    {
+      "section_heading": "Meeting Date:",
+      "section_level": 1,
+      "section_path": "Meeting Date:",
+      "instruction": "",
+      "fields": [
+        "<mm/dd/yyyy>"
+      ],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Meeting Time:",
+      "section_level": 1,
+      "section_path": "Meeting Time:",
+      "instruction": "[Insert time]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 13,
+      "token_estimate": 3
+    },
+    {
+      "section_heading": "Meeting Location:",
+      "section_level": 1,
+      "section_path": "Meeting Location:",
+      "instruction": "[Insert location]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 17,
+      "token_estimate": 4
+    },
+    {
+      "section_heading": "Meeting Facilitator:",
+      "section_level": 1,
+      "section_path": "Meeting Facilitator:",
+      "instruction": "[List names]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 12,
+      "token_estimate": 3
+    },
+    {
+      "section_heading": "Invitees:",
+      "section_level": 1,
+      "section_path": "Invitees:",
+      "instruction": "[List names]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 12,
+      "token_estimate": 3
+    },
+    {
+      "section_heading": "ID",
+      "section_level": 1,
+      "section_path": "ID",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "TYPE LEAD TOPIC DESCRIPTION",
+      "char_count": 27,
+      "token_estimate": 7
+    },
+    {
+      "section_heading": "1",
+      "section_level": 1,
+      "section_path": "1",
+      "instruction": "[Options are: Discussion, Decision, Update] [Insert name or initials] [Insert topic] [Insert Description]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "2",
+      "section_level": 1,
+      "section_path": "2",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "3",
+      "section_level": 1,
+      "section_path": "3",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    }
+  ]
+}

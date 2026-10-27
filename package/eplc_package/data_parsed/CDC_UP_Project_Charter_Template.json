@@ -1,0 +1,330 @@
+{
+  "template_file": "CDC_UP_Project_Charter_Template.docx",
+  "template_name": "CDC_UP_Project_Charter_Template",
+  "doc_type": "narrative",
+  "num_sections": 28,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theProject Charter Templateup to the final point of approval was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason forcreating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "project charter Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 UP Template Version:11/30/06 [This document is a template of aProject Charterdocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1<w:t>Purpose of Project Charter<w:t>5 2project And Product Overview<w:t>5 3Justification<w:t>5 3.1<w:t>Business Need<w:t>5 3.2<w:t>Public Health and Business Impact<w:t>5 3.3<w:t>Strategic Alignment<w:t>5 4Scope<w:t>6 4.1<w:t>Objectives<w:t>6 4.2<w:t>High-Level Requirements<w:t>6 4.3<w:t>Major Deliverables<w:t>6 4.4<w:t>Boundaries<w:t>6 5Duration<w:t>7 5.1<w:t>Timeline<w:t>7 5.2<w:t>Executive Milestones<w:t>7 6budget Estimate<w:t>7 6.1<w:t>Funding Source<w:t>7 6.2<w:t>Estimate<w:t>7 7High-Level Alternatives Analysis<w:t>8 8Assumptions, Constraints And Risks<w:t>8 8.1<w:t>Assumptions<w:t>8 8.2<w:t>Constraints<w:t>8 8.3<w:t>Risks<w:t>8 9Project Organization<w:t>9 9.1<w:t>Roles and Responsibilities<w:t>9 9.2<w:t>Stakeholders (Internal and External)<w:t>10 10project Charter approval<w:t>11 APPENDIX A: REFERENCES<w:t>12 APPENDIX B: KEY TERMS<w:t>13 APPENDIX C: GOALS<w:t>14",
+      "char_count": 3893,
+      "token_estimate": 973
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of Project Charter",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of Project Charter",
+      "instruction": "[Provide the purpose of the project charter.]",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "Theproject charter documents and tracks the necessary information required by decision maker(s) to approve the project for funding. The project charter should include the needs, scope, justification, and resource commitment as well as the project’s sponsor(s) decision to proceed or not to proceed with the project.  It is created during the Initiating Phase of the project. The intended audience of theproject charter isthe project sponsor and senior leadership.",
+      "char_count": 509,
+      "token_estimate": 127
+    },
+    {
+      "section_heading": "project And Product Overview",
+      "section_level": 1,
+      "section_path": "project And Product Overview",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "[Typically, the description should answer who, what, when and where, in a concise manner.  It should also state the estimated project duration (e.g., 18 months) and the estimated project budget (e.g., $1.5M).",
+      "char_count": 208,
+      "token_estimate": 52
+    },
+    {
+      "section_heading": "Justification",
+      "section_level": 1,
+      "section_path": "Justification",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Business Need",
+      "section_level": 2,
+      "section_path": "Justification > Business Need",
+      "instruction": "[Example: A data collection system is necessary to conduct a national program of surveillance and research to monitor and characterize the x epidemic, including its determinants and the epidemiologic dynamics such as prevalence, incidence, and antiretroviral resistance, and to guide public health action at the federal, state and local levels. Data collection activities will assist with monitoring the incidence and prevalence of x infection, and x-related morbidity and mortality in the population, estimate incidence of x infection, identify changes in trends of x transmission, and identify populations at risk.)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 618,
+      "token_estimate": 154
+    },
+    {
+      "section_heading": "Public Health and Business Impact",
+      "section_level": 2,
+      "section_path": "Justification > Public Health and Business Impact",
+      "instruction": "[Example: Systemxcollects information aboutxinfection as the jurisdictional, regional, and national levels and will assist in monitoring trends in x transmission rates, incidence rates and x morbidity and mortality trends to help determine public health impact.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 262,
+      "token_estimate": 66
+    },
+    {
+      "section_heading": "Strategic Alignment",
+      "section_level": 2,
+      "section_path": "Justification > Strategic Alignment",
+      "instruction": "",
+      "fields": [
+        "<Reference Appendix C for goals>"
+      ],
+      "boilerplate": "Goal Project Response Rank Comments Scale:H– High,M- Medium,L– Low,N/A– Not Applicable NC / Division / Branch Strategic Goals: combo CDC Strategic Goals: Department of Health and Human Services (DHHS) Strategic Goals: DHHS IT Goals: President’s Management Agenda (PMA) Strategic Goals:",
+      "char_count": 285,
+      "token_estimate": 71
+    },
+    {
+      "section_heading": "Scope",
+      "section_level": 1,
+      "section_path": "Scope",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Objectives",
+      "section_level": 2,
+      "section_path": "Scope > Objectives",
+      "instruction": "[Example: Improving epidemiologic analyses by provisioning consistent data or to making progress towards a 2010 goal] [Insert Objective 1] [Insert Objective 2] [Add additional bullets as necessary]",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "The objectives of theare as follows:",
+      "char_count": 234,
+      "token_estimate": 58
+    },
+    {
+      "section_heading": "High-Level Requirements",
+      "section_level": 2,
+      "section_path": "Scope > High-Level Requirements",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "The following table presents the requirementsthat the project’s product, service or result must meet in order for the project objectives to be satisfied. Req. # I Requirement Description",
+      "char_count": 186,
+      "token_estimate": 46
+    },
+    {
+      "section_heading": "Major Deliverables",
+      "section_level": 2,
+      "section_path": "Scope > Major Deliverables",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "The following table presents the major deliverables that the project’s product, service or result must meet in order for the project objectives to be satisfied. Major Deliverable I Deliverable Description",
+      "char_count": 204,
+      "token_estimate": 51
+    },
+    {
+      "section_heading": "Boundaries",
+      "section_level": 2,
+      "section_path": "Scope > Boundaries",
+      "instruction": "[Describe the inclusive and exclusive boundaries of the project.  Specifically address items that are out of scope.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 116,
+      "token_estimate": 29
+    },
+    {
+      "section_heading": "Duration",
+      "section_level": 1,
+      "section_path": "Duration",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Timeline",
+      "section_level": 2,
+      "section_path": "Duration > Timeline",
+      "instruction": "[An example of a high-level timeline is provided below.]",
+      "fields": [
+        "</w:pPr>",
+        "</w:rPr>",
+        "<w:bidi w:val=\"0\"/>",
+        "<w:color w:val=\"000000\"/>",
+        "<w:jc w:val=\"both\"/>",
+        "<w:kern w:val=\"2\"/>",
+        "<w:lang w:val=\"en-US\" w:bidi=\"ar-SA\"/>",
+        "<w:overflowPunct w:val=\"false\"/>",
+        "<w:p>",
+        "<w:pPr>",
+        "<w:r>",
+        "<w:rPr>",
+        "<w:spacing w:before=\"60\" w:after=\"60\"/>",
+        "<w:sz w:val=\"16\"/>",
+        "<w:szCs w:val=\"16\"/>",
+        "<w:t>"
+      ],
+      "boilerplate": "<w:p><w:pPr><w:overflowPunct w:val=\"false\"/><w:bidi w:val=\"0\"/><w:spacing w:before=\"60\" w:after=\"60\"/><w:jc w:val=\"both\"/><w:rPr></w:rPr></w:pPr><w:r><w:rPr><w:kern w:val=\"2\"/><w:sz w:val=\"16\"/><w:szCs w:val=\"16\"/><w:rFonts w:ascii=\"Arial\" w:hAnsi=\"Arial\" w:eastAsia=\"Times New Roman\" w:cs=\"Arial\"/><w:color w:val=\"000000\"/><w:lang w:val=\"en-US\" w:bidi=\"ar-SA\"/></w:rPr><w:t>10/05 12/05 02/06 05/06 System Development Completed Developed Prototype Requirements Analysis Completed Project Plan Completed 10/05 12/05 02/06 05/06 System Development Completed Developed Prototype Requirements Analysis Completed Project Plan Completed",
+      "char_count": 687,
+      "token_estimate": 172
+    },
+    {
+      "section_heading": "Executive Milestones",
+      "section_level": 2,
+      "section_path": "Duration > Executive Milestones",
+      "instruction": "[Example: For CPIC major/tactical projects, these milestones could be used to complete the Funding Plan/Cost and Schedule section of the OMB Exhibit 300.] [Insert milestone information (e.g., Project planned and authorized to proceed)] [Insert completion timeframe (e.g., Two weeks after project concept is approved)] [Insert milestone information (e.g., Version 1 completed)] [Insert completion timeframe (e.g., Twenty-five weeks after requirements analysis is completed)] [Add additional rows as necessary]",
+      "fields": [],
+      "boilerplate": "The table below lists the high-level Executive Milestones of the project and their estimated completion timeframe. Executive Milestones Estimated Completion Timeframe",
+      "char_count": 675,
+      "token_estimate": 169
+    },
+    {
+      "section_heading": "budget Estimate",
+      "section_level": 1,
+      "section_path": "budget Estimate",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Funding Source",
+      "section_level": 2,
+      "section_path": "budget Estimate > Funding Source",
+      "instruction": "[Example: grant, terrorism budget, or operational budget.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 58,
+      "token_estimate": 14
+    },
+    {
+      "section_heading": "Estimate",
+      "section_level": 2,
+      "section_path": "budget Estimate > Estimate",
+      "instruction": "[For CPIC major/tactical projects complete and attach the required sections of theOMB Exhibit 300located athttp://intranet.cdc.gov/cpic/. For all other projects, provide a summary of the project’s expected spendingbelow.]",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "This section provides a summary of estimated spending to meet the objectives of theproject as described in this project charter.  This summary of spending is preliminary, and should reflect costs for the entire investment lifecycle.  It is intended to present probable funding requirements and to assist in obtaining budgeting support.",
+      "char_count": 557,
+      "token_estimate": 139
+    },
+    {
+      "section_heading": "High-Level Alternatives Analysis",
+      "section_level": 1,
+      "section_path": "High-Level Alternatives Analysis",
+      "instruction": "[Example: Alternatives to developing a custom system may have included looking at existing COTS products or reusing an existing system.] [Provide a statement summarizing the factors considered.] [Provide a statement summarizing the factors considered.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 252,
+      "token_estimate": 63
+    },
+    {
+      "section_heading": "Assumptions, Constraints And Risks",
+      "section_level": 1,
+      "section_path": "Assumptions, Constraints And Risks",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Assumptions",
+      "section_level": 2,
+      "section_path": "Assumptions, Constraints And Risks > Assumptions",
+      "instruction": "[Example: The system is being developed to capture data from public health partners. One assumption is that data is entered electronically into the system.] [Insert description of the first assumption.] [Insert description of the second assumption.]",
+      "fields": [],
+      "boilerplate": "This section identifies the statements believed to be true and from which a conclusion was drawn to define this project charter.",
+      "char_count": 378,
+      "token_estimate": 94
+    },
+    {
+      "section_heading": "Constraints",
+      "section_level": 2,
+      "section_path": "Assumptions, Constraints And Risks > Constraints",
+      "instruction": "[Example: There might be time constraints on developing a system that is used to track data of highly infectious diseases like SARS.] [Insert description of the first constraint.] [Insert description of the second constraint.]",
+      "fields": [],
+      "boilerplate": "This section identifies any limitation that must be taken into consideration prior to the initiation of the project.",
+      "char_count": 343,
+      "token_estimate": 86
+    },
+    {
+      "section_heading": "Risks",
+      "section_level": 2,
+      "section_path": "Assumptions, Constraints And Risks > Risks",
+      "instruction": "[Example: The risk of accessibility or unavailability of public health partners for obtaining requirements to develop a data collection system may delay project deliverables. A possible mitigation strategy might be to schedule requirement sessions with the partners as early as possible. List the risks that the project sponsor should be aware of before making a decision on funding the project, including risks of not funding the project.]",
+      "fields": [],
+      "boilerplate": "Risk Mitigation",
+      "char_count": 456,
+      "token_estimate": 114
+    },
+    {
+      "section_heading": "Project Organization",
+      "section_level": 1,
+      "section_path": "Project Organization",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Roles and Responsibilities",
+      "section_level": 2,
+      "section_path": "Project Organization > Roles and Responsibilities",
+      "instruction": "[Depending on your project organization, you may modify the roles and responsibilities listed in the table below.]",
+      "fields": [
+        "<Name>",
+        "<Org>"
+      ],
+      "boilerplate": "This section describes the key roles supporting the project. Name & Organization Project Role Project Responsibilities <Name> <Org> Project Sponsor Person responsible for acting as the project’s champion and providing direction and support to the team.  In the context of this document, this person approves the request for funding, approves the project scope represented in this document, and sets the priority of the project relative to other projects in his/her area of responsibility. <Name> <Org> Government Monitor Government employee who provides the interface between the project team and the project sponsor.  Additionally, they will serve as the single focal point of contact for the Project Manager to manage CDC’s day-to-day interests. This person must have adequate business and project knowledge in order to make informed decisions. In the case where a contract is involved, the role of a Government Monitor will often be fulfilled by a Contracting Officer and a Project Officer. <Name> <Org> Contracting Officer Person who has the authority to enter into, terminate, or change a contractual agreement on behalf of the Government.  This person bears the legal responsibility for the contract. <Name> <Org> Project Officer A program representative responsible for coordinating withacquisitionofficials on projects for whichcontractsupport is contemplated. This representative is responsible for technical monitoring and evaluation of the contractor's performance after award. <Name> <Org> Project Manager (This could include a Contractor Project Manager or an FTE Project Manager) Person who performs the day-to-day management of the project and has specific accountability for managing the project within the approved constraints of scope, quality, time and cost, to deliver the specified requirements, deliverables and customer satisfaction. <Name> <Org> Business Steward Person in management, often the Branch Chief or Division Director, who is responsible for the project in its entirety. <Name> <Org> Technical Steward Person who is responsible for the technical day-to-day aspects of the system including the details of system development.  The Technical Steward is responsible for providing technical direction to the project. <Name> <Org> Security Steward Person who is responsible for playing the lead role for maintaining the project’s information security.",
+      "char_count": 2495,
+      "token_estimate": 624
+    },
+    {
+      "section_heading": "Stakeholders (Internal and External)",
+      "section_level": 2,
+      "section_path": "Project Organization > Stakeholders (Internal and External)",
+      "instruction": "[Examples of stakeholders include an epidemiologist performing a behavioral research project and people in the field collecting data using a software application (the proposed project) to collect the data required for a behavioral research project.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 249,
+      "token_estimate": 62
+    },
+    {
+      "section_heading": "project Charter approval",
+      "section_level": 1,
+      "section_path": "project Charter approval",
+      "instruction": "[List the individuals whose signatures are desired.  Examples of such individuals are Business Steward, Project Manager or Project Sponsor.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "The undersigned acknowledge they have reviewed the project charter and authorize and fund theproject.  Changes to this project charter will be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: APPENDIX A: REFERENCES The following table summarizes the documents referenced in this document. Document Name and Version Description Location APPENDIX B: KEY TERMS The following table provides definitions for terms relevant to this document. Term Definition APPENDIX C: GOALS CDC Strategic GoalsURL:http://www.cdc.gov/about/goals/ Goal 1- Healthy People in Every Stage of Life Goal 2- Healthy People in Healthy Places Goal 3- People Prepared for Emerging Health Threats Goal 4- Healthy People in a Healthy World Department of Health and Human Services (DHHS) Strategic GoalsURL:http://aspe.hhs.gov/hhsplan/2004/goals.shtml(Search for “HHS IT Strategic Plan”) Goal 1- Reduce the major threats to the health and well-being of Americans Goal 2- Enhance the ability of the Nation’s health care system to effectively respond to bioterrorism and other public health challenges Goal 3- Increase the percentage of the Nation’s children and adults who have access to health care services, and expand consumer choices Goal 4- Enhance the capacity and productivity of the Nation’s health science research enterprise Goal 5- Improve the quality of health care services Goal 6- Improve the economic and social well-being of individuals, families, and communities, especially those most in need Goal 7- Improve the stability and healthy development of our Nation’s children and youth Goal 8- Achieve excellence in management practices Department of Health and Human Services (DHHS) IT GoalsURL:http://aspe.hhs.gov/hhsplan/2004/goals.shtml Goal 1- Provide a secure and trusted IT environment Goal 2- Enhance the quality, availability, and delivery of HHS information and services to citizens, employees, businesses, and governments Goal 3- Implement an enterprise approach to IT infrastructure and common administrative systems that will foster innovation and collaboration Goal 4- Enable and improve the integration of health and human services information Goal 5- Achieve excellence in IT management practices, including a governance process that complements program management, supports e-government initiatives, and ensures effective data privacy and information security controls President’s Management Agenda (PMA) Strategic GoalsURL:http://www.whitehouse.gov/omb/budintegration/pma_index.html Government-wide Initiatives Goal 1-Strategic Management of Human Capital Goal 2-Competitive Sourcing Goal 3- Improved Financial Performance Goal 4- Expanded Electronic Government Goal 5- Budget and Performance Integration Program Initiatives Goal 1- Faith-Based and Community Initiative Goal 2- Privatization of Military Housing Goal 3- Better Research and Development Investment Criteria Goal 4- Elimination of Fraud and Error in Student Aid Programs and Deficiencies in Financial Management Goal 5- Housing and Urban Development Management and Performance Goal 6- Broadened Health Insurance Coverage through State Initiatives Goal 7- A “Right-Sized” Overseas Presence Goal 8- Reform of Food Aid Programs Goal 9- Coordination of Veterans Affairs and Defense Programs and Systems",
+      "char_count": 4141,
+      "token_estimate": 1035
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "template_file": "CDC_UP_Meeting_SignIn_Roster_Template.docx",
+  "template_name": "CDC_UP_Meeting_SignIn_Roster_Template",
+  "doc_type": "narrative",
+  "num_sections": 6,
+  "sections": [
+    {
+      "section_heading": "Program/Area:",
+      "section_level": 1,
+      "section_path": "Program/Area:",
+      "instruction": "[Insert program/area with which the project is affiliated]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 58,
+      "token_estimate": 14
+    },
+    {
+      "section_heading": "Meeting Purpose:",
+      "section_level": 1,
+      "section_path": "Meeting Purpose:",
+      "instruction": "[Insert name or purpose of meeting]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 35,
+      "token_estimate": 9
+    },
+    {
+      "section_heading": "Meeting Date:",
+      "section_level": 1,
+      "section_path": "Meeting Date:",
+      "instruction": "",
+      "fields": [
+        "<mm/dd/yyyy>"
+      ],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Meeting Time:",
+      "section_level": 1,
+      "section_path": "Meeting Time:",
+      "instruction": "[Insert time]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 13,
+      "token_estimate": 3
+    },
+    {
+      "section_heading": "Meeting Location:",
+      "section_level": 1,
+      "section_path": "Meeting Location:",
+      "instruction": "[Insert location]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 17,
+      "token_estimate": 4
+    },
+    {
+      "section_heading": "Meeting Facilitator:",
+      "section_level": 1,
+      "section_path": "Meeting Facilitator:",
+      "instruction": "[List names]",
+      "fields": [],
+      "boilerplate": "UserID Name Phone and Email NC/Branch/Division",
+      "char_count": 59,
+      "token_estimate": 15
+    }
+  ]
+}

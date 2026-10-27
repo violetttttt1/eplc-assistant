@@ -1,0 +1,278 @@
+{
+  "template_file": "EPLC_Training_Plan_Template.docx",
+  "template_name": "EPLC_Training_Plan_Template",
+  "doc_type": "narrative",
+  "num_sections": 25,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theTraining Plan Tempaltewill be controlled and tracked. Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Manager name>",
+        "<Project Name>",
+        "<description of change>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "TRAINING PLAN Version VERSION HISTORY VersionNumber Implemented By Revision Date Approved By Approval Date Description ofChange 1.0 [This document is a template of aTraining Plandocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project. These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template, the following steps are recommended: Replace all text enclosed in angle brackets (e.g., <Project Name>) with the correct field document values. These angle brackets appear in both the body of the document and in headers and footers. To customize fields in Microsoft Word (which display a gray background when selected) select File->Properties->Summary and fill in the appropriate fields within the Summary and Custom tabs. After clicking OK to close the dialog box, update all fields throughout the document selecting Edit>Select All (or Ctrl-A) and pressing F9. Or you can update each field individually by clicking on it and pressing F9. These actions must be done separately for any fields contained with the document’s Header and Footer. Modify boilerplate text as appropriate for the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained. Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3. Style used for boilerplate text is Body Text. To update the Table of Contents, right-click on it and select “Update field” and choose the option - “Update entire table”. Before submission of the first draft of this document, delete this instruction section “Notes to the Author” and all instructions to the author throughout the entire document. Table of Contents 1.0 Introduction<w:t>5 1.1 Background and Scope<w:t>5 1.2 Points of Contact<w:t>5 1.3 Document Organization<w:t>5 1.4 Security and the Privacy Act<w:t>5 1.5 Glossary<w:t>5 2.0 Instructional Analysis<w:t>6 2.1 Needs and Skills Analysis<w:t>6 2.2 Development Approach<w:t>6 2.3 Issues and Recommendations<w:t>6 3.0 Instructional Methods<w:t>6 3.1 Training Methodology<w:t>6 3.2 Training Database<w:t>6 3.3 Testing and Evaluation<w:t>6 4.0 Training Resources<w:t>7 4.1 Course Administration<w:t>7 4.2 Resources and Facilities<w:t>7 4.3 Schedules<w:t>7 4.4 Future Training<w:t>7 5.0 Training Materials List<w:t>7 5.1 Purpose and Scope<w:t>7 5.2 Training Materials List<w:t>7 6.0 Training Curriculum<w:t>8 APPENDIX A: Training Plan Approval<w:t>9 APPENDIX B: REFERENCES<w:t>10 APPENDIX C: KEY TERMS<w:t>11",
+      "char_count": 3541,
+      "token_estimate": 885
+    },
+    {
+      "section_heading": "1.0 Introduction",
+      "section_level": 1,
+      "section_path": "1.0 Introduction",
+      "instruction": "[This section of the Training Plan provides a management summary of the entire plan. There is no need to provide information in this section if the descriptions provided in the subsequent sections are sufficient.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 213,
+      "token_estimate": 53
+    },
+    {
+      "section_heading": "1.1 Background and Scope",
+      "section_level": 2,
+      "section_path": "1.0 Introduction > 1.1 Background and Scope",
+      "instruction": "[This subsection of the Training Plan provides a brief description of the project from a management perspective. It identifies the system, its purpose, and its intended users. This subsection also provides a high-level summary of the Training Plan and its scope.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 263,
+      "token_estimate": 66
+    },
+    {
+      "section_heading": "1.2 Points of Contact",
+      "section_level": 2,
+      "section_path": "1.0 Introduction > 1.2 Points of Contact",
+      "instruction": "[This subsection of the Training Plan provides the organization name (code) and title of key points of contact for system development. It includes such points of contact as the Project Manager, Program Manager, QA Manager, Security Manager, Training Manager/Coordinator, and Training representative, as appropriate.] [Add additional lines as needed.  If the applicable team members are listed in the Project Management Plan, reference the appropriate section within this document.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 481,
+      "token_estimate": 120
+    },
+    {
+      "section_heading": "Role",
+      "section_level": 7,
+      "section_path": "1.0 Introduction > 1.2 Points of Contact > Role",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Name Contact Number Business Sponsor Program Manager Project Manager QA Manager Configuration Manager Center ISSO Training Manager/Coordinator Training Representatives",
+      "char_count": 167,
+      "token_estimate": 42
+    },
+    {
+      "section_heading": "1.3 Document Organization",
+      "section_level": 2,
+      "section_path": "1.0 Introduction > 1.3 Document Organization",
+      "instruction": "[This subsection of the Training Plan describes the document’s organization.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 77,
+      "token_estimate": 19
+    },
+    {
+      "section_heading": "1.4 Security and the Privacy Act",
+      "section_level": 2,
+      "section_path": "1.0 Introduction > 1.4 Security and the Privacy Act",
+      "instruction": "[This subsection of the Training Plan, if applicable, provides a brief discussion of the system's security controls and the need for security and protection of sensitive data. If the system handles sensitive or Privacy Act information, information should be included about labeling system outputs as sensitive or Privacy Act-related. In addition, if the Privacy Act protects the system, include a notification of the Privacy Act's civil and criminal penalties for unauthorized use and disclosure of system data.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 512,
+      "token_estimate": 128
+    },
+    {
+      "section_heading": "1.5 Glossary",
+      "section_level": 2,
+      "section_path": "1.0 Introduction > 1.5 Glossary",
+      "instruction": "[This subsection of the Training Plan contains a glossary of all terms and abbreviations used in the plan. If it is several pages in length, it may be placed as an appendix. A reference can be made to the OPDIV specific glossaries.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 232,
+      "token_estimate": 58
+    },
+    {
+      "section_heading": "2.0 Instructional Analysis",
+      "section_level": 1,
+      "section_path": "2.0 Instructional Analysis",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "2.1 Needs and Skills Analysis",
+      "section_level": 2,
+      "section_path": "2.0 Instructional Analysis > 2.1 Needs and Skills Analysis",
+      "instruction": "[This subsection of the Training Plan describes the target audiences for courses to be developed. Target audiences may include technical professionals, user professionals, data entry clerks, clerical staff members, ADP and non-ADP managers, and executives. Described the tasks that must be taught to meet objectives successfully and the skills that must be learned to accomplish those tasks. A matrix may be used to provide this information. Also in this subsection, the training needs for each target audience are discussed. If appropriate, this subsection should discuss needs and courses in terms of staff location groupings, such headquarters and field offices.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 666,
+      "token_estimate": 166
+    },
+    {
+      "section_heading": "2.2 Development Approach",
+      "section_level": 2,
+      "section_path": "2.0 Instructional Analysis > 2.2 Development Approach",
+      "instruction": "[This subsection of the Training Plan discusses the approach used to develop the course curriculum and to ensure quality-training products. This description includes the methodology used to analyze training requirements in terms of performance objectives and to develop course objectives that ensure appropriate instruction for each target group. The topics or subjects on which the training must be conducted should be listed or identified.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 442,
+      "token_estimate": 110
+    },
+    {
+      "section_heading": "2.3 Issues and Recommendations",
+      "section_level": 2,
+      "section_path": "2.0 Instructional Analysis > 2.3 Issues and Recommendations",
+      "instruction": "[This subsection of the Training Plan includes any current and foreseeable issues surrounding training. Recommendations for resolving each issue and constraints and limitations should also be listed. Review and update the Risk Management Plan with any new risk information uncovered during the development of this plan.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 320,
+      "token_estimate": 80
+    },
+    {
+      "section_heading": "3.0 Instructional Methods",
+      "section_level": 1,
+      "section_path": "3.0 Instructional Methods",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "3.1 Training Methodology",
+      "section_level": 2,
+      "section_path": "3.0 Instructional Methods > 3.1 Training Methodology",
+      "instruction": "[This subsection of the Training Plan describes the training methods to be used in the proposed courses; these methods should relate to the needs and skills identified in Section 2.3, Needs and Skills Analysis, and should take into account such factors as course objectives, the target audience for a particular course, media characteristics, training criteria, and costs. The materials for the chosen training approach, such as course outlines, audiovisual aids, instructor and student guides, student workbooks, examinations, and reference manuals should be listed or discussed in this subsection. Sample formats of materials can be included in an appendix, if desired.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 672,
+      "token_estimate": 168
+    },
+    {
+      "section_heading": "3.2 Training Database",
+      "section_level": 2,
+      "section_path": "3.0 Instructional Methods > 3.2 Training Database",
+      "instruction": "[This subsection of the Training Plan, if applicable, identifies and discusses the training database and how it will be used during computer systems training. It discusses the simulated production data related to various training scenarios and cases developed for instructional purposes. This subsection also explains how the training database will be developed. If this subsection is not applicable to the system involved, indicate \"Not applicable.\"]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 451,
+      "token_estimate": 113
+    },
+    {
+      "section_heading": "3.3 Testing and Evaluation",
+      "section_level": 2,
+      "section_path": "3.0 Instructional Methods > 3.3 Testing and Evaluation",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "4.0 Training Resources",
+      "section_level": 1,
+      "section_path": "4.0 Training Resources",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "4.1 Course Administration",
+      "section_level": 2,
+      "section_path": "4.0 Training Resources > 4.1 Course Administration",
+      "instruction": "[This subsection of the Training Plan describes the methods used to administer the training program, including procedures for class enrollment, student release, reporting of academic progress, course completion and certification, monitoring of the training program, training records management, and security, as required.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 322,
+      "token_estimate": 80
+    },
+    {
+      "section_heading": "4.2 Resources and Facilities",
+      "section_level": 2,
+      "section_path": "4.0 Training Resources > 4.2 Resources and Facilities",
+      "instruction": "[This subsection of the Training Plan describes the resources required by both instructors and students for the training, including classroom, training, and laboratory facilities; equipment such as an overhead projector, projection screen, flipchart or visual aids panel with markers, and computer and printer workstations; and materials such as memo pads and pencils, diskettes, viewgraphs, and slides. Information contained in this subsection can be generic in nature and can apply to all courses. Specific course information and special needs may be itemized here as well or, if many different courses are involved, in Section 5, Training Curriculum.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 654,
+      "token_estimate": 164
+    },
+    {
+      "section_heading": "4.3 Schedules",
+      "section_level": 2,
+      "section_path": "4.0 Training Resources > 4.3 Schedules",
+      "instruction": "[This subsection of the Training Plan presents a schedule for implementing the training strategy and indicating responsible parties. Include key tasks to be completed, such as when to set up training facilities and schedule participants; other activities essential to training; and dates on which those tasks and activities must be finished. This subsection provides an overview of tasks; deliverables, such as approach and evaluation forms; scheduled versus actual milestones; and estimated efforts, such as the work plan. In the final version of the Software Training Plan, actual course schedules by location should be included.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 632,
+      "token_estimate": 158
+    },
+    {
+      "section_heading": "4.4 Future Training",
+      "section_level": 2,
+      "section_path": "4.0 Training Resources > 4.4 Future Training",
+      "instruction": "[This subsection of the Software Training Plan discusses scheduled training modifications and improvements. This information can include periodic updating of course contents, planned modifications to training environments, retraining of employees, and other predicted changes. Indicate procedures for requesting and developing additional training.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 348,
+      "token_estimate": 87
+    },
+    {
+      "section_heading": "5.0 Training Materials List",
+      "section_level": 1,
+      "section_path": "5.0 Training Materials List",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "5.1 Purpose and Scope",
+      "section_level": 2,
+      "section_path": "5.0 Training Materials List > 5.1 Purpose and Scope",
+      "instruction": "",
+      "fields": [
+        "<OPDIV Document Repository>",
+        "<Project Release Name>"
+      ],
+      "boilerplate": "The purpose of this document is to assist the project manager and project team in managing the training materials produced by the project as part of the.  Training materials can include: seminars, presentations, workbooks, self-study tutorials, etc., associated with a software version release. The Training Plan Template, located in the, provides the framework for determining how the training materials will be identified, developed, and delivered.    This should be a “living” document that is updated frequently to reflect new or changing training material information. Although both the Training Plan and Training Material templates can be used by projects of any size, they are intended to be used mainly by the larger, more complex, and more critical projects.",
+      "char_count": 767,
+      "token_estimate": 192
+    },
+    {
+      "section_heading": "5.2 Training Materials List",
+      "section_level": 2,
+      "section_path": "5.0 Training Materials List > 5.2 Training Materials List",
+      "instruction": "[Populate the table below with the applicable information when the training material is being developed or delivered.  Add or remove any columns as necessary.]",
+      "fields": [
+        "<Project or Release Name>"
+      ],
+      "boilerplate": "Explanation of the table fields: Document Name: Provide the name of the document Version Number: Provide the version of the document being distributed (this information may already be in the Document Name) Document Format:  Provide the format the document is saved or delivered as.  This could be a: Word Document PowerPoint Presentation Computer Based Training (CBT) Application Etc. Date Delivered:  Provide the date the training was provided or the documents were distributed. Intended Audience:  Identify the target group that the document was created for.  This could include: Executive management General Users Power or Super Users Technical Support Staff Storage Location:  Identify the location the master documents are stored.  For electronic documents, provide the network location.  For printed documents, provide a physical location. Software Training Materials List for Document Name Version Number Document Format Date Delivered Intended Audience Storage Location",
+      "char_count": 1137,
+      "token_estimate": 284
+    },
+    {
+      "section_heading": "6.0 Training Curriculum",
+      "section_level": 1,
+      "section_path": "6.0 Training Curriculum",
+      "instruction": "[Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Insert Term]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Document description>",
+        "<Project Name>",
+        "<URL to eRoom where document is located>"
+      ],
+      "boilerplate": "APPENDIX A: Training Plan Approval The undersigned acknowledge that they have reviewed theTraining Planand agree with the information presented within this document. Changes to thisTraining Planwill be coordinated with, and approved by, the undersigned, or their designated representatives. Signature: Date: Print Name: Title: Role: Project Manager APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name Description Location APPENDIX C: KEY TERMS The following table provides definitions and explanations for terms and acronyms relevant to the content presented within this document. Term Definition",
+      "char_count": 822,
+      "token_estimate": 206
+    }
+  ]
+}

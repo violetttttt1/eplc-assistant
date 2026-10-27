@@ -1,0 +1,130 @@
+{
+  "template_file": "CDC_UP_Executive_Status_Report_Template_Instructions.docx",
+  "template_name": "CDC_UP_Executive_Status_Report_Template_Instructions",
+  "doc_type": "narrative",
+  "num_sections": 12,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "",
+      "fields": [
+        "<w:t>"
+      ],
+      "boilerplate": "Executive Status Reporting Instructions TABLE OF CONTENTS 1INstructions<w:t>3 1.1<w:t>Status Categories<w:t>3 1.2<w:t>Red, Yellow, Green Guidance<w:t>3 2Executive Milestone Overview<w:t>4 3Project Status Summary<w:t>4 4Project Milestone Status Review<w:t>4 5integration Milestone Status<w:t>5 6Project Issue Summary<w:t>5 7Project Risk Summary<w:t>6 8eXECUTIVE ASSISTANCE rEQUEST<w:t>6 9Project Notes<w:t>7",
+      "char_count": 406,
+      "token_estimate": 102
+    },
+    {
+      "section_heading": "INstructions",
+      "section_level": 1,
+      "section_path": "INstructions",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Status reports should be filled out in enough detail and with sufficient context so that individuals with only a marginal understanding of the operations of the project will be able to read the report in a stand-alone manner and comprehend the status of the project. The following instructions address status report sections and highlight what should be done to complete the status report correctly.",
+      "char_count": 399,
+      "token_estimate": 100
+    },
+    {
+      "section_heading": "Status Categories",
+      "section_level": 2,
+      "section_path": "INstructions > Status Categories",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Throughout the status report where either an Executive Milestone (EM) or a Project Milestone (PM) is identified, a column for “Status” is provided. The following responses are suggested for use in these columns: defined, planned, active, late and complete.The following guidance is provided to determine when to use each status category: Defined:“Defined” indicates that the milestone has been identified and defined, but planning for the completion of the milestone has not been completed (e.g., you generally would not have finalized a completion date). This option is typically used during the initiation and early planning phase of a project, project phase, or significant iteration. Planned:“Planned” indicates that activities to achieve the milestone have been appropriately planned for, and a baseline completion date has been established. Milestones indicated as being “Planned” should have a very high degree of confidence indicated, and in general few activities directed at achieving the milestone should be underway. This option is typically used during the planning phase of a project, project phase, or significant iteration. Active:“Active” indicates planning for the milestone is complete, a baseline completion date has been established, and the activities directed at achieving the milestone have been initiated. This option is typically used during the execution phase of a project, project phase, or significant iteration, although a milestone may become active in the later portion of planning phase. Late:“Late” indicates that activities associated with the milestone have exceeded the baseline completion date. This option should only be used when the date actually exceeds the baseline completion date. The “Late” option is typically used during the execution phase of a project, project phase, or significant iteration. Complete:“Complete” indicates that all activities associated with the milestone have been completed. The “Complete” option is typically used during the execution phase of a project, project phase, or significant iteration.",
+      "char_count": 2067,
+      "token_estimate": 517
+    },
+    {
+      "section_heading": "Red, Yellow, Green Guidance",
+      "section_level": 2,
+      "section_path": "INstructions > Red, Yellow, Green Guidance",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "The following guidance for use of red, yellow, and green indicators for schedule, budget, and issues should be adjusted to reflect the unique quantifiable measurements used by each project to meet the specific needs of that project. Red Overall things are getting out of control. The project may have a number of high-impact risks and/or issues that are impacting performance. The project is behind schedule and, if a recovery plan does exist, the plan is risky. Yellow Overall things are under control. However, the project may contain a few high-impact risks and/or issues. The project may be behind schedule with plans for recovery that are reasonable. Green Overall things are on target, including schedule, budget, and milestones. The project risks and issues have been identified and are under control. Impact of risk and issues is minimal.",
+      "char_count": 846,
+      "token_estimate": 212
+    },
+    {
+      "section_heading": "Executive Milestone Overview",
+      "section_level": 1,
+      "section_path": "Executive Milestone Overview",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Executive milestones (EMs) represent significant accomplishments or events in the project scope, such as completion of a major deliverable (e.g., product releases, user acceptance). EMs usually represent decision points for executives or key stakeholders. Projects should not typically have more than three to five EMs. For example, three milestones could be: (1) system design requirements documentation (2) integrated testing completed and (3) go-live. ID:The ID column in this section should always be populated with a unique identifier that might begin with “E” followed by a number (e.g., “E1”). IDs should not be reused as the project progresses, so that there would only be one “E1” for the duration of the project. Executive Milestones:This column should be populated with the name of the Executive Milestone (EM). Status:This column should be populated with the status of the EM versus the baseline completion date. The responses of defined, planned, active, late and complete are the only valid responses for this column. Baseline Completion Date:This column should be populated with the baseline completion date of the EM. Expected Completion Date:This column should be populated with the expected completion date of the EM. Degree of Confidence:This column should be populated with the degree of confidence the project manager has in meeting the expected completion date.",
+      "char_count": 1383,
+      "token_estimate": 346
+    },
+    {
+      "section_heading": "Project Status Summary",
+      "section_level": 1,
+      "section_path": "Project Status Summary",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Schedule:Red, Yellow, or Green status of schedule performance against plan. Budget:Red, Yellow, or Green status of budget performance against plan. Issues: Red, Yellow, or Green status of project issues.",
+      "char_count": 203,
+      "token_estimate": 51
+    },
+    {
+      "section_heading": "Project Milestone Status Review",
+      "section_level": 1,
+      "section_path": "Project Milestone Status Review",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Project milestones (PMs) represent significant accomplishments or events in the project scope, such as completion of a major deliverable (e.g., product releases, user acceptance). ID:The ID column in this section should always be populated with a unique identifier that might begin with “P” followed by a number (e.g., “P1”). IDs should not be reused as the project progresses, so that there would only be one “P1” for the duration of the project. Project Milestones:This column should be populated with the name of the Project Milestone (PM). Status:This column should be populated with the status of the PM versus the baseline completion date. The responses of defined, planned, active, late and complete are the only valid responses for this column. Baseline Completion Date:This column should be populated with the baseline completion date of the PM. Expected Completion Date:This column should be populated with the expected completion date of the PM.",
+      "char_count": 956,
+      "token_estimate": 239
+    },
+    {
+      "section_heading": "integration Milestone Status",
+      "section_level": 1,
+      "section_path": "integration Milestone Status",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Integration Milestones (IMs) are EMs and PMs external to the project that the project is dependent upon, as well the project’s EMs and PMs that other projects are dependent on. ID:The ID column in this section should always be populated with a unique identifier that might begin with “I” followed by a number (e.g., “I2”). This ID should not be reused as the project progresses, so that there would only be one “I2” for the duration of the project. Integration Milestone(s):This column should be populated with a description of the Integration Milestone (IM). Dependent On / Responsible To:This column should be populated with “Dependent ON” if the project completing the status report is dependent on the associated milestone. The Column should be populated with “Responsible TO” if the project completing the status report has a milestone the associated project is reliant on. Status:This column should be populated with the status of the IM versus the baseline completion date. As described in section 3.1 of this document, the responses of defined, planned, active, late and complete are the only valid responses for this column. Baseline Completion Date:This column should be populated with the baseline completion date of the IM. Expected Completion Date:This column should be populated with the expected completion date of the IM. Degree of Confidence:This column should be populated with the degree of confidence the project manager has in meeting the expected completion date.",
+      "char_count": 1485,
+      "token_estimate": 371
+    },
+    {
+      "section_heading": "Project Issue Summary",
+      "section_level": 1,
+      "section_path": "Project Issue Summary",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "This section should be populated with identified issues associated with the project. Issues may be internal or external to the project. This information may be populated from the project’s issue management log. ID:A unique ID number used to identify the issue in the issue tracking log. Priority:This column should be populated with the priority of the issue. For example: Critical:  Issue will stop project progress if not resolved. High:  Issue will likely move the project back in terms of budget or timeline, or will materially affect quality or scope. Medium:  Issue will have material effect on project, has potential to be moved to high category and/or requires significant resources to manage. Low:  Issue is expected to have a moderate effect on the project, but will require resources to address. Issue Description:This column should be populated with a description of the issue. Impact Summary:This column should be populated with a description of the impact of the issue.  The impact may be expressed in terms of one or more of the following:  schedule, scope, resources, and space.  The impact description should also include a reference to any milestones impacted. Action Steps:This column should be populated with the proposed steps to address the issue.  Examples include, but are not limited to, developing alternatives analysis or submitting a change request.",
+      "char_count": 1377,
+      "token_estimate": 344
+    },
+    {
+      "section_heading": "Project Risk Summary",
+      "section_level": 1,
+      "section_path": "Project Risk Summary",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "This section should be populated with identified risks associated with the project. Risks may be internal or external to the project. This information may be populated from the project’s risk management log. ID:A unique ID number used to identify the risk in the risk tracking log. Risk Impact:This column should be populated with the potential impact of the risk if it did become a project issue.  Valid options include the following: High, Medium, Low. For example: High: Risk that has the potential to greatly impact project cost, project schedule or performance. Medium: Risk that has the potential to slightly impact project cost, project schedule or performance. Low: Risk that has relatively little impact on cost, schedule or performance. Probability of Occurrence:This column should be populated with the estimated probability that the risk will at some point become a project issue. Risk Description:This column should be populated with a description of the risk. Impact Summary:This column should be populated with a description of the potential project impact as a result of the risk. Response Strategy:This column should be populated an appropriate response strategy to prevent the risk from becoming an issue.",
+      "char_count": 1223,
+      "token_estimate": 306
+    },
+    {
+      "section_heading": "eXECUTIVE ASSISTANCE rEQUEST",
+      "section_level": 1,
+      "section_path": "eXECUTIVE ASSISTANCE rEQUEST",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "ID:A unique ID number used to identify the request in the request tracking log. Request Description:This column should be populated with a description of the request. Action Requested:This column should be populated with a description of the action requested by the executive.",
+      "char_count": 276,
+      "token_estimate": 69
+    },
+    {
+      "section_heading": "Project Notes",
+      "section_level": 1,
+      "section_path": "Project Notes",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "This is a free text section that should be used to provide general information relevant to the report or toadd greater description to a status element.",
+      "char_count": 151,
+      "token_estimate": 38
+    }
+  ]
+}

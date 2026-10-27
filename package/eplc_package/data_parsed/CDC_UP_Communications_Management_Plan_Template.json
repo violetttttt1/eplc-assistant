@@ -1,0 +1,148 @@
+{
+  "template_file": "CDC_UP_Communications_Management_Plan_Template.docx",
+  "template_name": "CDC_UP_Communications_Management_Plan_Template",
+  "doc_type": "narrative",
+  "num_sections": 9,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theCommunications Management Plan Templateup to the final point of approval was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "COMMUNICATIONS MANAGEMENT PLAN Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 UP Template Version:11/30/06 [This document is a template of aCommunications Management Plandocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1<w:t>Purpose of Communications Management Plan<w:t>5 2stakeholder identification and analysis<w:t>5 3communications Vehicles<w:t>5 3.1<w:t>Communications Matrix<w:t>5 3.1.1<w:t>Project Meetings<w:t>5 3.1.2<w:t>Project Reporting<w:t>6 3.1.3<w:t>Other Communication Vehicles<w:t>6 APPENDIX A: REFERENCES<w:t>8 APPENDIX B: KEY TERMS<w:t>9",
+      "char_count": 3394,
+      "token_estimate": 848
+    },
+    {
+      "section_heading": "introduction",
+      "section_level": 1,
+      "section_path": "introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of Communications Management Plan",
+      "section_level": 2,
+      "section_path": "introduction > Purpose of Communications Management Plan",
+      "instruction": "[Provide the purpose of the communication management plan.]",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "The overall objective of a Communications Management Plan is to promote the success of a project by meeting the information needs of project stakeholders. TheCommunications Management Plan (CMP)defines the project’s structure and methods of information collection, screening, formatting, and distribution and outline understanding among project teams regarding the actions and processes necessary to facilitate the critical links among people, ideas, and information that are necessary for project success. The intended audience of theCMP isthe project manager, project team, project sponsor and any senior leaders whose support is needed to carry out communication plans.",
+      "char_count": 732,
+      "token_estimate": 183
+    },
+    {
+      "section_heading": "stakeholder identification and analysis",
+      "section_level": 1,
+      "section_path": "stakeholder identification and analysis",
+      "instruction": "[Insert the stakeholder analysis or provide a reference to where it is stored.]",
+      "fields": [
+        "<000-000-0000joe@joe.com>",
+        "<Joe Smith>",
+        "<Manager>",
+        "<Status Reports and Internal Project Status Meeting>",
+        "<comments>"
+      ],
+      "boilerplate": "Name Title Contact Communication Vehicle Comments",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "communications Vehicles",
+      "section_level": 1,
+      "section_path": "communications Vehicles",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Communications Matrix",
+      "section_level": 2,
+      "section_path": "communications Vehicles > Communications Matrix",
+      "instruction": "[Insert the communication matrix or provide a reference to where it is stored.]",
+      "fields": [
+        "<All Stakeholders>",
+        "<Email>",
+        "<Internal>",
+        "<Joe Smith>",
+        "<Status Report>",
+        "<Weekly>",
+        "<comments>"
+      ],
+      "boilerplate": "Vehicle Target DescriptionPurpose Frequency Owner DistributionVehicle Internal/External Comments",
+      "char_count": 176,
+      "token_estimate": 44
+    },
+    {
+      "section_heading": "Project Meetings",
+      "section_level": 3,
+      "section_path": "communications Vehicles > Communications Matrix > Project Meetings",
+      "instruction": "[Insert the project meeting schedule or provide a reference to where it is stored.]",
+      "fields": [
+        "<Communication of project progress and deliverable status>",
+        "<Internal>",
+        "<Joe Smith office>",
+        "<Status Meeting>",
+        "<Weekly>",
+        "<comments>"
+      ],
+      "boilerplate": "Meeting DescriptionPurpose Frequency Owner Internal/External Comments/Participants",
+      "char_count": 166,
+      "token_estimate": 42
+    },
+    {
+      "section_heading": "Project Reporting",
+      "section_level": 3,
+      "section_path": "communications Vehicles > Communications Matrix > Project Reporting",
+      "instruction": "[Insert the project reporting schedule or provide a reference to where it is stored.]",
+      "fields": [
+        "<Communication of project progress and deliverable status>",
+        "<Internal>",
+        "<Joe Smith>",
+        "<Status Report>",
+        "<Weekly>",
+        "<comments>"
+      ],
+      "boilerplate": "Meeting DescriptionPurpose Frequency Owner Internal/External Comments/Distribution List",
+      "char_count": 173,
+      "token_estimate": 43
+    },
+    {
+      "section_heading": "Other Communication Vehicles",
+      "section_level": 3,
+      "section_path": "communications Vehicles > Communications Matrix > Other Communication Vehicles",
+      "instruction": "[Insert the project reporting schedule or provide a reference to where it is stored.] [List the individuals whose signatures are desired.  Examples of such individuals are Business Steward, Project Manager or Project Sponsor.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Communication of project progress and deliverable status>",
+        "<Document Name and Version Number>",
+        "<Internal>",
+        "<Joe Smith>",
+        "<Project Name>",
+        "<Status Report>",
+        "<URL or Network path where document is located>",
+        "<Weekly>",
+        "<comments>"
+      ],
+      "boilerplate": "Vehicle DescriptionPurpose Frequency Owner Internal/External Comments/Distribution List Communications Management Plan approval The undersigned acknowledge they have reviewed theCommunications Management Plan and agree with the approach it presents.  Changes to this Communications Management Plan will be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: APPENDIX A: REFERENCES The following table summarizes the documents referenced in this document. Document Name and Version Description Location APPENDIX B: KEY TERMS The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1583,
+      "token_estimate": 396
+    }
+  ]
+}

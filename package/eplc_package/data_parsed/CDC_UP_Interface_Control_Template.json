@@ -1,0 +1,69 @@
+{
+  "template_file": "CDC_UP_Interface_Control_Template.docx",
+  "template_name": "CDC_UP_Interface_Control_Template",
+  "doc_type": "narrative",
+  "num_sections": 4,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theInterface Control Templatewas controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Interface Control Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 UP Template Version:06/30/08 [This document is a template of aInterface Controldocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (e.g.,, <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS Introduction<w:t>4 1.1<w:t>Purpose of Interface Control<w:t>4 Interface Controls<w:t>5 Appendix A: Interface Control Approval<w:t>6 APPENDIX B: REFERENCES<w:t>7 APPENDIX C: KEY TERMS<w:t>8",
+      "char_count": 3152,
+      "token_estimate": 788
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose ofInterface Control",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose ofInterface Control",
+      "instruction": "[Provide the purpose of theInterface Controldocument. For example:ThisInterface ControlDocument (ICD) documents and tracks the necessary information required to effectively define the<Project Name>system’s interface as well as any rules for communicating with them in order to give the development team guidance on architecture of the system to be developed. The purpose of this ICD is to clearly communicate all possible inputs and outputs from the system for all potential actions whether they are internal to the system or transparent to system users. ThisInterface Controlis created during the Planning and Design Phases of the project. Its intended audience is the project manager, project team, development team, and stakeholders interested in interfacing with the system. This ICD helps ensure compatibility between system segments and components.]",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "The intended audience of theInterface Controlis all project stakeholders includingthe project sponsor, senior leadership, and the project team.",
+      "char_count": 999,
+      "token_estimate": 250
+    },
+    {
+      "section_heading": "Interface Controls",
+      "section_level": 1,
+      "section_path": "Interface Controls",
+      "instruction": "[Include a detailed description of the required interface controls.] [List the individuals whose signatures are desired.  Examples of such individuals are Business Steward, Implementation Manager or Project Sponsor.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or Network path where document is located>",
+        "<enter description of interface>",
+        "<interface from>",
+        "<interface to>",
+        "<interface type>",
+        "<other supporting information>"
+      ],
+      "boilerplate": "Interface Type Interface From… Interface To… Description Other Information OSI Application Layer <interface type> <interface type> OSI Presentation Layer <interface type> <interface type> OSI Session Layer <interface type> <interface type> OSI Transport Layer <interface type> <interface type> OSI Network Layer <interface type> <interface type> OSI Data Layer <interface type> <interface type> OSI Physical Layer <interface type> <interface type> Appendix A:Interface ControlApproval The undersigned acknowledge they have reviewed theInterface Controland agree with the approach it presents. Changes to thisInterface Controlwill be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name and Version Description Location APPENDIX C: KEY TERMS The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1900,
+      "token_estimate": 475
+    }
+  ]
+}

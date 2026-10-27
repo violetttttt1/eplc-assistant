@@ -1,0 +1,161 @@
+{
+  "template_file": "CDC_UP_Functional_Requirements_Definition_Template.docx",
+  "template_name": "CDC_UP_Functional_Requirements_Definition_Template",
+  "doc_type": "narrative",
+  "num_sections": 14,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theFunctional Requirements Definition, up to the final point of approval,was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Functional Requirements DEFINITION Version VERSION HISTORY Version# Implemented By Revision Date Approved By Approval Date Reason 1.0 Initial Functional Requirements Definition draft [This document is a template of aFunctional Requirements Definitiondocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1Purpose of The Functional Requirements Definition<w:t>5 2Business Requirements Overview<w:t>5 2.1Assumptions / Constraints<w:t>5 3Functional Requirements<w:t>5 3.1Usability Requirements<w:t>5 3.2Performance Requirements<w:t>5 3.3Supportability Requirements<w:t>5 3.4Security Requirements<w:t>5 3.5Interface Requirements<w:t>5 3.6Assumptions / Constraints<w:t>6 4Compliance Requirements<w:t>6 4.1Assumptions / Constraints<w:t>6 Functional Requirements Definition Approval<w:t>7 Appendix A: References<w:t>8 Appendix B: Key Terms<w:t>9",
+      "char_count": 3616,
+      "token_estimate": 904
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of The Functional Requirements Definition",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of The Functional Requirements Definition",
+      "instruction": "[Provide the purpose of the Functional Requirements Definition Document. This document should be tailored to fit a particular project’s needs.]",
+      "fields": [],
+      "boilerplate": "The Functional Requirements Definition documents and tracks the necessary information required to effectively define business and functional requirements. The Functional Requirements Definition document is created during the Planning Phase of the project. Its intended audience isthe project manager, project team, project sponsor, client/user, and any stakeholder whose input/approval into the requirements definitions process is needed.",
+      "char_count": 582,
+      "token_estimate": 146
+    },
+    {
+      "section_heading": "Business Requirements Overview",
+      "section_level": 1,
+      "section_path": "Business Requirements Overview",
+      "instruction": "[Describe here the business requirements that the project work will fulfill and how and/or where the completed project product will fit into any existing systems. Assign a unique ID number to each requirement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 210,
+      "token_estimate": 52
+    },
+    {
+      "section_heading": "Assumptions / Constraints",
+      "section_level": 2,
+      "section_path": "Business Requirements Overview > Assumptions / Constraints",
+      "instruction": "[Describe any overall assumptions / constraints related to project requirements]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 80,
+      "token_estimate": 20
+    },
+    {
+      "section_heading": "Functional Requirements",
+      "section_level": 1,
+      "section_path": "Functional Requirements",
+      "instruction": "[Functional requirements capture and specify specific intended behavior of the system being developed. They define things such as system calculations, data manipulation and processing, user interface and interaction with the application, and other specific functionality that show how user requirements are satisfied. Assign a unique ID number to each requirement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 365,
+      "token_estimate": 91
+    },
+    {
+      "section_heading": "Usability Requirements",
+      "section_level": 2,
+      "section_path": "Functional Requirements > Usability Requirements",
+      "instruction": "[Describe all of the functional requirements that affect usability such as ease of learning, task efficiency, ease of remembering, understandability, attractiveness, etc. Assign a unique ID number to each requirement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 218,
+      "token_estimate": 54
+    },
+    {
+      "section_heading": "Performance Requirements",
+      "section_level": 2,
+      "section_path": "Functional Requirements > Performance Requirements",
+      "instruction": "[Describe all of the functional requirements that affect performance such as speed, safety, precision, reliability and availability, capacity, scalability, etc. Assign a unique ID number to each requirement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 208,
+      "token_estimate": 52
+    },
+    {
+      "section_heading": "Supportability Requirements",
+      "section_level": 2,
+      "section_path": "Functional Requirements > Supportability Requirements",
+      "instruction": "[Describe all of the functional requirements that affect supportability and maintainability such as training, ramp-up time, documentation, facilities, etc. Assign a unique ID number to each requirement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 203,
+      "token_estimate": 51
+    },
+    {
+      "section_heading": "Security Requirements",
+      "section_level": 2,
+      "section_path": "Functional Requirements > Security Requirements",
+      "instruction": "[Describe all of the functional requirements that affect security such as security audits, identification/authentication, privacy, facility access times, etc. Assign a unique ID number to each requirement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 206,
+      "token_estimate": 52
+    },
+    {
+      "section_heading": "Interface Requirements",
+      "section_level": 2,
+      "section_path": "Functional Requirements > Interface Requirements",
+      "instruction": "[Describe all of the functional requirements that affect interfaces such as user navigation, presentation of application and associated functionality, screen location of interface elements, data display and manipulation, etc. Assign a unique ID number to each requirement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 273,
+      "token_estimate": 68
+    },
+    {
+      "section_heading": "Assumptions / Constraints",
+      "section_level": 2,
+      "section_path": "Functional Requirements > Assumptions / Constraints",
+      "instruction": "[Describe any functional assumptions / constraints related to any of the project’s requirements]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Compliance Requirements",
+      "section_level": 1,
+      "section_path": "Compliance Requirements",
+      "instruction": "[Describe the existing compliance environment as it affects project requirements. Include an overview of the compliance requirements necessary to achieve the project’s objectives.Assign a unique ID number to each requirement.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 226,
+      "token_estimate": 56
+    },
+    {
+      "section_heading": "Assumptions / Constraints",
+      "section_level": 2,
+      "section_path": "Compliance Requirements > Assumptions / Constraints",
+      "instruction": "[Describe any compliance assumptions / constraints related to any of the project’s requirements] [List the individuals whose signatures are required.  Examples of such individuals are Project Sponsor, Business Steward, Technical Steward and Project Manager. Add additional signature lines as necessary.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "Functional Requirements Definition Approval The undersigned acknowledge they have reviewed theFunctional Requirements Definitionand agree with the approach it presents. Any changes to this Requirements Definition will be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Appendix A: References The following table summarizes the documents referenced in this document. Document Name and Version Description Location Appendix B: Key Terms The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1397,
+      "token_estimate": 349
+    }
+  ]
+}

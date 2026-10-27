@@ -1,0 +1,403 @@
+{
+  "template_file": "EPLC_Implementation_Plan_Template.docx",
+  "template_name": "EPLC_Implementation_Plan_Template",
+  "doc_type": "narrative",
+  "num_sections": 38,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of the Project Implementation Plan was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "IMPLEMENTATION PLAN Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 [This document is a template of aProject Implementation Plandocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project. These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template, the following steps are recommended: Replace all text enclosed in angle brackets (e.g., <Project Name>) with the correct field document values. These angle brackets appear in both the body of the document and in headers and footers. To customize fields in Microsoft Word (which display a gray background when selected) select File->Properties->Summary and fill in the appropriate fields within the Summary and Custom tabs. After clicking OK to close the dialog box, update all fields throughout the document selecting Edit>Select All (or Ctrl-A) and pressing F9. Or you can update each field individually by clicking on it and pressing F9. These actions must be done separately for any fields contained with the document’s Header and Footer. Modify boilerplate text as appropriate for the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained. Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3. Style used for boilerplate text is Body Text. To update the Table of Contents, right-click on it and select “Update field” and choose the option - “Update entire table”. Before submission of the first draft of this document, delete this instruction section “Notes to the Author” and all instructions to the author throughout the entire document. Table of Contents 1Introduction<w:t>6 1.1 Purpose<w:t>6 1.2 System Overview<w:t>6 1.2.1 System Description<w:t>6 1.2.2 Assumptions and Constraints<w:t>6 1.2.3 System Organization<w:t>6 1.3 Glossary<w:t>6 2 Management Overview<w:t>6 2.1 Description of Implementation<w:t>6 2.2 Points-of-Contact<w:t>7 2.3 Major Tasks<w:t>7 2.4 Implementation Schedule<w:t>8 2.5 Security and Privacy<w:t>8 2.5.1 System Security Features<w:t>8 2.5.2 Security Set Up During Implementation<w:t>9 3 Implementation Support<w:t>9 3.1 Hardware, Software, Facilities, and Materials<w:t>9 3.1.1 Hardware<w:t>9 3.1.2 Software<w:t>9 3.1.3 Facilities<w:t>10 3.1.4 Materials<w:t>10 3.2 Documentation<w:t>10 3.3 Personnel<w:t>10 3.3.1 Staffing Requirements<w:t>10 3.3.2 Training of Implementation Staff<w:t>11 3.4 Outstanding Issues<w:t>11 3.5 Implementation Impact<w:t>11 3.6 Performance Monitoring<w:t>12 3.7 Configuration Management Interface<w:t>12 4 Implementation Requirements By Site<w:t>12 4.1 Site Name or Identification for Site X<w:t>12 4.1.1 Site Requirements<w:t>12 4.1.2 Site Implementation Details<w:t>13 4.1.3 Risks and Contingencies<w:t>14 4.1.4 Implementation Verification and Validation<w:t>14 4.2 Acceptance Criteria<w:t>14 APPENDIX A: Project Implementation Plan Approval<w:t>15 APPENDIX B: REFERENCES<w:t>16 APPENDIX C: KEY TERMS<w:t>17 APPENDIX D: System Hardware Inventory<w:t>18 APPENDIX E:  System Software Inventory<w:t>19",
+      "char_count": 4145,
+      "token_estimate": 1036
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "1.1 Purpose",
+      "section_level": 2,
+      "section_path": "Introduction > 1.1 Purpose",
+      "instruction": "[This subsection of the Project Implementation Plan describes the purpose of the plan and identifies the system to be implemented.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 131,
+      "token_estimate": 33
+    },
+    {
+      "section_heading": "1.2 System Overview",
+      "section_level": 2,
+      "section_path": "Introduction > 1.2 System Overview",
+      "instruction": "[This subsection of the Project Implementation Plan provides a description of the system to be implemented and its organization.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 129,
+      "token_estimate": 32
+    },
+    {
+      "section_heading": "1.2.1 System Description",
+      "section_level": 3,
+      "section_path": "Introduction > 1.2 System Overview > 1.2.1 System Description",
+      "instruction": "[This subsection of the Project Implementation Plan provides an overview of the processes the system is intended to support. If the system is a database, provide a description of the type of data maintained, sources and uses of that data. Include any identification numbers, titles, abbreviations, version numbers and release numbers to describe the system. ]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 359,
+      "token_estimate": 90
+    },
+    {
+      "section_heading": "1.2.2 Assumptions and Constraints",
+      "section_level": 3,
+      "section_path": "Introduction > 1.2 System Overview > 1.2.2 Assumptions and Constraints",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "1.2.3 System Organization",
+      "section_level": 3,
+      "section_path": "Introduction > 1.2 System Overview > 1.2.3 System Organization",
+      "instruction": "[This subsection of the Project Implementation Plan provides a description of the system structure and the major system components essential to its implementation. It should describe both hardware and software, as appropriate. Charts, diagrams, and graphics may be included as necessary to provide a clear picture of the system.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 329,
+      "token_estimate": 82
+    },
+    {
+      "section_heading": "1.3 Glossary",
+      "section_level": 2,
+      "section_path": "Introduction > 1.3 Glossary",
+      "instruction": "[This subsection of the Project Implementation Plan lists all terms and abbreviations used in this plan. If it is several pages in length, it may be placed in an appendix.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 172,
+      "token_estimate": 43
+    },
+    {
+      "section_heading": "2 Management Overview",
+      "section_level": 1,
+      "section_path": "2 Management Overview",
+      "instruction": "[This section of the Project Implementation Plan provides a description of how the implementation will be managed and identifies the major tasks involved.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 155,
+      "token_estimate": 39
+    },
+    {
+      "section_heading": "2.1 Description of Implementation",
+      "section_level": 2,
+      "section_path": "2 Management Overview > 2.1 Description of Implementation",
+      "instruction": "[This subsection of the Project Implementation Plan provides a description of the planned deployment, installation, and implementation approach. Include whether the system will be implemented using a phased approach or an “instant-on” approach. ]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 246,
+      "token_estimate": 62
+    },
+    {
+      "section_heading": "2.2 Points-of-Contact",
+      "section_level": 2,
+      "section_path": "2 Management Overview > 2.2 Points-of-Contact",
+      "instruction": "[This subsection of the Project Implementation Plan identifies the System Proponent, the name of the responsible organization(s), titles, and telephone numbers of the staff who serve as points of contact for the system implementation. These points-of-contact should include the Business Sponsor, Program Manager, Project Manager, Quality Assurance Manager, Configuration Management Manager, Security Officer, Database Administrator, or other managers and representatives with responsibilities relating to the system implementation. The site implementation representative for each field installation or implementation site should also be included, if appropriate.]",
+      "fields": [],
+      "boilerplate": "Add additional lines as needed to the table.  If the applicable team members are listed in the Project Management Plan, reference the appropriate section within that document.]",
+      "char_count": 840,
+      "token_estimate": 210
+    },
+    {
+      "section_heading": "Role",
+      "section_level": 7,
+      "section_path": "2 Management Overview > 2.2 Points-of-Contact > Role",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Name Contact Number Business Sponsor Project/Program Manager Government Project Officer System Developer or System Maintainer Quality Assurance Manager Configuration Management Manager Security Officer Database Administrator Site Implementation Representative IV&V Representative Table 2.2 – Points-of-Contact",
+      "char_count": 309,
+      "token_estimate": 77
+    },
+    {
+      "section_heading": "2.3 Major Tasks",
+      "section_level": 2,
+      "section_path": "2 Management Overview > 2.3 Major Tasks",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "[This subsection of the Project Implementation Plan provides descriptions of the major system implementation tasks. Add as many subsections as necessary to this subsection to describe all the major tasks. The tasks described in this subsection are not site-specific, but generic or overall project tasks that are required to install hardware, software, and databases, prepare data, and validate the system If several implementation approaches are being reviewed, then identify the advantages, disadvantages, risks, issues, estimated time frames, and estimated resource requirements for each option considered. These options could include: Consider addressing the changes that may be necessary once the system has been implemented. These changes may include, but are not limited to, personnel and technology equipment alignment, and contractor support.]",
+      "char_count": 852,
+      "token_estimate": 213
+    },
+    {
+      "section_heading": "2.4 Implementation Schedule",
+      "section_level": 2,
+      "section_path": "2 Management Overview > 2.4 Implementation Schedule",
+      "instruction": "[This subsection of the Project Implementation Plan provides a schedule of activities to be accomplished. Show the required tasks (described in Subsection 2.3, Major Tasks) in chronological order, with the beginning and end dates of each task. If MS Project is used to plan the implementation, include the project Gantt chart. Include any milestones from the projects that are dependent on this project and vice-versa.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 419,
+      "token_estimate": 105
+    },
+    {
+      "section_heading": "2.5 Security and Privacy",
+      "section_level": 2,
+      "section_path": "2 Management Overview > 2.5 Security and Privacy",
+      "instruction": "[This subsection of the Project Implementation Plan includes an overview of the system security and requirements that must be followed during implementation. If the system contains personal data, describe how Privacy Act concerns will be addressed.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 249,
+      "token_estimate": 62
+    },
+    {
+      "section_heading": "2.5.1 System Security Features",
+      "section_level": 3,
+      "section_path": "2 Management Overview > 2.5 Security and Privacy > 2.5.1 System Security Features",
+      "instruction": "[This subsection of the Project Implementation Plan provides an overview and discussion of the security features that must be addressed when it is implemented. It should include the determination of system sensitivity and the actions necessary to ensure that the system meets all the criteria appropriate to its Certification level. Reference the applicable security guidance documents.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 387,
+      "token_estimate": 97
+    },
+    {
+      "section_heading": "2.5.2 Security Set Up During Implementation",
+      "section_level": 3,
+      "section_path": "2 Management Overview > 2.5 Security and Privacy > 2.5.2 Security Set Up During Implementation",
+      "instruction": "[This subsection of the Project Implementation Plan addresses security issues specifically related to the implementation effort, if any. For example, if LAN servers or workstations will be installed at a site with sensitive data preloaded on non-removable hard disk drives, address how security would be provided for the data on these devices during shipping, transport, and installation because theft of the devices could compromise the sensitive data.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 454,
+      "token_estimate": 114
+    },
+    {
+      "section_heading": "3 Implementation Support",
+      "section_level": 1,
+      "section_path": "3 Implementation Support",
+      "instruction": "[This section of the Project Implementation Plan describes the support hardware, software, facilities, and materials required for the implementation, as well as the documentation, necessary personnel and training requirements, outstanding issues and implementation impacts to the current environment. The information provided in this section is not site-specific. If there are additional support requirements not covered by the subsequent sections, others may be added as needed.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 480,
+      "token_estimate": 120
+    },
+    {
+      "section_heading": "3.1 Hardware, Software, Facilities, and Materials",
+      "section_level": 2,
+      "section_path": "3 Implementation Support > 3.1 Hardware, Software, Facilities, and Materials",
+      "instruction": "[This subsection of the Project Implementation Plan lists all support hardware, software, facilities, and materials required for the implementation.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 149,
+      "token_estimate": 37
+    },
+    {
+      "section_heading": "3.1.1 Hardware",
+      "section_level": 3,
+      "section_path": "3 Implementation Support > 3.1 Hardware, Software, Facilities, and Materials > 3.1.1 Hardware",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "[This subsection of the Project Implementation Plan provides a list of support equipment and includes all hardware used for installing and testing. This hardware may include computers, servers, peripheral equipment, simulators, emulators, diagnostic equipment, other non-computer equipment as well as any network and data communication requirements. The description should include the specific models, versions, configuration settings, and the equipment owner. Also include information about manufacturer support, licensing, and usage and ownership rights, and maintenance agreement details. If this information is recorded in another document or system, such as the Configuration Management Plan or tool, identify that item here. Otherwise, refer to the Hardware Inventory table in Appendix D.",
+      "char_count": 794,
+      "token_estimate": 198
+    },
+    {
+      "section_heading": "3.1.2 Software",
+      "section_level": 3,
+      "section_path": "3 Implementation Support > 3.1 Hardware, Software, Facilities, and Materials > 3.1.2 Software",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "3.1.3 Facilities",
+      "section_level": 3,
+      "section_path": "3 Implementation Support > 3.1 Hardware, Software, Facilities, and Materials > 3.1.3 Facilities",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "3.1.4 Materials",
+      "section_level": 3,
+      "section_path": "3 Implementation Support > 3.1 Hardware, Software, Facilities, and Materials > 3.1.4 Materials",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "3.2 Documentation",
+      "section_level": 2,
+      "section_path": "3 Implementation Support > 3.2 Documentation",
+      "instruction": "[This subsection of the Project Implementation Plan lists any additional documentation needed to support the deliverable system.  Include any security or privacy protection considerations associated with the systems use. If created, make reference to the Software User Documentation Guide for user documentation.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 313,
+      "token_estimate": 78
+    },
+    {
+      "section_heading": "3.3 Personnel",
+      "section_level": 2,
+      "section_path": "3 Implementation Support > 3.3 Personnel",
+      "instruction": "[This subsection of the Project Implementation Plan describes committed and proposed staffing requirements. Describe the training, if any, to be provided for the implementation staff.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 184,
+      "token_estimate": 46
+    },
+    {
+      "section_heading": "3.3.1 Staffing Requirements",
+      "section_level": 3,
+      "section_path": "3 Implementation Support > 3.3 Personnel > 3.3.1 Staffing Requirements",
+      "instruction": "[This subsection of the Project Implementation Plan describes the number of personnel, length of time needed, types of skills, skill levels, expertise, and any necessary security clearances for the staff required during the implementation period. If particular staff members have been selected or proposed for the implementation, identify their roles and responsibilities.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 373,
+      "token_estimate": 93
+    },
+    {
+      "section_heading": "3.3.2 Training of Implementation Staff",
+      "section_level": 3,
+      "section_path": "3 Implementation Support > 3.3 Personnel > 3.3.2 Training of Implementation Staff",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "3.4 Outstanding Issues",
+      "section_level": 2,
+      "section_path": "3 Implementation Support > 3.4 Outstanding Issues",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "[This subsection of the Project Implementation Plan states any known issues or problems relevant to implementation planning. This section answers the question, “Are there any specific issues, restrictions, or limitations that must be considered as a part of the deployment?”",
+      "char_count": 274,
+      "token_estimate": 68
+    },
+    {
+      "section_heading": "3.5Implementation Impact",
+      "section_level": 2,
+      "section_path": "3 Implementation Support > 3.5Implementation Impact",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "3.6 Performance Monitoring",
+      "section_level": 2,
+      "section_path": "3 Implementation Support > 3.6 Performance Monitoring",
+      "instruction": "[This subsection of the Project Implementation Plan describes the performance monitoring tool, techniques and how it will be used to help determine if the implementation is successful.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 185,
+      "token_estimate": 46
+    },
+    {
+      "section_heading": "3.7 Configuration Management Interface",
+      "section_level": 2,
+      "section_path": "3 Implementation Support > 3.7 Configuration Management Interface",
+      "instruction": "[This subsection of the Project Implementation Plan describes Configuration Management, such as when versions will be distributed. Reference the Configuration Management Plan.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 176,
+      "token_estimate": 44
+    },
+    {
+      "section_heading": "4 Implementation Requirements by Site",
+      "section_level": 1,
+      "section_path": "4 Implementation Requirements by Site",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "The \"X\" in the subsection number should be replaced with a sequenced number beginning with 1. Each subsection with the same value of \"X\" is associated with the same implementation site. If a complete set of subsections will be associated with each implementation site, then \"X\" is assigned a new value for each site.]",
+      "char_count": 317,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "4.1 Site Name or Identification for Site X",
+      "section_level": 2,
+      "section_path": "4 Implementation Requirements by Site > 4.1 Site Name or Identification for Site X",
+      "instruction": "[This subsection of the Project Implementation Plan identifies the site by name, location and ownership.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 105,
+      "token_estimate": 26
+    },
+    {
+      "section_heading": "4.1.1 Site Requirements",
+      "section_level": 3,
+      "section_path": "4 Implementation Requirements by Site > 4.1 Site Name or Identification for Site X > 4.1.1 Site Requirements",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "4.1.2 Site Implementation Details",
+      "section_level": 3,
+      "section_path": "4 Implementation Requirements by Site > 4.1 Site Name or Identification for Site X > 4.1.2 Site Implementation Details",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "4.1.3 Risks and Contingencies",
+      "section_level": 3,
+      "section_path": "4 Implementation Requirements by Site > 4.1 Site Name or Identification for Site X > 4.1.3 Risks and Contingencies",
+      "instruction": "[This subsection of the Project Implementation Plan identifies the risks and specific actions to be taken in the event the implementation fails or needs to be altered at any point and includes the factors to be used for making the decision. Refer to the Project’s Contingency Plan, Risk Management Plan and the Risk Management Process for additional guidance. ]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 361,
+      "token_estimate": 90
+    },
+    {
+      "section_heading": "4.1.4 Implementation Verification and Validation",
+      "section_level": 3,
+      "section_path": "4 Implementation Requirements by Site > 4.1 Site Name or Identification for Site X > 4.1.4 Implementation Verification and Validation",
+      "instruction": "[This subsection of the Project Implementation Plan describes the process for ensuring that the implementation was not poorly executed. It describes how any noted discrepancies will be rectified. It also references the system Contingency Plan, if, as a result of the discrepancies, a no-go decision is made to implement the system. ]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 333,
+      "token_estimate": 83
+    },
+    {
+      "section_heading": "4.2 Acceptance Criteria",
+      "section_level": 2,
+      "section_path": "4 Implementation Requirements by Site > 4.2 Acceptance Criteria",
+      "instruction": "[This subsection of the Project Implementation Plan establishes theexit or acceptance criteriafor transitioning the system into production. Identify the criteria that will be used to determine the acceptability of the deliverables as well as any required technical processes, methods, tools, and/ or performance benchmarks required for product acceptance. ] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Insert Term]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Document description>",
+        "<Project Name>",
+        "<URL or location where document is located>"
+      ],
+      "boilerplate": "APPENDIX A:Project Implementation PlanApproval The undersigned acknowledge that they have reviewed theImplementation Planand agree with the information presented within this document. Changes to thisProject Implementation Planwill be coordinated with, and approved by, the undersigned, or their designated representatives. Signature: Date: Print Name: Title: Role: Project Manager APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name Description Location APPENDIX C: KEY TERMS The following table provides definitions and explanations for terms and acronyms relevant to the content presented within this document. Term Definition APPENDIX D: System Hardware Inventory Name/ ID Type Model/ Version Physical Location Equipment Owner (Person or Dept) Maintenance Contract?  Y/N Maintenance Contact Point Maintenance Type/ Level of Coverage Maintenance Period Expiration Date Required Licenses APPENDIX E:  System Software Inventory Name/ ID Type Model/ Version Physical Location Equipment Owner (Person or Dept) Maintenance Contract?  Y/N Maintenance Contact Point Maintenance Type/ Level of Coverage Maintenance Period Expiration Date Required Licenses",
+      "char_count": 1733,
+      "token_estimate": 433
+    }
+  ]
+}

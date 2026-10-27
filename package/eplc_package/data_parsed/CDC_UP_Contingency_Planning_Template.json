@@ -1,0 +1,210 @@
+{
+  "template_file": "CDC_UP_Contingency_Planning_Template.docx",
+  "template_name": "CDC_UP_Contingency_Planning_Template",
+  "doc_type": "narrative",
+  "num_sections": 18,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theContingency Planwas controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Contingency Plan Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 UP Template Version:06/30/08 [This document is a template of aContingency Plandocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (e.g.,, <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1<w:t>Purpose<w:t>5 1.2<w:t>Applicability<w:t>5 1.3<w:t>Scope<w:t>5 1.3.1<w:t>Planning Principles<w:t>5 1.3.2<w:t>Assumptions<w:t>5 1.3.3<w:t>Constraints<w:t>6 1.4<w:t>Reference Requirements<w:t>6 2Concept of Operations<w:t>6 2.1<w:t>System Description and Architecture<w:t>6 2.2<w:t>Line of Succession<w:t>6 2.3<w:t>Responsibilities<w:t>7 3Notification and Activation<w:t>7 4Recovery Operations<w:t>7 5Return to Normal Operations<w:t>7 5.1<w:t>Concurrent Processing<w:t>7 5.2<w:t>Plan Deactivation<w:t>8 Appendix A: Contingency Plan Approval<w:t>9 APPENDIX B: REFERENCES<w:t>10 APPENDIX C: KEY TERMS<w:t>11 APPENDIX D: PERSONNEL CONTACT LIST<w:t>12 APPENDIX E: VENDOR CONTACT LIST<w:t>12 APPENDIX F: EQUIPMENT AND SPECIFICATIONS<w:t>12 APPENDIX G: SERVICE LEVEL AGREEMENT<w:t>12 APPENDIX H: MEMORANDUM OF UNDERSTANDING<w:t>12 APPENDIX I: STANDARD OPERATING PROCEDURES<w:t>12 APPENDIX J: BUSINESS IMPACT ANALYSIS<w:t>12 APPENDIX K: RELATED CONTINGENCY PLANS<w:t>12 APPENDIX L: OCCUPANT EVACUATION PLAN<w:t>12 APPENDIX M: CONTINUITY OF OPERATION PLAN<w:t>12",
+      "char_count": 4030,
+      "token_estimate": 1008
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose",
+      "instruction": "[Enter additional objectives as needed]",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "ThisContingency Plan establishes procedures to recover thefollowing a disruption. The following objectives have been established for this plan: Maximize the effectiveness of contingency operations through an established plan that consists of the following phases: Notification/Activationto detect and assess damage and to activate the plan Recoveryto restore temporary operations and recover from damage Reconstitutionof systems and normal operations Identify the critical activities, resources, and procedures needed to carry out operations during prolonged interruptions to normal operations Assign responsibilities to designated personnel Provide guidance for recovering operations during prolonged periods of interruption to normal operations Ensure coordination contingency planning stakeholders and staff The intended audience of theContingency Planisthe project manager, project team, project sponsor, procurement officer/office, and any senior leaders whose support is needed to carry out acquisition plans.",
+      "char_count": 1055,
+      "token_estimate": 264
+    },
+    {
+      "section_heading": "Applicability",
+      "section_level": 2,
+      "section_path": "Introduction > Applicability",
+      "instruction": "[enter reference to additional supporting contingency/disaster recovery plans]",
+      "fields": [
+        "<Project Name>",
+        "<enter location>",
+        "<organization’s name>"
+      ],
+      "boilerplate": "TheContingency Planapplies to the functions, operations, and resources necessary to restore and resume normaloperations at. TheContingency Planapplies toand all other persons associated withas identified in this document. TheContingency Planis supported by",
+      "char_count": 335,
+      "token_estimate": 84
+    },
+    {
+      "section_heading": "Scope",
+      "section_level": 2,
+      "section_path": "Introduction > Scope",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Planning Principles",
+      "section_level": 3,
+      "section_path": "Introduction > Scope > Planning Principles",
+      "instruction": "[Enter various assumptions/variables taken into account when developing this plan, or that the successful execution of this plan is dependent upon]",
+      "fields": [],
+      "boilerplate": "Various scenarios were considered to form a basis for the plan, and multiple assumptions were made. The applicability of the plan is predicated on:",
+      "char_count": 295,
+      "token_estimate": 74
+    },
+    {
+      "section_heading": "Assumptions",
+      "section_level": 3,
+      "section_path": "Introduction > Scope > Assumptions",
+      "instruction": "[Insert description of the first assumption.] [Insert description of the second assumption.]",
+      "fields": [],
+      "boilerplate": "This section identifies the statements believed to be true and from which a conclusion was drawn to define this plan.",
+      "char_count": 210,
+      "token_estimate": 52
+    },
+    {
+      "section_heading": "Constraints",
+      "section_level": 3,
+      "section_path": "Introduction > Scope > Constraints",
+      "instruction": "[Insert description of the first constraint.] [Insert description of the second constraint.]",
+      "fields": [],
+      "boilerplate": "This section identifies any limitation that must be taken into consideration regarding the content of this plan.",
+      "char_count": 205,
+      "token_estimate": 51
+    },
+    {
+      "section_heading": "Reference Requirements",
+      "section_level": 2,
+      "section_path": "Introduction > Reference Requirements",
+      "instruction": "[Enter statement that references how the content of this plan complies with related organizational policies and standards]",
+      "fields": [
+        "<organization name>"
+      ],
+      "boilerplate": "This plan complies with the’s IT contingency planning policy as follows: This plan also complies with the following federal and departmental policies:",
+      "char_count": 273,
+      "token_estimate": 68
+    },
+    {
+      "section_heading": "Concept of Operations",
+      "section_level": 1,
+      "section_path": "Concept of Operations",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "System Description and Architecture",
+      "section_level": 2,
+      "section_path": "Concept of Operations > System Description and Architecture",
+      "instruction": "[Provide a general description of system architecture and functionality. Indicate the operating environment, physical location, general location of users, and partnerships with external organizations/systems. Include information regarding any other technical considerations that are important for recovery purposes, such as backup procedures. Provide a diagram of the architecture, including security controls and telecommunications connections.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 446,
+      "token_estimate": 112
+    },
+    {
+      "section_heading": "Line of Succession",
+      "section_level": 2,
+      "section_path": "Concept of Operations > Line of Succession",
+      "instruction": "[Enter the name and full contact information, within the order of succession, of the individuals responsible for executing decisions regarding the content outlined within this plan, in the event of a disruption/disaster. For example, the Chief Information Officer (CIO) might be the primary individual responsible for decision making but if inaccessible, the Deputy CIO might be identified as the individual responsible for making decisions. Continue description of succession as applicable.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 492,
+      "token_estimate": 123
+    },
+    {
+      "section_heading": "Responsibilities",
+      "section_level": 2,
+      "section_path": "Concept of Operations > Responsibilities",
+      "instruction": "[List the individuals, teams, departments, etc trained and responsible for responding, in accordance to the procedures outlined within this plan, in the event of a disruption/disaster. Describe each individual’s and team’s responsibilities, leadership, and coordination with others during recovery operations.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 310,
+      "token_estimate": 78
+    },
+    {
+      "section_heading": "Notification and Activation",
+      "section_level": 1,
+      "section_path": "Notification and Activation",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "[Address the initial actions taken to detect and assess damage inflicted by a disruption. Describe items such as: Notification options and response procedures to each option. Assessment procedures and associated responsibilities Alternate assessment procedures Contingency/disaster recovery plans Criteria that must be met for plans to be activated]",
+      "char_count": 349,
+      "token_estimate": 87
+    },
+    {
+      "section_heading": "Recovery Operations",
+      "section_level": 1,
+      "section_path": "Recovery Operations",
+      "instruction": "[List the procedures for all recovery options available for the restoration of normal operations and the procedures for executing each option.] [Enter name] [Enter contact information] [Enter responsibility] [Enter other relevant information] [Enter name] [Enter contact information] [Enter responsibility] [Enter other relevant information] [Enter name] [Enter contact information] [Enter responsibility] [Enter other relevant information]",
+      "fields": [],
+      "boilerplate": "Recovery Goal 1: Name: Contact Information: Responsibility: Other: Recovery Goal 2: Name: Contact Information: Responsibility: Other: Recovery Goal 3: Name: Contact Information: Responsibility: Other:",
+      "char_count": 641,
+      "token_estimate": 160
+    },
+    {
+      "section_heading": "Return to Normal Operations",
+      "section_level": 1,
+      "section_path": "Return to Normal Operations",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Concurrent Processing",
+      "section_level": 2,
+      "section_path": "Return to Normal Operations > Concurrent Processing",
+      "instruction": "[Procedures should be outlined, per necessary team, to operate the system in coordination with the system at the original or new site. These procedures should include testing the original or new system until it is functioning properly and the contingency system is shut down gracefully.] [Enter name] [Enter contact information] [Enter responsibility] [Enter other relevant information] [Enter name] [Enter contact information] [Enter responsibility] [Enter other relevant information] [Enter name] [Enter contact information] [Enter responsibility] [Enter other relevant information]",
+      "fields": [],
+      "boilerplate": "Resumption Procedure 1: Name: Contact Information: Responsibility: Other: Resumption Procedure 2: Name: Contact Information: Responsibility: Other: Resumption Procedure 3: Name: Contact Information: Responsibility: Other:",
+      "char_count": 806,
+      "token_estimate": 202
+    },
+    {
+      "section_heading": "Plan Deactivation",
+      "section_level": 2,
+      "section_path": "Return to Normal Operations > Plan Deactivation",
+      "instruction": "[Procedures should be outlined, per necessary team, to clean the alternate site of any equipment or other materials belonging to the organization, with a focus on handling sensitive information. Materials, equipment, and backup media should be properly packaged, labeled, and shipped to the appropriate location(s). Team members should be instructed to return to the original or new site.] [Enter name] [Enter contact information] [Enter responsibility] [Enter other relevant information] [Enter name] [Enter contact information] [Enter responsibility] [Enter other relevant information] [Enter name] [Enter contact information] [Enter responsibility] [Enter other relevant information] [List the individuals whose signatures are desired.  Examples of such individuals are Business Steward, Implementation Manager or Project Sponsor.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "Deactivation Procedure 1: Name: Contact Information: Responsibility: Other: Deactivation Procedure 2: Name: Contact Information: Responsibility: Other: Deactivation Procedure 3: Name: Contact Information: Responsibility: Other: Appendix A:Contingency PlanApproval The undersigned acknowledge they have reviewed theContingency Planand agree with the approach it presents. Changes to thisContingency Planwill be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name and Version Description Location APPENDIX C: KEY TERMS The following table provides definitions for terms relevant to this document. Term Definition APPENDIX D: PERSONNEL CONTACT LIST APPENDIX E: VENDOR CONTACT LIST APPENDIX F: EQUIPMENT AND SPECIFICATIONS APPENDIX G: SERVICE LEVEL AGREEMENT APPENDIX H: MEMORANDUM OF UNDERSTANDING APPENDIX I: STANDARD OPERATING PROCEDURES APPENDIX J: BUSINESS IMPACT ANALYSIS APPENDIX K: RELATED CONTINGENCY PLANS APPENDIX L: OCCUPANT EVACUATION PLAN APPENDIX M: CONTINUITY OF OPERATION PLAN",
+      "char_count": 2674,
+      "token_estimate": 668
+    }
+  ]
+}

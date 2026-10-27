@@ -1,0 +1,247 @@
+{
+  "template_file": "EPLC_Data_Conversion_Plan_Template.docx",
+  "template_name": "EPLC_Data_Conversion_Plan_Template",
+  "doc_type": "narrative",
+  "num_sections": 21,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of the Data Conversion Plan up to the final point of approval was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason forcreating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "DATA CONVERSION PLAN Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 [This document is a template of a Data Conversion Plan document for a project. Data conversion is an extremely dynamic process. This document can not be detailed enough to address all the potential variables one must consider when performing a data conversion; therefore the final determination of items addressed by this plan are left to the discretion of the project manager and the integrated project team. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1Purpose of Data Conversion Plan<w:t>5 1.2Data Conversion Objectives<w:t>5 1.3Assumptions<w:t>5 1.4Constraints<w:t>6 1.5Risks<w:t>6 2DATA CONVERSION STRATEGY<w:t>6 2.1Conversion Scope<w:t>6 2.2Conversion Approach<w:t>6 2.3Roles and Responsibilities<w:t>7 2.4Conversion Schedule<w:t>7 2.5Data Quality Assurance and Control<w:t>9 3DATA CONVERSION PREPARATION<w:t>9 3.1Prerequisites<w:t>9 3.2Backup Strategy<w:t>9 3.3Restore Process<w:t>9 4DATA CONVERSION SPECIFICATIONS<w:t>10 Appendix A:  DATA CONVERSION PLAN approval<w:t>12 APPENDIX B: REFERENCES<w:t>13 APPENDIX C: KEY TERMS<w:t>14",
+      "char_count": 3907,
+      "token_estimate": 977
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of Data Conversion Plan",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of Data Conversion Plan",
+      "instruction": "[Describe the purpose of the Data Conversion Plan Provide full identifying information for the automated system, application, or situation for which the Data Conversion Plan applies, including as applicable, identifications number(s), title(s)/name(s), abbreviation(s)/acronym(s), part number(s), version number(s), and release number(s).  Summarize the purpose of the document, the scope of activities that resulted in its development, the intended audience for the document, and expected evolution of the document.  Also describe any security or privacy considerations associated with use of the Data Conversion Plan.]",
+      "fields": [
+        "<Project Name>",
+        "<target system(s) or within an existing system>"
+      ],
+      "boilerplate": "This Data Conversion Plan describes the strategy, preparation, and specifications for converting data from.  This plan describes the overall approach, assumptions, and processes that will be used in the data conversion.  It includes an inventory and cross reference of source and target data elements, schema, metadata and all self-describing files; process for data extraction, transformation and loading for each data source; tools needed to execute the conversion; and strategy for data quality assurance and control. The intended audience of theData Conversion Plan isthe Business Sponsor and the Integrated Project Team.",
+      "char_count": 1246,
+      "token_estimate": 312
+    },
+    {
+      "section_heading": "Data Conversion Objectives",
+      "section_level": 2,
+      "section_path": "Introduction > Data Conversion Objectives",
+      "instruction": "[Describe objectives of the Data Conversion Plan.] [Insert description of the first objective.] [Insert description of the second objective.] [Add additional bullets as necessary]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 179,
+      "token_estimate": 45
+    },
+    {
+      "section_heading": "Assumptions",
+      "section_level": 2,
+      "section_path": "Introduction > Assumptions",
+      "instruction": "[Describe any assumptions or dependencies regarding the data conversion effort. These may concern such issues as: related software or hardware, operating systems, end-user characteristics, and/or the data that must be available for the conversion.] [Insert description of the first assumption.] [Add additional bullets as necessary]",
+      "fields": [],
+      "boilerplate": "This section identifies the statements believed to be true for the Data Conversion Plan.",
+      "char_count": 421,
+      "token_estimate": 105
+    },
+    {
+      "section_heading": "Constraints",
+      "section_level": 2,
+      "section_path": "Introduction > Constraints",
+      "instruction": "[Insert description of the first constraint.] [Insert description of the second constraint.] [Add additional bullets as necessary]",
+      "fields": [],
+      "boilerplate": "This section identifies any limitation that must be taken into consideration prior to the Data Conversion from the old to the new product or IT system.",
+      "char_count": 282,
+      "token_estimate": 70
+    },
+    {
+      "section_heading": "Risks",
+      "section_level": 2,
+      "section_path": "Introduction > Risks",
+      "instruction": "[Describe any risks associated with the data conversion and proposed mitigation strategies.  Include any risks that could affect conversion feasibility, technical performance of the converted system, the conversion schedule, costs, backup and recovery procedures, etc.] [Insert description of the first risk.] [Insert description of the second risk.] [Add additional bullets as necessary]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 388,
+      "token_estimate": 97
+    },
+    {
+      "section_heading": "DATA CONVERSION STRATEGY",
+      "section_level": 1,
+      "section_path": "DATA CONVERSION STRATEGY",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Conversion Scope",
+      "section_level": 2,
+      "section_path": "DATA CONVERSION STRATEGY > Conversion Scope",
+      "instruction": "[Provide a rationale for the conversion and a general description of the boundaries of the data conversion effort.  This may include, but not be limited to, specific system functions affected and functions/data not affected/converted.  Provide a high-level mapping of the data and data types to be converted or migrated to the new system (e.g., the amount, type, and quality of the data; the original and target sources and formats; and any cross-reference complexities.)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 472,
+      "token_estimate": 118
+    },
+    {
+      "section_heading": "Conversion Approach",
+      "section_level": 2,
+      "section_path": "DATA CONVERSION STRATEGY > Conversion Approach",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Roles and Responsibilities",
+      "section_level": 2,
+      "section_path": "DATA CONVERSION STRATEGY > Roles and Responsibilities",
+      "instruction": "[List all stakeholders and document their roles and responsibilities in the conversion process.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 96,
+      "token_estimate": 24
+    },
+    {
+      "section_heading": "Conversion Schedule",
+      "section_level": 2,
+      "section_path": "DATA CONVERSION STRATEGY > Conversion Schedule",
+      "instruction": "[Provide a schedule of conversion activities to be accomplished in accordance with this Data Conversion Plan.  Show the required tasks in chronological order, with beginning and ending dates of each task, the key person(s) responsible for the task, dependencies, and milestones.  If appropriate, tables and/or graphics may be used to present the schedule.  Ensure that this information is appropriately integrated into the overall project schedule.  The schedule should be as comprehensive as possible; however, the schedule may be revised as needed at later points in the lifecycle. Rather than providing this schedule in the table below, the schedule may be added as an Appendix and may be developed in a project management tool.]",
+      "fields": [
+        "<Yes/No>",
+        "<mm/dd/yy>",
+        "<name(s)>",
+        "<task  #(s)>",
+        "<task #>",
+        "<task description>"
+      ],
+      "boilerplate": "Table1Conversion Schedule Task  # Task Description Begin Date End Date Key Person(s) Responsible Dependencies Milestone",
+      "char_count": 852,
+      "token_estimate": 213
+    },
+    {
+      "section_heading": "Data Quality Assurance and Control",
+      "section_level": 2,
+      "section_path": "DATA CONVERSION STRATEGY > Data Quality Assurance and Control",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "DATA CONVERSION PREPARATION",
+      "section_level": 1,
+      "section_path": "DATA CONVERSION PREPARATION",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Prerequisites",
+      "section_level": 2,
+      "section_path": "DATA CONVERSION PREPARATION > Prerequisites",
+      "instruction": "[Describe all preparatory and/or initiation processes that must be completed prior to data conversion.  Describe specific data preparation requirements.  If the data will be transported from the original system, provide a detailed description of the data handling, conversion, and loading procedures.  If the data will be transported using machine-readable media, describe the characteristics of that media.  Identify any support materials needed for the conversion process.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 475,
+      "token_estimate": 119
+    },
+    {
+      "section_heading": "Backup Strategy",
+      "section_level": 2,
+      "section_path": "DATA CONVERSION PREPARATION > Backup Strategy",
+      "instruction": "[Describe how the source and target data baselines will be created and managed prior to any manipulation or migration.  Also describe backups that may occur incrementally while stepping through the process of preparing, moving, and manipulating the data during conversion.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 273,
+      "token_estimate": 68
+    },
+    {
+      "section_heading": "Restore Process",
+      "section_level": 2,
+      "section_path": "DATA CONVERSION PREPARATION > Restore Process",
+      "instruction": "[Describe the process to restore the source data if the need to revert to a previous back-up is identified at any point during the conversion process.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 151,
+      "token_estimate": 38
+    },
+    {
+      "section_heading": "DATA CONVERSION SPECIFICATIONS",
+      "section_level": 1,
+      "section_path": "DATA CONVERSION SPECIFICATIONS",
+      "instruction": "",
+      "fields": [
+        "<Source Data Element Identifier (e.g., SSN)>",
+        "<Source Location (e.g., System/File/ Database Table, etc.>",
+        "<Target Data Element Identifier (e.g., Member ID)>",
+        "<Target Location (e.g., Database Table)>"
+      ],
+      "boilerplate": "Table2Data Conversion Specifications Source Source Data Element Destination Target Data Element Transformation/ Cleansing Rules Notes",
+      "char_count": 133,
+      "token_estimate": 33
+    },
+    {
+      "section_heading": "Appendix A:  DATA CONVERSION PLAN approval",
+      "section_level": 1,
+      "section_path": "Appendix A:  DATA CONVERSION PLAN approval",
+      "instruction": "[List the individuals whose signatures are desired.  Examples of such individuals are Business Sponsor and Project Manager.  Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.]",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "The undersigned acknowledge they have reviewed the Data Conversion Plan and authorize and fund theproject.  The undersigned herby give the project manager the authority to apply the approved level of organizational resources to project activities. Changes to this Data Conversion Plan will be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role:",
+      "char_count": 807,
+      "token_estimate": 202
+    },
+    {
+      "section_heading": "APPENDIX B: REFERENCES",
+      "section_level": 1,
+      "section_path": "APPENDIX B: REFERENCES",
+      "instruction": "[Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "The following table summarizes the documents referenced in this document. Document Name and Version Description Location",
+      "char_count": 311,
+      "token_estimate": 78
+    },
+    {
+      "section_heading": "APPENDIX C: KEY TERMS",
+      "section_level": 1,
+      "section_path": "APPENDIX C: KEY TERMS",
+      "instruction": "[Insert terms and definitions used in this document.  Add rows to the table as necessary. Follow the link below to for definitions of project management terms and acronyms used in this and other documents.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [],
+      "boilerplate": "The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 510,
+      "token_estimate": 128
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "template_file": "EPLC_System_Of_Records_Notice_Template.docx",
+  "template_name": "EPLC_System_Of_Records_Notice_Template",
+  "doc_type": "narrative",
+  "num_sections": 23,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theSystem of Records Notice Templatewill be controlled and tracked. Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<description of change>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "<Project Name> System of Records Notice Version Number:<1.0> Version Date:<mm/dd/yyyy> VERSION HISTORY VersionNumber Implemented By Revision Date Approved By Approval Date Description ofChange 1.0 [This document is a template of aSystem of Records Noticedocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project. These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template, the following steps are recommended: Replace all text enclosed in angle brackets (e.g., <Project Name>) with the correct field document values. These angle brackets appear in both the body of the document and in headers and footers. To customize fields in Microsoft Word (which display a gray background when selected) select File->Properties->Summary and fill in the appropriate fields within the Summary and Custom tabs. After clicking OK to close the dialog box, update all fields throughout the document selecting Edit>Select All (or Ctrl-A) and pressing F9. Or you can update each field individually by clicking on it and pressing F9. These actions must be done separately for any fields contained with the document’s Header and Footer. Modify boilerplate text as appropriate for the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained. Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3. Style used for boilerplate text is Body Text. To update the Table of Contents, right-click on it and select “Update field” and choose the option - “Update entire table”. Before submission of the first draft of this document, delete this instruction section “Notes to the Author” and all instructions to the author throughout the entire document.] Table of Contents 1System name<w:t>5 2Security classification<w:t>5 3System location<w:t>5 4Categories of individuals covered by the system<w:t>5 5Categories of records in the system<w:t>5 6Authority for maintenance of the system<w:t>5 7Purpose(s)<w:t>5 8Routine uses of records maintained in the system, including categories of users and the purposes of such uses<w:t>6 9Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system<w:t>6 9.1Storage<w:t>6 9.2Retrievability<w:t>6 9.3Safeguards<w:t>6 9.4Retention and disposal<w:t>6 9.5System manager(s) and address<w:t>7 9.6Notification procedure<w:t>7 9.7Record access procedures<w:t>7 9.8Contesting record procedures<w:t>7 9.9Record source categories<w:t>7 9.10Systems exempted from certain provisions of the act<w:t>7 APPENDIX A: SYSTEM OF RECORDS APPROVAL<w:t>8 APPENDIX B: REFERENCES<w:t>9 APPENDIX C: KEY TERMS<w:t>10",
+      "char_count": 3732,
+      "token_estimate": 933
+    },
+    {
+      "section_heading": "System name",
+      "section_level": 1,
+      "section_path": "System name",
+      "instruction": "[The system name should closely reflect the name of the program which authorizes the collection of individually identifiable information.  The system name must also include an assigned number that reflects the numbering scheme used by all DHHS Op/Divs.  Each system’s name should include an acceptable acronym that reflects the program’s name.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 344,
+      "token_estimate": 86
+    },
+    {
+      "section_heading": "Security classification",
+      "section_level": 1,
+      "section_path": "Security classification",
+      "instruction": "[This section refers to national security.  It is primarily for use by Department of Defense and should be marked “None” since HHS does not maintain any systems of records which are subject to a national security classification.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 229,
+      "token_estimate": 57
+    },
+    {
+      "section_heading": "System location",
+      "section_level": 1,
+      "section_path": "System location",
+      "instruction": "[This section should identify the complete address including (zip code) of each location of records in the system.  (If there are more than one location you should list all addresses in an Appendix at the end of the notice and in this section put “See Appendix I).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 265,
+      "token_estimate": 66
+    },
+    {
+      "section_heading": "Categories of individuals covered by the system",
+      "section_level": 1,
+      "section_path": "Categories of individuals covered by the system",
+      "instruction": "[This section should reflect the categories of individuals about whom records are maintained in such a manner that individuals are able to determine if there is a record about them in the system.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 196,
+      "token_estimate": 49
+    },
+    {
+      "section_heading": "Categories of records in the system",
+      "section_level": 1,
+      "section_path": "Categories of records in the system",
+      "instruction": "[This section should contain a description of the types of individually identified information which are maintained in the system, e.g., social security number, date of birth, patient medical history, loan applications, curriculum vitae, laboratory test results, etc. (NOTE:  The Office of Management and Budget (OMB) Memorandum 07-16, Safeguarding Against and Responding to the Breach of Personally Identifiable Information (May 22, 2007) has directed agencies throughout the federal government  to eliminate unnecessary collection and use of social security numbers.)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 570,
+      "token_estimate": 142
+    },
+    {
+      "section_heading": "Authority for maintenance of the system",
+      "section_level": 1,
+      "section_path": "Authority for maintenance of the system",
+      "instruction": "[This section should state the specific legal authority (citation and descriptive title) for maintenance of the system.  Only a Statute or Executive Order of the President may be cited as the authority for maintenance of the system.  A regulation should not be cited as the authority.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 285,
+      "token_estimate": 71
+    },
+    {
+      "section_heading": "Purpose(s)",
+      "section_level": 1,
+      "section_path": "Purpose(s)",
+      "instruction": "[This section states the purpose(s) for which the system of records was established and uses of the information which are internal to the Department.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 150,
+      "token_estimate": 38
+    },
+    {
+      "section_heading": "Routine uses of records maintained in the system, including categories of users and the purposes of such uses",
+      "section_level": 1,
+      "section_path": "Routine uses of records maintained in the system, including categories of users and the purposes of such uses",
+      "instruction": "[This section should list each routine use of the information outside the Department which is authorized for records in the system.  Each individual routine use should identify the third party, to whom disclosure is authorized, the type of information to be disclosed and the purpose for the disclosure.   (NOTE:  The Office of Management and Budget (OMB) Memorandum 07-16, Safeguarding Against and Responding to the Breach of Personally Identifiable Information (May 22, 2007) has directed agencies throughout the federal government  to comply with the “Incident Reporting and Handling Requirements” section of the FISMA Report to incorporate a “notification of breach” routine use in the systems that are at risk.  All OPDIVs/STAFFDIVs must incorporate the following routine use language as part of your normal SORN review process.  “To appropriate federal agencies and Department contractors that have a need to know the information for the purpose of assisting the Department’s efforts to respond to a suspected or confirmed breach of the security or confidentiality or information maintained in this system of records, and the information disclosed is relevant and unnecessary for the assistance.”]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 1203,
+      "token_estimate": 301
+    },
+    {
+      "section_heading": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system",
+      "section_level": 1,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Storage",
+      "section_level": 2,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system > Storage",
+      "instruction": "[This section should describe the media in which the records are stored, e.g., file folders, file cabinets, disks, magnetic tapes, etc.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 136,
+      "token_estimate": 34
+    },
+    {
+      "section_heading": "Retrievability",
+      "section_level": 2,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system > Retrievability",
+      "instruction": "[This section should state how individual records are retrieved from the system, e.g., by name or SSN or other personal identifier.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 132,
+      "token_estimate": 33
+    },
+    {
+      "section_heading": "Safeguards",
+      "section_level": 2,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system > Safeguards",
+      "instruction": "[This section should describe all measures currently in place to minimize the risk of unauthorized access to or disclosure of records in the system, reflecting the most recent risk analysis. It should also identify the categories of employees who are authorized to have access to the records.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 293,
+      "token_estimate": 73
+    },
+    {
+      "section_heading": "Retention and disposal",
+      "section_level": 2,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system > Retention and disposal",
+      "instruction": "[This section should state the authorized retention period in individual identified form for records in the system and the subsequent means of disposal.  Determine if the records should be retired to a Federal Records Center.  If yes, be sure it is reflected under System Location.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 282,
+      "token_estimate": 70
+    },
+    {
+      "section_heading": "System manager(s) and address",
+      "section_level": 2,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system > System manager(s) and address",
+      "instruction": "[This section should state the title and current address of the agency official who is responsible for the system’s policies and practices.  Do not provide an individual’s name.  Umbrella systems with multiple system managers must also list a policy-coordinating official.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 273,
+      "token_estimate": 68
+    },
+    {
+      "section_heading": "Notification procedure",
+      "section_level": 2,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system > Notification procedure",
+      "instruction": "[This section should provide the title and office to which the individual should write to determine whether or not the system contains a record about the individual. This section also should include whatever information the individual must furnish in order for the responsible office to be able to determine if a record exists, e.g., appropriate date and place claim was filed. Be sure that the parent/guardian statement is included if the system contains records of minors or legally incompetent persons.  If this is an exempt system of records, be sure that the Notification, Access and Contesting Records procedures reference the exemption status appropriately.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 665,
+      "token_estimate": 166
+    },
+    {
+      "section_heading": "Record access procedures",
+      "section_level": 2,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system > Record access procedures",
+      "instruction": "[This section should state (1) all information which the individual should furnish when requesting access when the individual already knows the system contains a record about the individual and (2) where to send the request. Include in this section the verification of identity the responsible office needs to determine that the requester is who he or she claims to be. Also include the statement that the individual may request an accounting of disclosures.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 459,
+      "token_estimate": 115
+    },
+    {
+      "section_heading": "Contesting record procedures",
+      "section_level": 2,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system > Contesting record procedures",
+      "instruction": "[This section should include the mailing address of the official whom the individual may contact to request correction or deletion of records.  It should include the statement that the right to contest records is limited to information which is incomplete, irrelevant, incorrect, or untimely (obsolete).]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 304,
+      "token_estimate": 76
+    },
+    {
+      "section_heading": "Record source categories",
+      "section_level": 2,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system > Record source categories",
+      "instruction": "[This section describes the sources of records in the system. It should identify all sources of records, internal as well as external, e.g., from State and local government agencies, from the subject individual, from third-party individuals, and from other Federal systems of records.  Identify the specific systems.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 317,
+      "token_estimate": 79
+    },
+    {
+      "section_heading": "Systems exempted from certain provisions of the act",
+      "section_level": 2,
+      "section_path": "Policies and practices for storing, retrieving, accessing, retaining, and disposing of records in the system > Systems exempted from certain provisions of the act",
+      "instruction": "[This section identifies the specific subsection(s) of the Privacy Act which permits exemption of the system from the Act’s notification and access provisions, and the categories of records which are exempt from access by the subject individual.  (Only those exemptions which have been published separately in the Federal Register under DHHS rulemaking procedures may be cited.)]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 379,
+      "token_estimate": 95
+    },
+    {
+      "section_heading": "APPENDIX A: SYSTEM OF RECORDS APPROVAL",
+      "section_level": 1,
+      "section_path": "APPENDIX A: SYSTEM OF RECORDS APPROVAL",
+      "instruction": "[List the individuals whose signatures are desired.  Examples of such individuals are Business Owner, Project Manager (if identified), Designated Approving Authorities and any appropriate stakeholders.  Add additional lines for signature as necessary.]",
+      "fields": [
+        "<System Name>"
+      ],
+      "boilerplate": "The undersigned acknowledge that they have reviewed the<System Name>Contingency Planand agree with the information presented within this document. Changes to thisContingency Planwill be coordinated with, and approved by, the undersigned, or their designated representatives. Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role: Signature: Date: Print Name: Title: Role:",
+      "char_count": 653,
+      "token_estimate": 163
+    },
+    {
+      "section_heading": "APPENDIX B: REFERENCES",
+      "section_level": 1,
+      "section_path": "APPENDIX B: REFERENCES",
+      "instruction": "[Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Document description>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "The following table summarizes the documents referenced in this document. Document Name Description Location",
+      "char_count": 261,
+      "token_estimate": 65
+    },
+    {
+      "section_heading": "APPENDIX C: KEY TERMS",
+      "section_level": 1,
+      "section_path": "APPENDIX C: KEY TERMS",
+      "instruction": "[Insert Term]",
+      "fields": [],
+      "boilerplate": "The following table provides definitions and explanations for terms and acronyms relevant to the content presented within this document. Term Definition",
+      "char_count": 166,
+      "token_estimate": 42
+    }
+  ]
+}

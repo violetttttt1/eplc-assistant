@@ -1,0 +1,59 @@
+{
+  "template_file": "CDC_UP_WBS_Template_Style-1.docx",
+  "template_name": "CDC_UP_WBS_Template_Style-1",
+  "doc_type": "narrative",
+  "num_sections": 3,
+  "sections": [
+    {
+      "section_heading": "Project Name:",
+      "section_level": 1,
+      "section_path": "Project Name:",
+      "instruction": "[Insert Project Name]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 21,
+      "token_estimate": 5
+    },
+    {
+      "section_heading": "Project Manager:",
+      "section_level": 1,
+      "section_path": "Project Manager:",
+      "instruction": "",
+      "fields": [
+        "<John Doe>"
+      ],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Date:",
+      "section_level": 1,
+      "section_path": "Date:",
+      "instruction": "[mm/dd/yyyy]",
+      "fields": [
+        "</w:pPr>",
+        "</w:rPr>",
+        "<Project Name>",
+        "<w:b/>",
+        "<w:bidi w:val=\"0\"/>",
+        "<w:color w:val=\"auto\"/>",
+        "<w:jc w:val=\"center\"/>",
+        "<w:kern w:val=\"2\"/>",
+        "<w:lang w:val=\"en-US\" w:bidi=\"ar-SA\"/>",
+        "<w:overflowPunct w:val=\"false\"/>",
+        "<w:p>",
+        "<w:pPr>",
+        "<w:r>",
+        "<w:rPr>",
+        "<w:spacing w:before=\"0\" w:after=\"0\"/>",
+        "<w:sz w:val=\"13\"/>",
+        "<w:szCs w:val=\"20\"/>",
+        "<w:t>"
+      ],
+      "boilerplate": "<w:p><w:pPr><w:overflowPunct w:val=\"false\"/><w:bidi w:val=\"0\"/><w:spacing w:before=\"0\" w:after=\"0\"/><w:jc w:val=\"center\"/><w:rPr></w:rPr></w:pPr><w:r><w:rPr><w:kern w:val=\"2\"/><w:sz w:val=\"13\"/><w:b/><w:szCs w:val=\"20\"/><w:rFonts w:ascii=\"Arial\" w:hAnsi=\"Arial\" w:eastAsia=\"Times New Roman\" w:cs=\"Arial\"/><w:color w:val=\"auto\"/><w:lang w:val=\"en-US\" w:bidi=\"ar-SA\"/></w:rPr><w:t>Deliverable Based Example WBS (1) Function 1 (2) Function 2 (3) Function 3 (4) Function 4 (3.1) Deliverable One (5) Function 5 (1.1) Deliverable One (2.1) Deliverable One (4.1) Deliverable One (4.2) Deliverable Two (5.1) Deliverable One (5.2) Deliverable Two (1.1.1) Work Package One (1.1.2) Work Package Two (2.1.1) Work Package One (3.2) Deliverable Two (4.2.1) Work Package One (5.2.1) Work Package One (3.3) Deliverable Three Deliverable Based Example WBS (1) Function 1 (2) Function 2 (3) Function 3 (4) Function 4 (3.1) Deliverable One (5) Function 5 (1.1) Deliverable One (2.1) Deliverable One (4.1) Deliverable One (4.2) Deliverable Two (5.1) Deliverable One (5.2) Deliverable Two (1.1.1) Work Package One (1.1.2) Work Package Two (2.1.1) Work Package One (3.2) Deliverable Two (4.2.1) Work Package One (5.2.1) Work Package One (3.3) Deliverable Three",
+      "char_count": 1251,
+      "token_estimate": 313
+    }
+  ]
+}

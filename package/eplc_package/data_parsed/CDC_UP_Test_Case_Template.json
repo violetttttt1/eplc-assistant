@@ -1,0 +1,132 @@
+{
+  "template_file": "CDC_UP_Test_Case_Template.docx",
+  "template_name": "CDC_UP_Test_Case_Template",
+  "doc_type": "narrative",
+  "num_sections": 11,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of theTest Case, up to the final point of approval,was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Name>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<name>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Test Case Version VERSION HISTORY Version# Implemented By Revision Date Approved By Approval Date Reason 1.0 Test Case Templatedraft UP Template Version:12/31/07 [This document is a template of aTest Casedocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (i.e., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] TABLE OF CONTENTS 1Introduction<w:t>5 1.1<w:t>Purpose of The Test Case Document<w:t>5 2Test Case Specification<w:t>5 2.1<w:t>Description<w:t>5 2.2<w:t>Resources<w:t>5 2.3<w:t>Preconditions<w:t>5 2.4<w:t>Post Conditions<w:t>5 2.5<w:t>Flow of Events<w:t>5 2.6<w:t>Inclusion/Exclusion Points<w:t>5 2.7<w:t>Special Requirements<w:t>5 Appendix A: References<w:t>6 Appendix B: Key Terms<w:t>7",
+      "char_count": 3357,
+      "token_estimate": 839
+    },
+    {
+      "section_heading": "Introduction",
+      "section_level": 1,
+      "section_path": "Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "Purpose of TheTest CaseDocument",
+      "section_level": 2,
+      "section_path": "Introduction > Purpose of TheTest CaseDocument",
+      "instruction": "[Provide the purpose of theTest CaseDocument. This document should be tailored to fit a particular project’s needs.]",
+      "fields": [
+        "<test case title>"
+      ],
+      "boilerplate": "TheTest Casedocument documents the functional requirements of thetest case. The intended audience isthe project manager, project team, and testing team. Some portions of this document may on occasion be shared with the client/user and other stakeholder whose input/approval into the testing process is needed.",
+      "char_count": 426,
+      "token_estimate": 106
+    },
+    {
+      "section_heading": "Test Case Specification",
+      "section_level": 1,
+      "section_path": "Test Case Specification",
+      "instruction": "[Describe the test case to be performed]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 40,
+      "token_estimate": 10
+    },
+    {
+      "section_heading": "Description",
+      "section_level": 2,
+      "section_path": "Test Case Specification > Description",
+      "instruction": "[Describe the test case and the individuals involved in the testing. Include diagrams depicting the interaction between individuals and the different elements being tested.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 173,
+      "token_estimate": 43
+    },
+    {
+      "section_heading": "Resources",
+      "section_level": 2,
+      "section_path": "Test Case Specification > Resources",
+      "instruction": "[Describe the individuals involved in the testing, their responsibilities, and their association with the test case.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 117,
+      "token_estimate": 29
+    },
+    {
+      "section_heading": "Preconditions",
+      "section_level": 2,
+      "section_path": "Test Case Specification > Preconditions",
+      "instruction": "[Describe the preconditions for the test case. A precondition is the state of the system that must exist before a test case can be performed.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 142,
+      "token_estimate": 36
+    },
+    {
+      "section_heading": "Post Conditions",
+      "section_level": 2,
+      "section_path": "Test Case Specification > Post Conditions",
+      "instruction": "[Describe the post conditions for the use case. A post condition is a list of possible states the system can be in immediately after a test case has finished.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 159,
+      "token_estimate": 40
+    },
+    {
+      "section_heading": "Flow of Events",
+      "section_level": 2,
+      "section_path": "Test Case Specification > Flow of Events",
+      "instruction": "[Describe the flow of events that would be expected in normal conditions as well as any potential alternate flow of events, and exceptions/errors that may be expected.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 168,
+      "token_estimate": 42
+    },
+    {
+      "section_heading": "Inclusion/Exclusion Points",
+      "section_level": 2,
+      "section_path": "Test Case Specification > Inclusion/Exclusion Points",
+      "instruction": "[Describe other test cases that may be included or excluded in the act of executing this test case.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 100,
+      "token_estimate": 25
+    },
+    {
+      "section_heading": "Special Requirements",
+      "section_level": 2,
+      "section_path": "Test Case Specification > Special Requirements",
+      "instruction": "[Describe any special requirements necessary to perform the test case.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<URL or Network path where document is located>"
+      ],
+      "boilerplate": "Appendix A: References The following table summarizes the documents referenced in this document. Document Name and Version Description Location Appendix B: Key Terms The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 732,
+      "token_estimate": 183
+    }
+  ]
+}

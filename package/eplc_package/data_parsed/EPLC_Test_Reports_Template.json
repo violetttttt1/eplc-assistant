@@ -1,0 +1,254 @@
+{
+  "template_file": "EPLC_Test_Reports_Template.docx",
+  "template_name": "EPLC_Test_Reports_Template",
+  "doc_type": "narrative",
+  "num_sections": 21,
+  "sections": [
+    {
+      "section_heading": "(preamble)",
+      "section_level": 0,
+      "section_path": "(preamble)",
+      "instruction": "[Provide information on how the development and distribution of the Test Report was controlled and tracked.  Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.] [text]",
+      "fields": [
+        "<1.0>",
+        "<Author name>",
+        "<Project Manager name>",
+        "<Project Name>",
+        "<Type of Test>",
+        "<mm/dd/yy>",
+        "<mm/dd/yyyy>",
+        "<reason>",
+        "<text>",
+        "<w:t>"
+      ],
+      "boilerplate": "Test report Version VERSION HISTORY Version # Implemented By Revision Date Approved By Approval Date Reason 1.0 [This document is a template of aTest Reportdocument for a project. The template includes instructions to the author, boilerplate text, and fields that should be replaced with the values specific to the project. Blue italicized text enclosed in square brackets () provides instructions to the document author, or describes the intent, assumptions and context for content included in this document. Blue italicized text enclosed in angle brackets (<text>) indicates a field that should be replaced with information specific to a particular project. Text and tables in black are provided as boilerplate examples of wording and formats that may be used or modified as appropriate to a specific project.  These are offered only as suggestions to assist in developing project documents; they are not mandatory formats. When using this template for your project document, it is recommended that you follow these steps: Replace all text enclosed in angle brackets (e.g., <Project Name>) with the correct field values. These angle brackets appear in both the body of the document and in headers and footers.  To customize fields in Microsoft Word (which display a gray background when selected): Select File>Properties>Summary and fill in the Title field with the Document Name and the Subject field with the Project Name. Select File>Properties>Custom and fill in the Last Modified, Status, and Version fields with the appropriate information for this document. After you click OK to close the dialog box, update the fields throughout the document with these values by selecting Edit>Select All (or Ctrl-A) and pressing F9.  Or you can update an individual field by clicking on it and pressing F9. This must be done separately for Headers and Footers. Modify boilerplate text as appropriate to the specific project. To add any new sections to the document, ensure that the appropriate header and body text styles are maintained.  Styles used for the Section Headings are Heading 1, Heading 2 and Heading 3.  Style used for boilerplate text is Body Text. To update the Table of Contents, right-click and select “Update field” and choose the option- “Update entire table” Before submission of the first draft of this document, delete this “Notes to the Author” page and all instructions to the author, which appear throughout the document as blue italicized text enclosed in square brackets.] Table of Contents 1.0Introduction<w:t>5 1.1<w:t>Purpose<w:t>5 2.0Test Summary<w:t>5 2.1Test Type (Function, unit, system, etc.)<w:t>5 2.2Test Type (Function, unit, system, etc.)<w:t>5 2.3Test Type (Function, unit, system, etc.)<w:t>5 3.0Test Assessment<w:t>5 4.0Test Results<w:t>6 4.1<w:t>Unit/Module/System Testing<w:t>6 4.2<w:t>System Testing<w:t>7 4.3<w:t>User Acceptance Testing<w:t>7 4.4<w:t>Ad Hoc Testing<w:t>8 4.5<w:t>Regression Testing<w:t>8 4.6<w:t>Performance Testing<w:t>9 4.7<w:t><Type of Test><w:t>9 5.0Variances<w:t>10 6.0Test Instances<w:t>10 6.1<w:t>Resolved Test Incidents<w:t>10 6.2<w:t>Unresolved Test Incidents<w:t>10 7.0Recommendations<w:t>10 APPENDIX A: Test Report Approval<w:t>11 APPENDIX B: REFERENCES<w:t>12 APPENDIX C: KEY TERMS<w:t>13",
+      "char_count": 3654,
+      "token_estimate": 914
+    },
+    {
+      "section_heading": "1.0<w:t>Introduction",
+      "section_level": 1,
+      "section_path": "1.0<w:t>Introduction",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 0,
+      "token_estimate": 0
+    },
+    {
+      "section_heading": "1.1<w:t>Purpose",
+      "section_level": 2,
+      "section_path": "1.0<w:t>Introduction > 1.1<w:t>Purpose",
+      "instruction": "",
+      "fields": [
+        "<Project Name>"
+      ],
+      "boilerplate": "ThisTest Report provides a summary of the results of test performed as outlined within this document.",
+      "char_count": 101,
+      "token_estimate": 25
+    },
+    {
+      "section_heading": "2.0<w:t>Test Summary",
+      "section_level": 1,
+      "section_path": "2.0<w:t>Test Summary",
+      "instruction": "[Include basic information about what was tested and what happened.] [Project name] [System name] [Version number] [Enter any additional comments]",
+      "fields": [],
+      "boilerplate": "Project Name: System Name: Version Number: Additional Comments:",
+      "char_count": 210,
+      "token_estimate": 52
+    },
+    {
+      "section_heading": "2.1<w:t>Test Type (Function, unit, system, etc.)",
+      "section_level": 2,
+      "section_path": "2.0<w:t>Test Summary > 2.1<w:t>Test Type (Function, unit, system, etc.)",
+      "instruction": "[Include basic information about what was tested and what happened.] [John Doe] [mm/dd/yyyy] [mm/dd/yyyy] [Enter a summary of the test conducted and results] [Enter any summary comments]",
+      "fields": [],
+      "boilerplate": "Test Owner: Test Date: Test Results: Additional Comments:",
+      "char_count": 244,
+      "token_estimate": 61
+    },
+    {
+      "section_heading": "2.2<w:t>Test Type (Function, unit, system, etc.)",
+      "section_level": 2,
+      "section_path": "2.0<w:t>Test Summary > 2.2<w:t>Test Type (Function, unit, system, etc.)",
+      "instruction": "[Include basic information about what was tested and what happened.] [John Doe] [mm/dd/yyyy] [mm/dd/yyyy] [Enter a summary of the test conducted and results] [Enter any summary comments]",
+      "fields": [],
+      "boilerplate": "Test Owner: Test Date: Test Results: Additional Comments:",
+      "char_count": 244,
+      "token_estimate": 61
+    },
+    {
+      "section_heading": "2.3<w:t>Test Type (Function, unit, system, etc.)",
+      "section_level": 2,
+      "section_path": "2.0<w:t>Test Summary > 2.3<w:t>Test Type (Function, unit, system, etc.)",
+      "instruction": "[Include basic information about what was tested and what happened.] [John Doe] [mm/dd/yyyy] [mm/dd/yyyy] [Enter a summary of the test conducted and results] [Enter any summary comments]",
+      "fields": [],
+      "boilerplate": "Test Owner: Test Date: Test Results: Additional Comments:",
+      "char_count": 244,
+      "token_estimate": 61
+    },
+    {
+      "section_heading": "3.0<w:t>Test Assessment",
+      "section_level": 1,
+      "section_path": "3.0<w:t>Test Assessment",
+      "instruction": "[Enter a comprehensive assessment of your interpretation of how adequate the test was in light of how thorough the test plan said it should be? What wasn't tested well enough?]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 176,
+      "token_estimate": 44
+    },
+    {
+      "section_heading": "4.0<w:t>Test Results",
+      "section_level": 1,
+      "section_path": "4.0<w:t>Test Results",
+      "instruction": "[Summarize the test results. Include a detailed description of any deviations from the original test plan, design, test case, or expected results. Include any issues or bugs discovered during the test.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 202,
+      "token_estimate": 50
+    },
+    {
+      "section_heading": "Unit/Module/System Testing",
+      "section_level": 2,
+      "section_path": "4.0<w:t>Test Results > Unit/Module/System Testing",
+      "instruction": "",
+      "fields": [],
+      "boilerplate": "Unit, module, and system integration testing activities were performed during the development of the system build or release.",
+      "char_count": 125,
+      "token_estimate": 31
+    },
+    {
+      "section_heading": "4.2System Testing",
+      "section_level": 2,
+      "section_path": "4.0<w:t>Test Results > 4.2System Testing",
+      "instruction": "[If the test case failed, list the corresponding Test Incident ID in the Comments column.]",
+      "fields": [
+        "<No>",
+        "<Yes>"
+      ],
+      "boilerplate": "The table below summarizes the results of system testing: Test Case ID Date Tested Tester Pass/Fail Severity of Defect Summary of Defect Closed prior to Production Release? Comments <Yes> or <No>",
+      "char_count": 286,
+      "token_estimate": 72
+    },
+    {
+      "section_heading": "User Acceptance Testing",
+      "section_level": 2,
+      "section_path": "4.0<w:t>Test Results > User Acceptance Testing",
+      "instruction": "[If the test case failed, list the corresponding Test Incident ID in the Comments column.]",
+      "fields": [
+        "<No>",
+        "<Yes>"
+      ],
+      "boilerplate": "The table below summarizes the test cases employed for user acceptance testing and the test results obtained for each test case: Test Case ID Date Tested Tester Pass/Fail Severity of Defect Summary of Defect Closed prior to Production Release? Comments <Yes> or <No>",
+      "char_count": 357,
+      "token_estimate": 89
+    },
+    {
+      "section_heading": "Ad Hoc Testing",
+      "section_level": 2,
+      "section_path": "4.0<w:t>Test Results > Ad Hoc Testing",
+      "instruction": "[If the test case failed, list the corresponding Test Incident ID in the Comments column.]",
+      "fields": [
+        "<No>",
+        "<Yes>"
+      ],
+      "boilerplate": "The table below summarizes the test cases employed for ad hoc testing and the test results obtained for each test case: Test Case ID Date Tested Tester Pass/Fail Severity of Defect Summary of Defect Closed prior to Production Release? Comments <Yes> or <No>",
+      "char_count": 348,
+      "token_estimate": 87
+    },
+    {
+      "section_heading": "Regression Testing",
+      "section_level": 2,
+      "section_path": "4.0<w:t>Test Results > Regression Testing",
+      "instruction": "[If the test case failed, list the corresponding Test Incident ID in the Comments column.]",
+      "fields": [
+        "<No>",
+        "<Yes>"
+      ],
+      "boilerplate": "The table below summarizes the test cases employed for regression testing and the test results obtained for each test case: Test Case ID Date Tested Tester Pass/Fail Severity of Defect Summary of Defect Closed prior to Production Release? Comments <Yes> or <No>",
+      "char_count": 352,
+      "token_estimate": 88
+    },
+    {
+      "section_heading": "Performance Testing",
+      "section_level": 2,
+      "section_path": "4.0<w:t>Test Results > Performance Testing",
+      "instruction": "[If the test case failed, list the corresponding Test Incident ID in the Comments column.]",
+      "fields": [
+        "<No>",
+        "<Yes>"
+      ],
+      "boilerplate": "The table below summarizes the test cases employed for performance testing and the test results obtained for each test case: Test Case ID Date Tested Tester Pass/Fail Severity of Defect Summary of Defect Closed prior to Production Release? Comments <Yes> or <No>",
+      "char_count": 353,
+      "token_estimate": 88
+    },
+    {
+      "section_heading": "<Type of Test>",
+      "section_level": 2,
+      "section_path": "4.0<w:t>Test Results > <Type of Test>",
+      "instruction": "[If the test case failed, list the corresponding Test Incident ID in the Comments column.]",
+      "fields": [
+        "<No>",
+        "<Yes>",
+        "<type of test (e.g., interface testing)>"
+      ],
+      "boilerplate": "The table below summarizes the test cases employed forand the test results obtained for each test case: Test Case ID Date Tested Tester Pass/Fail Severity of Defect Summary of Defect Closed prior to Production Release? Comments <Yes> or <No>",
+      "char_count": 332,
+      "token_estimate": 83
+    },
+    {
+      "section_heading": "5.0<w:t>Variances",
+      "section_level": 1,
+      "section_path": "5.0<w:t>Variances",
+      "instruction": "[Describe any variances between the testing that was planned and the testing that actually occurred.  Also, provide an assessment of the manner in which the test environment may be different from the operational environment and the effect of this difference on the test results.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 279,
+      "token_estimate": 70
+    },
+    {
+      "section_heading": "6.0<w:t>Test Instances",
+      "section_level": 1,
+      "section_path": "6.0<w:t>Test Instances",
+      "instruction": "[Provide a brief description of the unexpected results, problems, or defects that occurred during the testing.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 111,
+      "token_estimate": 28
+    },
+    {
+      "section_heading": "Resolved Test Incidents",
+      "section_level": 2,
+      "section_path": "6.0<w:t>Test Instances > Resolved Test Incidents",
+      "instruction": "[Identify all resolved test incidents and summarize their resolutions.  Reference may be made to Test Incident Reports that describe in detail the unexpected results, problems, or defects reported during testing, along with their documented resolutions, which may be included as an appendix to this document.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 309,
+      "token_estimate": 77
+    },
+    {
+      "section_heading": "Unresolved Test Incidents",
+      "section_level": 2,
+      "section_path": "6.0<w:t>Test Instances > Unresolved Test Incidents",
+      "instruction": "[Identify all unresolved test incidents and provide a plan of action for their resolution.  Reference may be made to Test Incident Reports that describe in detail the unexpected results, problems, or defects reported during testing, which may be included as an appendix to this document.]",
+      "fields": [],
+      "boilerplate": "",
+      "char_count": 288,
+      "token_estimate": 72
+    },
+    {
+      "section_heading": "7.0<w:t>Recommendations",
+      "section_level": 1,
+      "section_path": "7.0<w:t>Recommendations",
+      "instruction": "[Describe what actions are suggested upon completion of this test.Provide any recommended improvements in the design, operation, or future testing of the business product that resulted from the testing being reported.  A discussion of each recommendation and its impact on the business product may be provided.  If there are no recommendations to report, then simply state as such.] [Insert the name, version number, description, and physical location of any documents referenced in this document.  Add rows to the table as necessary.] [Provide description of the document] [Insert terms and definitions used in this document.  Add rows to the table as necessary.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.] [Insert Term] [Provide definition of the term used in this document.]",
+      "fields": [
+        "<Document Name and Version Number>",
+        "<Project Name>",
+        "<URL or location where document is located>"
+      ],
+      "boilerplate": "APPENDIX A: Test Report Approval The undersigned acknowledge they have reviewed theTest Reportand agree with the approach it presents. Changes to thisTest Reportwill be coordinated with and approved by the undersigned or their designated representatives. Signature: Date: Print Name: Title: Role: Project Manager APPENDIX B: REFERENCES The following table summarizes the documents referenced in this document. Document Name and Version Description Location APPENDIX C: KEY TERMS The following table provides definitions for terms relevant to this document. Term Definition",
+      "char_count": 1447,
+      "token_estimate": 362
+    }
+  ]
+}
