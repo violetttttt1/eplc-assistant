@@ -60,16 +60,27 @@ CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 
 def resolve_api_key(explicit: str | None = None) -> str:
-    """st.secrets value > env var > Secure Vault surrogate. Never printed."""
+    """st.secrets value > env var > local Secure Vault surrogate. Never printed.
+
+    The surrogate helper only exists on the developer VM. On Streamlit Cloud
+    (or any machine without it) a missing key raises a clear error instead
+    of a confusing file-not-found error for a VM-internal path.
+    """
     if explicit:
         return explicit
     key = os.environ.get("OPENROUTER_API_KEY")
     if key:
         return key
-    spec = importlib.util.spec_from_file_location("dynamic_credentials", HELPER)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod.dynamic_credential_entry("custom.openrouter")["surrogate"]
+    if os.path.exists(HELPER):
+        spec = importlib.util.spec_from_file_location("dynamic_credentials", HELPER)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        return mod.dynamic_credential_entry("custom.openrouter")["surrogate"]
+    raise RuntimeError(
+        "OPENROUTER_API_KEY is not set. Add it to the app's Secrets "
+        "(Streamlit Cloud: app Settings -> Secrets) or set the "
+        "OPENROUTER_API_KEY environment variable for local runs."
+    )
 
 
 # ---------------------------------------------------------------- provider
