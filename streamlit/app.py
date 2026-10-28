@@ -1,11 +1,16 @@
 """EPLC Assistant — public demo (English).
 
-Policy Q&A and section-by-section drafting over two shared libraries:
+Grounded guidance and drafting support for IT project managers, over two
+shared libraries:
   - Library A: CDC EPLC document templates
   - Library B: HHS EPLC framework and policy documents
 
-Public demo: no login, no invite codes. Answers are grounded in the cited
-sources; anything unknown is marked [MISSING: ...] and never invented.
+Layout follows the original EPLC_AI_Assistant frontend: Learn / Ask /
+Create. Public demo: no login, no invite codes. Answers are grounded in
+the cited sources; anything unknown is marked [MISSING: ...] and never
+invented. If the best retrieval score is below the 0.55 refusal
+threshold, the assistant refuses rather than guessing.
+
 Retrieval uses OpenRouter embeddings; generation uses qwen/qwen-plus
 via OpenRouter.
 
@@ -15,6 +20,7 @@ variable fallback for local runs. The key is never shown in the UI.
 """
 
 import os
+import re
 import sys
 
 import streamlit as st
@@ -22,13 +28,13 @@ import streamlit as st
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import eplc_demo  # noqa: E402
+import template_guide  # noqa: E402
 
-st.set_page_config(page_title="EPLC Assistant — Demo", layout="wide")
-st.title("EPLC Assistant")
-st.markdown(
-    "Policy Q&A and section-by-section drafting for federal EPLC project "
-    "documents, grounded in the CDC template library and HHS policy library. "
-    "This is a public demo — no login required."
+st.set_page_config(
+    page_title="EPLC Assistant",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded",
 )
 
 
@@ -51,40 +57,142 @@ except Exception as e:
     st.error(f"Could not start the demo backend: {e}")
     st.stop()
 
-SECTION = st.sidebar.radio(
-    "Navigate", ["Policy Q&A", "Drafting", "Templates"], index=0
-)
-st.sidebar.markdown("---")
-st.sidebar.markdown(
-    "**How it works**\n"
-    "- Retrieval: dual-library dense search over CDC templates (A) and "
-    "HHS policies (B).\n"
-    "- Answers carry citations with retrieval scores. If the best score "
-    "is below the refusal threshold (0.55), the assistant refuses rather "
-    "than guessing.\n"
-    "- Drafts mark every unknown fact as `[MISSING: ...]`."
-)
 
-# ------------------------------------------------------------------ Q&A
+def _render_citations(hits):
+    """Expander of retrieved passages, like the original's Sources used."""
+    hits = tuple(hits or ())
+    if not hits:
+        return
+    with st.expander(f"Sources used ({len(hits)})"):
+        for h in hits:
+            st.markdown(
+                f"**[{h['library']}] {h['citation']}**  ·  "
+                f"score `{h['score']:.3f}`"
+            )
+            excerpt = " ".join((h.get("text") or "").split())[:800]
+            if excerpt:
+                st.caption(excerpt)
 
-if SECTION == "Policy Q&A":
-    st.header("Policy Q&A")
-    st.markdown(
-        "Ask a question about the EPLC process, stage gates, or federal "
-        "project documentation. The answer is generated only from retrieved "
-        "passages, with citations."
+
+def _render_citation_strings(citations):
+    """Expander for generate_section's citation strings."""
+    citations = tuple(citations or ())
+    if not citations:
+        return
+    with st.expander(f"Sources used ({len(citations)})"):
+        for c in citations:
+            st.markdown(f"- {c}")
+
+
+def _parse_project_facts(project_name, facts_raw, instructions):
+    """Project name + one-per-line Key: value facts + optional instructions."""
+    project_info = {"project_name": project_name.strip()}
+    for line in facts_raw.splitlines():
+        if ":" in line:
+            k, v = line.split(":", 1)
+            if k.strip() and v.strip():
+                project_info[k.strip()] = v.strip()
+    if instructions.strip():
+        project_info["Additional drafting instructions"] = instructions.strip()
+    return project_info
+
+
+# ------------------------------------------------------------------ sidebar
+
+st.session_state.setdefault("page", "Learn")
+st.session_state.setdefault("messages", [])
+
+with st.sidebar:
+    st.title("EPLC Assistant")
+    st.caption(
+        "Grounded guidance and drafting support for IT project managers."
     )
-    question = st.text_area("Question", height=80, placeholder="e.g. What are the phases of the HHS EPLC framework?")
-    if st.button("Ask", type="primary"):
-        if not question.strip():
-            st.warning("Please enter a question.")
-        else:
-            with st.spinner("Retrieving passages and generating an answer…"):
-                try:
+    st.divider()
+    page = st.radio(
+        "Navigation",
+        ("Learn", "Ask", "Create"),
+        index=("Learn", "Ask", "Create").index(st.session_state.page),
+        label_visibility="collapsed",
+    )
+    st.session_state.page = page
+    st.divider()
+    st.caption(
+        "AI output is a drafting aid, not an official compliance determination."
+    )
+
+# ------------------------------------------------------------------- Learn
+
+if page == "Learn":
+    st.title("Work with EPLC guidance, one decision at a time")
+    st.write(
+        "The assistant retrieves relevant passages from two shared libraries "
+        "— CDC document templates (library A) and HHS EPLC policy documents "
+        "(library B) — before it answers a policy question or drafts a "
+        "document section."
+    )
+
+    qna_column, draft_column = st.columns(2)
+    with qna_column:
+        st.subheader("Ask a policy question")
+        st.markdown(
+            """
+1. Ask a specific question and name the phase when possible.
+2. Review the answer and its retrieved source excerpts.
+3. If no relevant source is found, the assistant will say so instead of
+   filling the gap with general knowledge.
+"""
+        )
+
+    with draft_column:
+        st.subheader("Draft a document section")
+        st.markdown(
+            """
+1. Choose a phase and template.
+2. Name one section and provide known project facts.
+3. Review the draft, missing-information checklist, and sources.
+"""
+        )
+
+    st.info(
+        "This is a public demo. Avoid entering sensitive project information."
+    )
+
+# --------------------------------------------------------------------- Ask
+
+elif page == "Ask":
+    st.title("Ask an EPLC policy question")
+    st.caption(
+        "Answers are limited to passages retrieved from the CDC template "
+        "library (A) and the HHS policy library (B). If the best retrieval "
+        "score is below 0.55, the assistant refuses rather than guessing."
+    )
+
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+            if message.get("warning"):
+                st.warning(message["warning"])
+            _render_citations(message.get("hits", ()))
+
+    question = st.chat_input(
+        "For example: What are the Development Phase exit criteria?"
+    )
+    if question:
+        st.session_state.messages.append({"role": "user", "content": question})
+        with st.chat_message("user"):
+            st.markdown(question)
+
+        with st.chat_message("assistant"):
+            try:
+                with st.spinner("Retrieving EPLC sources and preparing an answer…"):
                     out = GEN.answer_policy_question(question.strip())
-                except Exception as e:
-                    st.error(f"Question failed: {e}")
-                    st.stop()
+            except Exception as e:
+                st.error(f"Question failed: {e}")
+                st.session_state.messages.append(
+                    {"role": "assistant", "content": f"Question failed: {e}"}
+                )
+                st.stop()
+
             if out.get("refused"):
                 st.warning(
                     "Not specified in the retrieved context. The assistant "
@@ -95,45 +203,118 @@ if SECTION == "Policy Q&A":
                     "Refusal rule: the best retrieval score was below the "
                     "0.55 threshold, so no answer was generated."
                 )
+                st.session_state.messages.append(
+                    {
+                        "role": "assistant",
+                        "content": out["answer"],
+                        "warning": (
+                            "Refused: best retrieval score below the 0.55 "
+                            "threshold."
+                        ),
+                        "hits": [],
+                    }
+                )
             else:
                 st.markdown(out["answer"])
-                st.subheader("Sources")
-                for h in out.get("hits", []):
-                    st.markdown(
-                        f"- **[{h['library']}]** score `{h['score']:.3f}` — "
-                        f"{h['citation']}"
-                    )
-                    with st.expander("Show passage"):
-                        st.markdown(h["text"][:2000])
+                _render_citations(out.get("hits", []))
+                st.session_state.messages.append(
+                    {
+                        "role": "assistant",
+                        "content": out["answer"],
+                        "hits": out.get("hits", []),
+                    }
+                )
 
-# --------------------------------------------------------------- drafting
+# ------------------------------------------------------------------ Create
 
-elif SECTION == "Drafting":
-    st.header("Drafting")
-    st.markdown(
-        "Pick a shared template, name the project, and generate it "
-        "section by section. Unfilled fields are flagged, never invented, "
-        "and the result downloads as a .docx in the template's format."
+else:
+    st.title("Create a grounded document section")
+    st.caption(
+        "The assistant drafts one section at a time and does not invent "
+        "missing project facts."
     )
-    templates = eplc_demo.list_templates()
-    names = sorted(templates)
-    template_name = st.selectbox("Template", names)
-    project_name = st.text_input("Project name", placeholder="e.g. CaseFlow Modernization")
+
+    phase = st.selectbox("EPLC phase", tuple(template_guide.PHASE_TEMPLATES))
+    st.caption(template_guide.PHASE_DESCRIPTIONS[phase])
+    template_name = st.selectbox(
+        "Document template", template_guide.templates_for_phase(phase)
+    )
+    st.markdown(f"*{template_guide.purpose(template_name)}*")
+
+    try:
+        sections = eplc_demo.load_template_sections(template_name)
+    except Exception as e:
+        st.error(f"Could not load template: {e}")
+        st.stop()
+    headings = [s.get("section_heading") for s in sections if s.get("section_heading")]
+    # "(preamble)" is boilerplate, not a draftable section; fall back to it
+    # only for the few templates that have nothing else.
+    selectable = [h for h in headings if h != "(preamble)"] or headings
+    with st.expander(f"Sections in this template ({len(headings)})"):
+        for h in headings:
+            st.markdown(f"- {h}")
+
+    # Plain widgets (not an st.form) so both action buttons below can share
+    # the same inputs; a form would only release values on its own submit.
+    section = st.selectbox("Section", selectable)
+    project_name = st.text_input(
+        "Project name", placeholder="e.g. CaseFlow Modernization"
+    )
     facts_raw = st.text_area(
-        "Additional project facts (optional, one per line as Key: value)",
-        height=100,
-        placeholder="Project sponsor: Office of the CIO\nTarget completion: 2027-06-30",
+        "Known project details",
+        height=150,
+        placeholder=(
+            "One fact per line as Key: value.\n"
+            "Project sponsor: Office of the CIO\n"
+            "Target completion: 2027-06-30"
+        ),
     )
-    if st.button("Generate draft", type="primary"):
+    instructions = st.text_area(
+        "Additional drafting instructions (optional)",
+        height=80,
+        placeholder="For example: Use a formal tone and emphasize security controls.",
+    )
+
+    if st.button("Generate grounded draft", type="primary"):
         if not project_name.strip():
             st.warning("Please enter a project name.")
         else:
-            project_info = {"project_name": project_name.strip()}
-            for line in facts_raw.splitlines():
-                if ":" in line:
-                    k, v = line.split(":", 1)
-                    if k.strip() and v.strip():
-                        project_info[k.strip()] = v.strip()
+            project_info = _parse_project_facts(
+                project_name, facts_raw, instructions
+            )
+            try:
+                with st.spinner("Retrieving template guidance and drafting the section…"):
+                    out = GEN.generate_section(
+                        template_name, section, project_info=project_info
+                    )
+            except Exception as e:
+                st.error(f"Draft failed: {e}")
+                st.stop()
+
+            st.subheader("Draft")
+            st.write(out["draft"])
+
+            st.subheader("Information to confirm")
+            missing = re.findall(r"\[MISSING:[^\]]*\]", out["draft"] or "")
+            if missing:
+                for m in dict.fromkeys(missing):
+                    st.markdown(f"- {m}")
+            else:
+                st.markdown(
+                    "No missing information flagged — every field in this "
+                    "section was covered by the facts you provided."
+                )
+            _render_citation_strings(out.get("citations") or [])
+
+    st.divider()
+    st.markdown("Need the whole document instead of one section?")
+    if st.button("Generate full document (.docx)"):
+        if not project_name.strip():
+            st.warning("Please enter a project name.")
+        else:
+            project_info = _parse_project_facts(
+                project_name, facts_raw, instructions
+            )
             progress = st.progress(0.0)
             status = st.empty()
             try:
@@ -164,42 +345,3 @@ elif SECTION == "Drafting":
                     file_name=f"{template_name}_draft.docx",
                     mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
                 )
-
-# -------------------------------------------------------------- templates
-
-else:
-    st.header("Templates")
-    st.markdown(
-        "Read-only browsing of the shared CDC template library (library A). "
-        "Each template lists its sections, heading levels, and fields."
-    )
-    templates = eplc_demo.list_templates()
-    names = sorted(templates)
-    template_name = st.selectbox("Template", names)
-    meta = templates[template_name]
-    st.markdown(
-        f"**{template_name}** — {meta['num_sections']} sections, "
-        f"{meta['num_fields']} fields."
-    )
-    try:
-        sections = eplc_demo.load_template_sections(template_name)
-    except Exception as e:
-        st.error(f"Could not load template: {e}")
-        st.stop()
-    for sec in sections:
-        heading = sec.get("section_heading", "")
-        level = sec.get("section_level", 1)
-        fields = sec.get("fields") or []
-        instr = " ".join((sec.get("instruction") or "").split())[:300]
-        with st.expander(f"{'  ' * (level - 1)}{heading}"):
-            if instr:
-                st.markdown(f"*{instr}*")
-            if fields:
-                st.markdown("**Fields:** " + ", ".join(fields))
-            st.caption(f"Section path: {sec.get('section_path', '')}")
-
-st.sidebar.markdown("---")
-st.sidebar.caption(
-    "Demo note: retrieval embeddings and generation run through OpenRouter. "
-    "Verify cited sources before relying on any answer."
-)
